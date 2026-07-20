@@ -25,16 +25,16 @@ Take a screenshot of your interaction showing:
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![Task 1 Screenshot](screenshots/task-1-chatgpt.png)
+![Task 1 Screenshot](screenshots/chatgptresponse.png)
 
-
-Replace `task-1-chatgpt.png` with your actual screenshot file name.
 
 ---
 
 ## What I Learned (2–3 lines)
 
-Add your answer here...
+
+I learnt that protocol is a set of rules use for communication over the network
+It is a laid down mode of interaction devices use to execute command just like humans use language to understand each other, devices need protocol to understand each command
 
 ---
 
@@ -59,7 +59,8 @@ Write a short explanation (**100–150 words**) that includes:
 
 ## Answer
 
-Add your answer here...
+Users around the world can access the EpicReads website in Finland because of how the internet routes and delivers data. When someone enters the website URL, their device sends a request that travels through the internet using packet switching, where information is broken into small packets and sent across different network paths. Each device involved in this journey is identified by an IP address, which ensures the packets know exactly where to go. The packets move using the TCP/IP protocol suite: TCP ensures reliable delivery, while IP handles addressing and routing. Once the request reaches the server in Finland, the website is delivered back to the user through HTTP or HTTPS, with HTTPS adding encryption for secure browsing.
+
 
 ---
 
@@ -91,10 +92,9 @@ EpicReads bookstore has two application versions:
 
 Save your diagram image in the `screenshots` folder and update the file name below.
 
-![Application Architecture Diagram](screenshots/task-3-diagram.png)
+![Application Architecture Diagram](screenshots/backendscreenshots.jpg)
 
 
-Replace `task-3-diagram.png` with your actual diagram file name.
 
 ---
 
@@ -102,18 +102,18 @@ Replace `task-3-diagram.png` with your actual diagram file name.
 
 ### Frontend
 
-* Add your answer here...
-* Add your answer here...
+* HTML/CSS
+* JS
 
 ### Backend
 
-* Add your answer here...
-* Add your answer here...
+* JS
+* Python
 
 ### Database
 
-* Add your answer here...
-* Add your answer here...
+* MySql
+* Sql
 
 ---
 
@@ -142,7 +142,11 @@ In **50–100 words**, explain in your own words:
 
 ## Answer
 
-Add your answer here...
+
+The DNS technology works like the internet’s address book. Instead of expecting people to remember a long IP address like 52.172.142.222:3000, it lets them type a simple name such as epicreads.com. When someone enters that domain, DNS looks up the correct IP and sends them to the right server. To connect the EpicReads domain to its server, he should use an A record, because it directly maps a domain name to an IPv4 address, making the website easy for anyone to reach.
+
+
+
 
 ---
 
@@ -178,10 +182,10 @@ ls
 
 Save your screenshot in the `screenshots` folder and update the file name below.
 
-![VS Code Setup Screenshot](screenshots/task-5-vscode.png)
+![VS Code Setup Screenshot](screenshots/vscodeimage.jpg)
 
 
-Replace `task-5-vscode.png` with your actual screenshot file name.
+
 
 ---
 
@@ -215,19 +219,29 @@ Add the following credit note at the end of your post:
 
 ## LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+
+https://www.linkedin.com/posts/jlvalentine80_my-first-week-in-the-devops-microinternship-activity-7424857507183120384-jFWq?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8
+
 
 ```text
-Add your URL here...
+
 ```
 
 ---
 
 ## LinkedIn Post Backup Copy
 
-Paste the full text of your LinkedIn post here:
+My First Week in the DevOps Micro‑Internship: A Small Step, Big Shift
 
-Add your post content here...
+During the internship, I started by exploring how tools like ChatGPT can serve as a thinking partner—breaking down complex ideas, helping me reason through problems, and making learning feel less intimidating.
+As I dug deeper, the internet itself began to make more sense. I finally understood how a simple website request travels across the world through packet switching, IP addresses, and the TCP/IP model. Even the difference between HTTP and HTTPS clicked in a way it never had before.
+Then came application architecture. Visualizing how apps are structured—whether two‑tier or three‑tier—gave me a clearer picture of how real systems are built and scaled. It’s one thing to use apps every day; it’s another to understand what’s happening behind the scenes.
+DNS was another eye‑opener. Realizing it works like the internet’s phonebook made everything less abstract. Connecting a domain to an IP suddenly felt straightforward instead of mysterious.
+And finally, I set up my VS Code environment properly—configuring Git with my name and email so my commits actually reflect my identity. A small detail, but it made me feel like I’m stepping into the world of real developers.
+This week wasn’t just about learning concepts—it was about seeing how all the pieces fit together. And honestly, it feels good to be building something meaningful, one step at a time.
+P.S.
+This post is part of the FREE DevOps Micro Internship Cohort run by Pravin Mishra. You can start your DevOps journey for free from his YouTube Playlist.
+
 
 ---
 
@@ -235,19 +249,33 @@ Add your post content here...
 
 ### What did you find easy?
 
-Add your answer here...
+
+The foundational networking and internet concepts were highly straightforward.
+
+The material covered basics that aligned closely with my existing knowledge.
+
+Navigating the initial environment setup required very little effort.
 
 ---
 
 ### What was difficult?
 
-Add your answer here...
+
+Designing the complete three-tier architecture for the EpicReads bookstore application.
+
+Mapping human-readable domains to server IPs using different DNS records.
+
+Getting comfortable working directly inside the terminal using Linux navigation commands.
 
 ---
 
 ### What will you improve next week?
 
-Add your answer here...
+Deepen my command-line efficiency as I move past basic Linux navigation.
+
+Apply these foundational networking concepts to more complex deployment scenarios.
+
+Scale my understanding of app architecture as the internship moves into phase two.
 
 ---
 

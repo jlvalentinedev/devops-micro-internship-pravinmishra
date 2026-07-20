@@ -130,7 +130,7 @@ This is not a course. It is an internship-style program — real deployments, re
 
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
-| 00 | Internet & Networking Basics | ⬜ Not Started | ⏳ Pending | — | — |
+| 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/jlvalentine80_my-first-week-in-the-devops-microinternship-activity-7424857507183120384-jFWq? | https://medium.com/@jahreeka_25700/by-2029-jerrica-valentine-had-established-herself-as-a-systems-focused-technologist-whose-work-c6eb87afd455?sharedUserId=jahreeka_25700 |
 | 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
