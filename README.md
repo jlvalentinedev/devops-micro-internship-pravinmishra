@@ -14,11 +14,11 @@
 
 | | |
 |---|---|
-| **Name** | Pravin Mishra |
+| **Name** | Jerrica Valentine |
 | **LinkedIn** | [pravin-mishra-aws-trainer](https://www.linkedin.com/in/pravin-mishra-aws-trainer/) |
-| **Location** | Helsinki, Finland |
-| **Background** | Cloud, DevOps & AI Consultant |
-| **Goal** | Train 10,000+ DevOps professionals |
+| **Location** | Richmond,Va. 23222 |
+| **Background** | Cloud and DevOps Enthusiast |
+| **Goal** | Empower 10,000+ DevOps professionals with practical training |
 
 ---
 
@@ -67,11 +67,11 @@ This is not a course. It is an internship-style program — real deployments, re
 
 **Your stack (uncomment each badge as you earn it):**
 
-<!-- Week 00 → Internet & Networking Basics -->
-<!-- [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
+<! Week 00 → Internet & Networking Basics -->
+<! [![Week 00 – Networking](./badges/week-00.svg)](./week-00-internet-and-networking/) -->
 
-<!-- Week 01 → Success Mindset -->
-<!-- [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
+<! Week 01 → Success Mindset -->
+<! [![Week 01 – Mindset](./badges/week-01.svg)](./week-01-success-mindset/) -->
 
 <!-- Week 02 → Agentic AI with Claude Code -->
 <!-- [![Week 02 – Agentic AI](./badges/week-02.svg)](./week-02-agentic-ai/) -->
@@ -131,7 +131,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | Week | Topic | Status | Assignment | LinkedIn Post | Blog Post |
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/jlvalentine80_my-first-week-in-the-devops-microinternship-activity-7424857507183120384-jFWq? | https://medium.com/@jahreeka_25700/by-2029-jerrica-valentine-had-established-herself-as-a-systems-focused-technologist-whose-work-c6eb87afd455?sharedUserId=jahreeka_25700 |
-| 01 | Success Mindset | ⬜ Not Started | ⏳ Pending | — | — |
+| 01 | Success Mindset | ✅ Completed | ✅ Completed | (https://www.linkedin.com/posts/jlvalentine80_devops-cloud-cloudcomputing-activity-7478581176199368705-j39G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 |
 | 02 | Agentic AI with Claude Code | ⬜ Not Started | ⏳ Pending | — | — |
 | 03 | Linux & Bash for DevOps | ⬜ Not Started | ⏳ Pending | — | — |
 | 04 | Git & GitHub | ⬜ Not Started | ⏳ Pending | — | — |
