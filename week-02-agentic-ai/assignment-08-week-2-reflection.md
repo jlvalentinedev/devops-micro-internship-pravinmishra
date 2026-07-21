@@ -46,7 +46,7 @@ You can publish your blog on:
 
 #### Screenshot 1 — Blog published and visible
 
-Add your screenshot here.
+
 
 ---
 
@@ -54,7 +54,6 @@ Add your screenshot here.
 
 Blog Link:
 
-`Add your URL here`
 
 ---
 
@@ -62,7 +61,7 @@ Blog Link:
 
 ## Goal
 
-Share your Week 2 learning publicly on LinkedIn.
+
 
 ---
 
@@ -92,23 +91,19 @@ Your post must include:
 
 #### Screenshot 2 — LinkedIn post published
 
-Add your screenshot here.
 
 ---
 
 ### Submission Field
 
-LinkedIn Post Content (copy-paste here):
 
-```
-Paste your LinkedIn post content here
 ```
 
 ---
 
 ### LinkedIn Post Link:
 
-`Add your URL here`
+
 
 ---
 
