@@ -20,7 +20,7 @@ Create the `.claude/agents/` directory and add all required agent files.
 
 #### Screenshot 1 — VS Code sidebar showing `.claude/agents/` with all 3 files
 
-
+![claudeverison](screenshots/fourtask1.png)
 
 ---
 
@@ -34,19 +34,35 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### 1. Why does the cost optimizer use Haiku instead of Sonnet?
 
+The cost optimizer chooses Haiku because it’s lighter, faster, and cheaper to run than Sonnet. Haiku is designed for efficiency, not maximum intelligence. When the goal is simply to analyze usage, estimate costs, or run quick calculations, Haiku provides:
 
+Lower compute cost
+Lower latency
+Smaller model footprint
+Enough reasoning ability for cost‑relate
 
 ---
 
 #### 2. Why does the security auditor NOT have Write in its tools list?
 
+If an auditor could write, change, or update resources, it would no longer be a true audit.
+Audits must be read‑only so the auditor cannot accidentally (or maliciously) alter:
 
+configurations
+
+policies
+
+logs
+
+infrastructure
+
+access controls
 
 ---
 
 #### 3. Why does the tf-writer use `inherit` instead of a specific model?
 
-
+The tf‑writer uses inherit instead of a specific model because it’s designed to reuse whatever model the parent agent is already using, rather than forcing its own.
 
 ---
 
@@ -54,13 +70,13 @@ Analyze the configuration differences between the three agents and demonstrate u
 
 #### Screenshot 2 — `security-auditor.md` frontmatter showing model and tools configuration
 
-
+![claudeverison](screenshots/fourtask2.png)
 
 ---
 
 #### Screenshot 3 — `cost-optimizer.md` frontmatter showing the model and tools configuration
 
-
+![claudeverison](screenshots/fourtask3.png)
 
 ---
 
@@ -73,14 +89,14 @@ Trigger the security auditor agent and analyze the generated security report for
 ### Evidence
 
 #### Screenshot 4 — The delegation message showing Claude launched the security-auditor
-
+![claudeverison](screenshots/fourtask4.png)
 
 
 ---
 
 #### Screenshot 5 — Security audit report output
 
-
+![claudeverison](screenshots/fourtask4.png)
 
 ---
 
@@ -94,7 +110,7 @@ Trigger the cost optimizer agent and review the generated cost optimization repo
 
 #### Screenshot 6 — The full cost optimization report
 
-
+![claudeverison](screenshots/fourtask5.png)
 ---
 
 # Submission Instructions
