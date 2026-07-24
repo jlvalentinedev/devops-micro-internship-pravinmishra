@@ -53,7 +53,7 @@ You can publish your blog on:
 ### Submission Field
 
 Blog Link:
-
+ https://medium.com/@jahreeka_25700/reflection-week-2-e485ab072f50
 
 ---
 
