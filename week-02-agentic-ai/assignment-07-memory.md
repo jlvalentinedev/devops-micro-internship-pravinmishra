@@ -19,7 +19,7 @@ Discover exactly where Claude Code stores memory for this project.
 ### Evidence
 
 #### Screenshot 1 — Memory file path shown by Claude
-
+![claudeverison](screenshots/seventask1.png)
 
 
 ---
@@ -34,13 +34,13 @@ Teach Claude three specific facts about the project and instruct it to save them
 
 #### Screenshot 2 — Claude confirming the memory was saved
 
-
+![claudeverison](screenshots/seventask2.png)
 
 ---
 
 #### Screenshot 3 — The `MEMORY.md` file open in VS Code showing the saved content
 
-
+![claudeverison](screenshots/seventask3.png)
 
 ---
 
@@ -54,7 +54,7 @@ Terminate the current Claude Code session and restart it to ensure memory is the
 
 #### Screenshot 4 — VS Code reopened with a fresh Claude Code session showing no previous conversation
 
-
+![claudeverison](screenshots/seventask4.png)
 
 ---
 
@@ -68,14 +68,14 @@ Run three tests that prove Claude remembers what you told it — without you say
 
 #### Screenshot 5 — Claude recalling hero section colors
 
-
+![claudeverison](screenshots/seventask5.png)
 
 ---
 
 #### Screenshot 6 — Claude refusing JavaScript request based on memory rule
 
 
-
+![claudeverison](screenshots/seventask6.png)
 ---
 
 # Submission Instructions

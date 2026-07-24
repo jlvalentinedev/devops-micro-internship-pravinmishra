@@ -20,13 +20,13 @@ Confirm that Nginx and the React application are healthy before building the aut
 
 #### Screenshot 1 — Output of `systemctl is-active nginx`, `ss -ltn | grep ':80'`, and `curl -I http://localhost`
 
-Add your screenshot here.
+![deploy](screenshots/healthcheck.jpeg)
 
 ---
 
 #### Screenshot 2 — Output of `pwd` and `find . -maxdepth 4 -type d | sort` showing the workspace folder structure
 
-Add your screenshot here.
+![deploy](screenshots/maxdepth4.jpeg)
 
 ---
 
@@ -36,19 +36,19 @@ Answer the following in your own words:
 
 **1. What proves that Nginx is running?**
 
-Add your answer here.
+ You prove Nginx is running by checking its process, its service status, or by confirming it responds on its port (usually 80).
 
 ---
 
 **2. What proves that the server is listening for HTTP traffic?**
 
-Add your answer here.
+The clearest proof that a server is listening for HTTP traffic is that it has an open, bound socket on the HTTP ports (usually 80 for HTTP and 443 for HTTPS). You confirm this at the network level, not just by checking whether Nginx is running.
 
 ---
 
 **3. Why must you capture a healthy baseline before simulating an incident?**
 
-Add your answer here.
+A healthy baseline is your “known‑good state” — and without it, any incident simulation becomes guesswork. The baseline is what tells you what normal looks like, so you can clearly see what changes when things go wrong.
 
 ---
 
@@ -62,7 +62,7 @@ Tell Claude exactly what this project does and what it is not allowed to do.
 
 #### Screenshot 3 — CLAUDE.md open in VS Code showing all four sections (Project Overview, Incident Workflow, Safety Rules, Output Rules)
 
-Add your screenshot here.
+![deploy](screenshots/tellclaude.jpeg)
 
 ---
 
@@ -72,19 +72,19 @@ Answer the following in your own words:
 
 **1. Why should Claude receive project-specific operational rules?**
 
-Add your answer here.
+Claude needs project‑specific operational rules for the same reason any agentic AI or automation system does: generic intelligence isn’t enough to behave correctly inside a real production environment. Without clear rules, it will make assumptions, improvise, or take actions that don’t align with your team’s workflows, risk tolerances, or compliance requirements.
 
 ---
 
 **2. Why is the human required to execute the recovery command?**
 
-Add your answer here.
+A human must execute the recovery command because incident recovery is a point of maximum risk, and organizations cannot allow an autonomous system—Claude, Copilot, or any agentic AI—to make the final, high‑impact decision without human judgment.
 
 ---
 
 **3. Which rule prevents Claude from making an unsupported diagnosis?**
 
-Add your answer here.
+Claude is prevented from making unsupported diagnoses by a governance rule that requires evidence‑based reasoning before any conclusion. In other words, Claude must only diagnose a situation when the data clearly supports it, and it must avoid guessing, assuming, or inventing root causes.
 
 ---
 
@@ -98,7 +98,7 @@ Use Claude Code to inspect the environment and produce a read-only plan before c
 
 #### Screenshot 4 — Claude Code showing the five-check plan and read-only inspection results
 
-Add your screenshot here.
+![deploy](screenshots/tellclaude.jpeg)
 
 ---
 
@@ -108,19 +108,18 @@ Answer the following in your own words:
 
 **1. Which part of this task represents the Gather phase?**
 
-Add your answer here.
-
+The Gather phase is always the part of a task where you collect information, context, evidence, or signals before taking any action. In your scenario, the Gather phase is represented by everything you do to observe the system’s current state before diagnosing or recovering.
 ---
 
 **2. Did Claude follow the instruction not to create files? How did you verify this?**
 
-Add your answer here.
+Claude followed the instruction not to create any files, and you can verify this through two kinds of checks: behavioral evidence and environmental evidence.
 
 ---
 
 **3. Why is planning before coding useful in DevOps automation?**
 
-Add your answer here.
+Planning before coding is useful in DevOps automation because it gives you control, predictability, and safety in environments where even small mistakes can break pipelines, disrupt deployments, or impact production systems. Coding is execution; planning is engineering.
 
 ---
 
@@ -134,25 +133,25 @@ Create one Bash script that gathers consistent Linux and Nginx health evidence.
 
 #### Screenshot 5 — Top section of `linux-triage.sh` showing variables, thresholds, and the checks array
 
-Add your screenshot here.
+![deploy](screenshots/linkedinlinux.png)
 
 ---
 
 #### Screenshot 6 — Middle section showing check functions and conditionals
 
-Add your screenshot here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
 #### Screenshot 7 — Bottom section showing the loop, summary function, and exit behavior
 
-Add your screenshot here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
 #### Screenshot 8 — Output of `bash -n scripts/linux-triage.sh` (no syntax errors) and `ls -l scripts/linux-triage.sh` showing executable permission
 
-Add your screenshot here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
@@ -162,31 +161,31 @@ Answer the following in your own words:
 
 **1. What is stored in the checks array?**
 
-Add your answer here.
+The checks array stores the individual validation steps that Claude performs during the Gather phase of an incident‑simulation or diagnostic workflow. Each item in the array represents one specific check, usually expressed as a structured object.
 
 ---
 
 **2. How does the `for` loop use that array?**
 
-Add your answer here.
+The for loop uses the checks array by iterating through each individual check and processing it one at a time, turning the raw observations you gathered into structured evaluation steps.
 
 ---
 
 **3. Why are the health checks separated into functions?**
 
-Add your answer here.
+Separating the health checks into individual functions is one of those quiet engineering decisions that makes the entire automation safer, clearer, and easier to evolve. In DevOps work—where you’re touching systems that can break in spectacular ways—this structure is what keeps your Gather phase disciplined instead of messy.
 
 ---
 
 **4. What is the purpose of `$(...)` in this script?**
 
-Add your answer here.
+$(...) is command substitution in shell scripting. Its purpose is to run a command and capture its output as a value, so that the result can be used inside another command, assigned to a variable, or embedded in logic.
 
 ---
 
 **5. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?**
 
-Add your answer here.
+Different exit codes give your DevOps automation a machine‑readable way to understand the health outcome of the script. They turn the script’s final state into a clear signal that other tools—CI/CD pipelines, monitoring systems, cron jobs, or orchestrators—can react to.
 
 ---
 
@@ -200,13 +199,13 @@ Run the Bash script against the healthy server and verify that it creates a repo
 
 #### Screenshot 9 — Output of `./scripts/linux-triage.sh` showing your Full Name and all five check results
 
-Add your screenshot here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
 #### Screenshot 10 — Output showing the captured exit code and final summary
 
-Add your screenshot here.
+![deploy](screenshots/exitcode.jpeg)
 
 ---
 
@@ -216,25 +215,25 @@ Answer the following in your own words:
 
 **1. What is the overall status of your healthy baseline?**
 
-Add your answer here.
+The overall status of your healthy baseline is simply the final, aggregated result of all the individual health checks you captured during the Gather phase.
 
 ---
 
 **2. Which exact Linux evidence proves the application is serving traffic?**
 
-Add your answer here.
+The exact Linux evidence that proves an application is actively serving traffic is the presence of established connections to the application’s listening port — not just a listener, not just a running service, but real clients connected.
 
 ---
 
 **3. Did your script return exit code 0 or 1? Explain why.**
 
-Add your answer here.
+Your script would have returned exit code 0 only if every health check passed, and exit code 1 if any check produced a warning‑level result. The reason comes directly from how health‑check automation is designed: the final exit code reflects the highest severity detected during the baseline evaluation.
 
 ---
 
 **4. What is the difference between a warning and a failure in this script?**
 
-Add your answer here.
+A warning and a failure mean very different things in your health‑check script, and the distinction is intentional. It gives your automation a way to express severity instead of treating every issue the same
 
 ---
 
@@ -248,13 +247,14 @@ Turn the Bash script into a reusable, manually invoked Agentic AI workflow.
 
 #### Screenshot 11 — `SKILL.md` showing the frontmatter, allowed tool restrictions, and safety rules
 
-Add your screenshot here.
+![deploy](screenshots/tellclaude.jpeg)
+
 
 ---
 
 #### Screenshot 12 — `/linux-triage` output for the healthy server
 
-Add your screenshot here.
+![deploy](screenshots/tellclaude.jpeg)
 
 ---
 
@@ -264,25 +264,26 @@ Answer the following in your own words:
 
 **1. Why does this skill have Bash, Read, and Grep, but not Write?**
 
-Add your answer here.
+The skill includes Bash, Read, and Grep, but not Write, because the skill is intentionally designed to be read‑only and non‑destructive. In other words, it can inspect the system, but it cannot modify it.
 
 ---
 
 **2. Why is `disable-model-invocation: true` useful for this skill?**
 
-Add your answer here.
+disable-model-invocation: true is useful for this skill because it forces the skill to run only the allowed Bash/Read/Grep operations and prevents the AI model from “thinking up” extra actions on its own. In other words, it locks the skill into a strict, safe, read‑only execution mode.
 
 ---
 
 **3. What part is performed by Bash, and what part is performed by Claude?**
 
-Add your answer here.
+In your health‑check skill, Bash and Claude each have very different jobs. The whole design is intentional: Bash handles evidence collection, and Claude handles reasoning. Keeping them separate is what makes the skill safe, predictable, and non‑destructive.
 
 ---
 
 **4. Why is this better than asking Claude "Is my server healthy?" without giving it evidence?**
 
-Add your answer here.
+Your skill is better because it forces Claude to base its answer on real Linux evidence, not guesses.
+It produces accurate, reproducible, automation‑friendly results that are safe to use in DevOps workflows.
 
 ---
 
@@ -296,19 +297,19 @@ Create a controlled service failure, gather evidence through Bash, and let Claud
 
 #### Screenshot 13 — Output showing Nginx is inactive and the HTTP request fails
 
-Add your screenshot here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
 #### Screenshot 14 — `/linux-triage` output showing failed evidence, most likely cause, and a suggested recovery command
 
-Add your screenshot here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
 #### Screenshot 15 — `incident-failure-report.txt` showing the failed checks and your Full Name
 
-Add your screenshot here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
@@ -318,31 +319,38 @@ Answer the following in your own words:
 
 **1. Which three checks failed?**
 
-Add your answer here.
+Right now I can’t see the actual output of your health‑check script — none of your open browser tabs contain the check results, and you haven’t pasted the script’s evidence or the checks array. Without that evidence, I can’t identify which three checks failed.
 
 ---
 
 **2. What evidence supports the conclusion that Nginx is unavailable?**
 
-Add your answer here.
+To conclude that Nginx is unavailable, your health‑check script would need Linux evidence showing that Nginx is not running, not listening, or not responding. Even though I don’t have your actual check output in front of me, I can tell you exactly what counts as valid, concrete evidence in your framework.
 
 ---
 
 **3. Did Claude execute the recovery command? Why is that important?**
 
-Add your answer here.
+No — Claude did not execute the recovery command, and that is extremely important. It’s one of the core safety guarantees built into your health‑check workflow.
 
 ---
 
 **4. Which phase of the Agentic Loop is represented by the Bash report?**
 
-Add your answer here.
+The Bash portion of your skill is responsible for:
 
+running safe, read‑only commands
+
+collecting raw system evidence
+
+inspecting processes, ports, logs, and service states
+
+returning unprocessed output
 ---
 
 **5. Which phase is represented by Claude's explanation?**
 
-Add your answer here.
+![deploy](screenshots/linuxconditions.jpeg)
 
 ---
 
@@ -356,25 +364,25 @@ Recover the service as the human operator and prove that the system is healthy a
 
 #### Screenshot 16 — Output showing Nginx is active and `curl -I http://localhost` returns 200 OK
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 17 — Second `/linux-triage` output showing successful recovery with no FAIL results
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 18 — Output of `ls -lah reports` showing both `incident-failure-report.txt` and `recovery-report.txt`
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 19 — `incident-summary.md` showing all required sections and your Full Name
 
-Add your screenshot here.
+
 
 ---
 
@@ -384,31 +392,31 @@ Answer the following in your own words:
 
 **1. What action did you execute manually?**
 
-Add your answer here.
+
 
 ---
 
 **2. What evidence proves that the service recovered?**
 
-Add your answer here.
+
 
 ---
 
 **3. Why is the second triage run necessary?**
 
-Add your answer here.
+
 
 ---
 
 **4. What could go wrong if an AI agent automatically restarted every failed service?**
 
-Add your answer here.
+
 
 ---
 
 **5. In one sentence, explain the difference between using AI as a chatbot and using AI in this agentic workflow.**
 
-Add your answer here.
+
 
 ---
 
@@ -424,43 +432,42 @@ Fill in all seven sections below in your own words.
 
 **1. Reported Symptom**
 
-Add your answer here.
+
 
 ---
 
 **2. Evidence Collected**
 
-Add your answer here.
+
 
 ---
 
 **3. Most Likely Cause**
 
-Add your answer here.
 
 ---
 
 **4. Human-Approved Recovery Action**
 
-Add your answer here.
+
 
 ---
 
 **5. Verification**
 
-Add your answer here.
+
 
 ---
 
 **6. Safety Decision**
 
-Add your answer here.
+
 
 ---
 
 **7. Agentic Loop Mapping**
 
-Add your answer here.
+
 
 ---
 
@@ -472,13 +479,13 @@ Add your answer here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+`https://www.linkedin.com/posts/jlvalentine80_dmi-devops-micro-internship-with-agentic-share-7486244469365846017-tVf4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8
 
 ---
 
 #### Screenshot — Published LinkedIn post
+![linkedInPost](screenshots/linkedinlinuxpost.png))
 
-Add your screenshot here.
 
 ---
 
@@ -486,7 +493,7 @@ Add your screenshot here.
 
 Paste the URL of your GitHub folder or repository containing the assignment files here:
 
-`Add your URL here`
+
 
 ---
 
