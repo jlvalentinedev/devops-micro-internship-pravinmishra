@@ -140,19 +140,19 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot 13 — Output of `systemctl status nginx --no-pager` showing Nginx `active (running)`
 
-
+![github](screenshots/github17.png)
 
 ---
 
 #### Screenshot 14 — Output of `curl -I http://localhost` showing `HTTP/1.1 200 OK`
-
+![github](screenshots/github18.png)
 
 
 ---
 
 #### Screenshot 15 — Browser showing the CodeTrack site loaded at `http://<EC2_PUBLIC_IP>`, with your Full Name and Group Name visible
 
-
+![github](screenshots/github19.png)
 
 ---
 
@@ -161,7 +161,7 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 ## Evidence
 
 #### LinkedIn Post URL
-
+https://www.linkedin.com/posts/jlvalentine80_devops-aws-ec2-share-7488434173838245888-ac28/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8
 
 
 `
@@ -170,7 +170,7 @@ Install and start Nginx on your EC2 instance, then copy `index.html` and `style.
 
 #### Screenshot — LinkedIn post showing the deployed CodeTrack application
 
-
+![github](screenshots/github20.png)
 
 ---
 
