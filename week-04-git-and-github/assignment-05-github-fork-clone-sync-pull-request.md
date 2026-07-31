@@ -20,7 +20,7 @@ Fork `pravinmishraaws/devops-micro-internship-interviews` into your own GitHub a
 
 #### Screenshot 1 — Your fork page with your username and `devops-micro-internship-interviews` visible in the browser URL
 
-Add your screenshot here.
+![github](screenshots/githubassign1.png)
 
 ---
 
@@ -34,7 +34,7 @@ Configure one authentication method — HTTPS with a Personal Access Token, or S
 
 #### Screenshot 2 — Output of `git config --global --get credential.helper` (HTTPS) or `ssh -T git@github.com` (SSH) showing successful authentication — never show your token or private key
 
-Add your screenshot here.
+![github](screenshots/githubassign2.png)
 
 ---
 
@@ -48,7 +48,7 @@ Clone your fork locally, then add the original repository as `upstream`.
 
 #### Screenshot 3 — Output of `git remote -v` showing `origin` pointing to your fork and `upstream` pointing to `pravinmishraaws/devops-micro-internship-interviews`
 
-
+![github](screenshots/githubassign3.png)
 
 ---
 
@@ -62,13 +62,13 @@ Create the branch `feature-readme-update`, add only your own entry (`Full Name �
 
 #### Screenshot 4 — Output of `git status` showing `pull_request.md` modified before staging
 
-
+![github](screenshots/githubassign4.png)
 
 ---
 
 #### Screenshot 5 — Output of `git commit`
 
-
+![github](screenshots/githubassign5.png)
 ---
 
 # Task 4 — Synchronize with Upstream and Push to Your Fork
@@ -81,13 +81,13 @@ Fetch and merge `upstream/main` into your local default branch, rebase your feat
 
 #### Screenshot 6 — Output of `git push -u origin feature-readme-update` showing a successful push
 
-
+![github](screenshots/githubassign8.png)
 
 ---
 
 #### Screenshot 7 — Your fork on GitHub showing `feature-readme-update` in the branch selector or a "Compare & pull request" banner
 
-
+![github](screenshots/githubassign9.png)
 
 ---
 
@@ -101,18 +101,20 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 #### Screenshot 8 — Pull Request creation page showing the correct base repository, base branch, head repository, compare branch, and title
 
+![github](screenshots/githubassign6.png)
 
 
 ---
 
 #### Screenshot 9 — Successfully created Pull Request page with the PR number visible
 
-
+![github](screenshots/githubassign7.png)
 
 ---
 
 #### Pull Request URL
 
+https://github.com/pravinmishraaws/devops-micro-internship-interviews/pull/451
 
 
 `
@@ -124,7 +126,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 ## Evidence
 
 #### LinkedIn Post URL
-
+https://www.linkedin.com/posts/jlvalentine80_docs-add-my-name-to-student-list-by-jlvalentinedev-activity-7489098542255366144-MkWn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8
 
 
 
@@ -133,7 +135,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 #### Screenshot — LinkedIn post showing your successfully created Pull Request
 
-
+![github](screenshots/githubassign10.png)
 
 ---
 
@@ -148,7 +150,7 @@ Open a Pull Request from `feature-readme-update` on your fork to `main` on the u
 
 ## Fork URL
 
-
+https://github.com/jlvalentinedev/devops-micro-internship-interviews.git
 
 
 
