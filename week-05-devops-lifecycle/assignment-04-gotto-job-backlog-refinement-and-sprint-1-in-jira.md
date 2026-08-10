@@ -20,7 +20,7 @@ Choose Team Mode or Solo Mode, and document how each Scrum role (Product Owner, 
 
 #### Screenshot 1 — Jira "Create project" screen, or the project sidebar after creation
 
-.
+![sprint](screenshots/Gotto1.png)
 
 ---
 
@@ -42,6 +42,7 @@ Create a Team-managed Scrum project named `Gotto Job – Team <#>` (Team Mode) o
 
 #### Screenshot 2 — Project created page showing the project name and key
 
+![Gotto](screenshots/Gotto1.png)
 
 
 ---
@@ -56,7 +57,7 @@ Create the Epic `Improve Gotto Job UI discoverability & trust` to group the UI i
 
 #### Screenshot 3 — Backlog showing the Epic panel with the Epic visible
 
-
+[Gotto](screenshots/Gotto2.png)
 
 ---
 
@@ -70,13 +71,13 @@ Create at least six Stories under the Epic, estimate each with 1, 2, or 3 story 
 
 #### Screenshot 4 — Backlog showing the Epic and at least six Stories under it
 
-Add your screenshot here.
+[Gotto](screenshots/Gotto3.png)
 
 ---
 
 #### Screenshot 5 — One Story opened showing its Story Points and acceptance criteria filled in
 
-Add your screenshot here.
+[Gotto](screenshots/Gotto4.png)
 
 ---
 
@@ -90,7 +91,7 @@ Confirm the Story Points (1, 2, or 3) for each Story and record brief reasoning 
 
 #### Screenshot 6 — Backlog showing Story Points visible, or two or three Stories opened showing their points
 
-Add your screenshot here.
+[Gotto](screenshots/Gotto5.png)
 
 ---
 
@@ -98,7 +99,7 @@ Add your screenshot here.
 
 For each story, explain in one or two lines why it is a 1, 2, or 3 (mention any debate, even in Solo Mode).
 
-Write your answer here.
+
 
 ---
 
@@ -112,13 +113,13 @@ Create Sprint 1, move three or four Stories into it (approximately 3–6 points)
 
 #### Screenshot 7 — Sprint 1 with the selected Stories inside it
 
-Add your screenshot here.
+[Gotto](screenshots/Gotto6.png)
 
 ---
 
 #### Screenshot 8 — One Story showing the Sub-tasks created
 
-Add your screenshot here.
+[Gotto](screenshots/Gotto7.png)
 
 ---
 
@@ -132,7 +133,7 @@ Open the Burndown Chart and confirm it exists for Sprint 1. It is acceptable if 
 
 #### Screenshot 9 — Burndown Chart page opened, even if empty
 
-Add your screenshot here.
+
 
 ---
 
@@ -146,20 +147,18 @@ Implement one small UI-only Story from Sprint 1, commit it, deploy it live, and 
 
 #### Screenshot 10 — Jira board showing the Story moved to Done
 
-Add your screenshot here.
-
+![alt text](screenshots/image-1.png)
 ---
 
 #### Screenshot 11 — Git commit output
 
-Add your screenshot here.
-
+![alt text](screenshots/image-2.png)
 ---
 
 #### Screenshot 12 — Live URL in the browser showing the UI change, with the URL visible
 
-Add your screenshot here.
 
+![alt text](screenshots/image-3.png)
 ---
 
 # Task 9 — Retro Notes (Scrum Pillar + Value)
@@ -172,8 +171,7 @@ Add a retro comment covering what went well, what to improve, one Scrum pillar o
 
 #### Screenshot 13 — Jira retro comment visible
 
-Add your screenshot here.
-
+![alt text](screenshots/image-4.png)
 ---
 
 # Task 10 — LinkedIn Post (Mandatory)
@@ -188,13 +186,12 @@ Publish a LinkedIn post about what you delivered, including your live URL, three
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
 
 ---
 
 #### Screenshot 14 — Published LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 

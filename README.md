@@ -135,7 +135,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/reflection-week-2-e485ab072f50?sharedUserId=jahreeka_25700 |
 | 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/jlvalentine80_dmi-devops-micro-internship-with-agentic-share-7486244469365846017-tVf4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8| https://medium.com/@jahreeka_25700/this-week-in-the-dmi-mentorship-program-pushed-me-to-think-more-deeply-about-how-disciplined-caa4dad893ca?sharedUserId=jahreeka_25700 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed| https://www.linkedin.com/feed/update/urn:li:share:7489855963261235201/ | https://medium.com/@jahreeka_25700/building-an-ai-assisted-git-safety-net-pre-commit-hooks-and-pr-ready-checks-fc85be2cbdb8?sharedUserId=jahreeka_25700 |
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed| ✅ Completed |(https://www.linkedin.com/posts/jlvalentine80_devops-aws-ec2-share-7492329316748517378-__RH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | — |
 | 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
