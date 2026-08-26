@@ -20,33 +20,33 @@ Build a VPC (10.0.0.0/16) with two public and two private subnets across two Ava
 
 #### Screenshot 1 — VPC details showing CIDR 10.0.0.0/16
 
-Add your screenshot here.
 
+![aws](screenshots/aws10.png)
 ---
 
 #### Screenshot 2 — Subnets list showing four subnets and their Availability Zones
 
-Add your screenshot here.
-
+![aws](screenshots/aws10.png)
 ---
 
 #### Screenshot 3 — Public route table showing the Internet Gateway route and both public-subnet associations
 
-Add your screenshot here.
+![aws](screenshots/rtsubass.png)
 
 ---
 
+
 #### Screenshot 4 — Private route table showing the NAT Gateway route and both private-subnet associations
 
-Add your screenshot here.
-
+![aws](screenshots/rtsubass.png)
 ---
 
 #### Screenshot 5 — NAT Gateway status showing Available and the Elastic IP
 
-Add your screenshot here.
+![aws](screenshots/epic6.png)
 
 ---
+
 
 # Task 2 — Create Security Groups (ALB, EC2, RDS) with Least Privilege
 
@@ -58,19 +58,19 @@ Create `ha-alb-sg` (HTTP public), `ha-web-sg` (HTTP only from `ha-alb-sg`, SSH f
 
 #### Screenshot 6 — ALB Security Group inbound rules
 
-Add your screenshot here.
+![aws](screenshots/epic7.png)
 
 ---
 
 #### Screenshot 7 — EC2 Security Group inbound rules showing the ALB Security Group reference and SSH from your IP
 
-Add your screenshot here.
+![aws](screenshots/epic7.png)
 
 ---
 
 #### Screenshot 8 — RDS Security Group inbound rule showing the database port allowed only from the EC2 Security Group
 
-Add your screenshot here.
+![aws](screenshots/epic8.png)
 
 ---
 
@@ -84,13 +84,13 @@ Launch a private, Multi-AZ RDS database (MySQL or PostgreSQL) using the private 
 
 #### Screenshot 9 — RDS summary showing Multi-AZ = Yes and Publicly accessible = No
 
-Add your screenshot here.
+![aws](screenshots/epic9.png)
 
 ---
 
 #### Screenshot 10 — RDS connectivity section showing the DB Subnet Group and Security Group
 
-Add your screenshot here.
+![aws](screenshots/epic10.png)
 
 ---
 
@@ -104,13 +104,13 @@ Create a Launch Template whose user data installs the web-server runtime, deploy
 
 #### Screenshot 11 — Launch Template details showing that user data exists, including a visible snippet
 
-Add your screenshot here.
+![aws](screenshots/epic13.png)
 
 ---
 
 #### Screenshot 12 — A running instance created from the template showing that the application responds on port 80 through a local test or browser using its public IP
 
-Add your screenshot here.
+![aws](screenshots/epic15.png)
 
 ---
 
@@ -124,13 +124,13 @@ Create an internet-facing ALB across both public subnets with an HTTP listener a
 
 #### Screenshot 13 — ALB details showing two public subnets in two Availability Zones
 
-Add your screenshot here.
+![aws](screenshots/aws12.png)
 
 ---
 
 #### Screenshot 14 — Target group showing at least one healthy target
 
-Add your screenshot here.
+![aws](screenshots/aws15.png)
 
 ---
 
@@ -144,13 +144,13 @@ Create an Auto Scaling Group from the Launch Template across both public subnets
 
 #### Screenshot 15 — Auto Scaling Group showing desired, minimum, and maximum capacity and the selected subnet Availability Zones
 
-Add your screenshot here.
+![aws](screenshots/epic14.png)
 
 ---
 
 #### Screenshot 16 — EC2 instances list showing two running instances in different Availability Zones
 
-Add your screenshot here.
+![aws](screenshots/aws13.png)
 
 ---
 
@@ -164,13 +164,13 @@ Confirm the application communicates with the RDS database through the ALB DNS n
 
 #### Screenshot 17 — Browser showing the application loaded through the ALB DNS name with the URL visible
 
-Add your screenshot here.
+![aws](screenshots/aws14.png)
 
 ---
 
 #### Screenshot 18 — Proof of a database write through a UI message or database query output
 
-Add your screenshot here.
+![aws](screenshots/epic10.png)
 
 ---
 
@@ -186,25 +186,26 @@ Test B: simulate an Availability Zone impact (stop, detach, or reduce desired ca
 
 #### Screenshot 19 — EC2 showing the terminated instance and the newly launched instance; timestamps are helpful
 
-Add your screenshot here.
+![aws](screenshots/databaseproof.jpeg)
 
 ---
 
 #### Screenshot 20 — Target group showing healthy targets after replacement
 
-Add your screenshot here.
+![aws](screenshots/aws17.png)
 
 ---
 
 #### Screenshot 21 — Evidence that an instance was removed, detached, placed in Standby, or stopped in one Availability Zone
 
-Add your screenshot here.
+![aws](screenshots/aws18.png)
 
 ---
+![aws](screenshots/aws181.png)
 
 #### Screenshot 22 — Browser showing that the ALB DNS endpoint still works during the change
 
-Add your screenshot here.
+![aws](screenshots/aws19stillwork.png)
 
 ---
 
@@ -218,27 +219,32 @@ Summarize the VPC/subnet layout, the ALB and Auto Scaling Group setup, the priva
 
 #### Screenshot 23 — A simple architecture diagram, which may be hand-drawn, or an AWS console overview showing the components
 
-Add your screenshot here.
+![aws](screenshots/daigram.png)
 
 ---
 
 ### Notes
 
 Summarize the VPC and subnets across the two Availability Zones.
+The VPC was configured with a CIDR block of 10.0.0.0/16 and distributed across two Availability Zones for high availability. Each Availability Zone contains one public subnet and one private subnet. The public subnets (10.0.1.0/24 and 10.0.2.0/24) support internet-facing resources such as the Application Load Balancer and NAT Gateway. The private subnets (10.0.11.0/24 and 10.0.12.0/24) are used for the web servers and database resources. Internet access for the public subnets is provided through an Internet Gateway, while private subnet outbound access uses a NAT Gateway.
 
-Write your answer here.
 
 Summarize the ALB and Auto Scaling Group setup.
 
-Write your answer here.
+The Application Load Balancer was configured in the two public subnets so it could receive HTTP traffic from the internet and distribute requests across the web servers. The Auto Scaling Group uses the HA-WEB-Launch-Template to automatically launch Apache and WordPress web instances in the private subnets across multiple Availability Zones. The target group performs health checks on the web instances and removes unhealthy instances from receiving traffic. This setup provides load balancing, automatic instance replacement, and high availability if an individual web server or Availability Zone becomes unavailable.
+
 
 Summarize the private Multi-AZ RDS setup.
 
-Write your answer here.
+The RDS MySQL database was deployed in private subnets so that it is not directly accessible from the public internet. The database security group allows MySQL traffic on port 3306 only from the web server security group. Multi-AZ configuration provides a standby database instance in a separate Availability Zone, allowing the database service to fail over if the primary database instance or Availability Zone becomes unavailable. This improves database availability and protects the WordPress application from a single point of failure.
+
 
 Summarize the results of both high-availability tests.
 
-Write your answer here.
+The first high-availability test involved stopping or terminating one of the web server instances. The Auto Scaling Group detected the unhealthy or missing instance and launched a replacement instance. The Application Load Balancer continued directing traffic to the healthy web server, demonstrating that the application could remain available during a web-server failure.
+
+The second test involved testing database high availability by simulating a failure of the primary RDS database instance. The Multi-AZ RDS configuration automatically performed a failover to the standby instance in the other Availability Zone. The database endpoint remained the same, allowing the WordPress application to reconnect after the failover. These tests demonstrated that the architecture can tolerate individual web-server and database failures while maintaining service availability.
+
 
 ---
 
@@ -252,15 +258,15 @@ Publish a LinkedIn post about the high-availability build, including the ALB URL
 
 #### LinkedIn Post URL
 
-Paste your LinkedIn post URL here:
+https://lnkd.in/p/gTCjnkmM
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot of LinkedIn post
 
-Add your screenshot here.
+![aws](screenshots/linkedinpost.png)
 
 ---
 
