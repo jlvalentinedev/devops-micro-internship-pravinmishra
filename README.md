@@ -83,15 +83,15 @@ This is not a course. It is an internship-style program — real deployments, re
 <!Week 04 → Git & GitHub -->
 <![![Week 04 – Git](./badges/week-04.svg)](./week-04-github/) -->
 =======
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+ Week 04 → Git & GitHub 
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) 
 >>>>>>> upstream/main
 
-<!-- Week 05 → DevOps Lifecycle & Agile -->
-<!-- [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/) -->
+ Week 05 → DevOps Lifecycle & Agile 
+ [![Week 05 – Agile](./badges/week-05.svg)](./week-05-devops-lifecycle/)
 
-<!-- Week 06 → AWS Cloud -->
-<!-- [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -->
+ Week 06 → AWS Cloud 
+ [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -
 
 <!-- Week 07 → Azure Cloud -->
 <!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
@@ -137,12 +137,12 @@ This is not a course. It is an internship-style program — real deployments, re
 |------|-------|--------|------------|---------------|-----------|
 | 00 | Internet & Networking Basics | ✅ Completed | ✅ Completed |https://www.linkedin.com/posts/jlvalentine80_my-first-week-in-the-devops-microinternship-activity-7424857507183120384-jFWq? | https://medium.com/@jahreeka_25700/by-2029-jerrica-valentine-had-established-herself-as-a-systems-focused-technologist-whose-work-c6eb87afd455?sharedUserId=jahreeka_25700 |
 | 01 | Success Mindset | ✅ Completed | ✅ Completed | (https://www.linkedin.com/posts/jlvalentine80_devops-cloud-cloudcomputing-activity-7478581176199368705-j39G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 |
-| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/reflection-week-2-e485ab072f50?sharedUserId=jahreeka_25700 |
-| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/jlvalentine80_dmi-devops-micro-internship-with-agentic-share-7486244469365846017-tVf4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8| https://medium.com/@jahreeka_25700/this-week-in-the-dmi-mentorship-program-pushed-me-to-think-more-deeply-about-how-disciplined-caa4dad893ca?sharedUserId=jahreeka_25700 |
+| 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed |(https://www.linkedin.com/posts/jlvalentine80_devops-cloud-cloudcomputing-activity-7478581176199368705-j39G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | https://medium.com/@jahreeka_25700/reflection-week-2-e485ab072f50?sharedUserId=jahreeka_25700 |
+| 03 | Linux & Bash for DevOps | ✅ Completed | ✅ Completed | https://www.linkedin.com/posts/jlvalentine80_dmi-devops-micro-internship-with-agentic-share-7486244469365846017-tVf4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8| https://medium.com/@jahreeka_25700/this-week-in-the-dmi-mentorship-program-pushed-me-to-think-more-deeply-about-how-disciplined-caa4dad893ca?sharedUserId=jahreeka_25700 |https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed| https://www.linkedin.com/feed/update/urn:li:share:7489855963261235201/ | https://medium.com/@jahreeka_25700/building-an-ai-assisted-git-safety-net-pre-commit-hooks-and-pr-ready-checks-fc85be2cbdb8?sharedUserId=jahreeka_25700 |
-| 05 | DevOps Lifecycle & Agile | ⬜ Not Started | ⏳ Pending | — | — |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
+| 05 | DevOps Lifecycle & Agile | ✅ Completed| ✅ Completed | (https://www.linkedin.com/posts/jlvalentine80_devops-cloud-cloudcomputing-activity-7478581176199368705-j39G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 | |
+| 06 | AWS Cloud | ✅ Completed | ✅ Completed| https://lnkd.in/p/gnuXJ7sh | https://lnkd.in/p/gnuXJ7sh|https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 |
+| 07 | Azure Cloud | ⏳ Pending | ⏳ Pending | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 | |
 | 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
 | 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
 | 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
