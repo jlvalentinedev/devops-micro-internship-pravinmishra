@@ -57,9 +57,9 @@ I plan to explore Azure Virtual Machines, Azure Virtual Network, Azure App Servi
 
 # Completion Checklist
 
-- [ ] Azure Free Account created with identity, phone, and payment verification completed
-- [ ] Microsoft Agreement and Offer Terms accepted
-- [ ] Azure Portal accessed successfully (Screenshot 1)
+- [✅] Azure Free Account created with identity, phone, and payment verification completed
+- [✅] Microsoft Agreement and Offer Terms accepted
+- [] Azure Portal accessed successfully (Screenshot 1)
 - [ ] Free Trial subscription confirmed (Screenshot 2)
 - [ ] Reflection paragraph written (Notes)
 - [ ] No sensitive information exposed
