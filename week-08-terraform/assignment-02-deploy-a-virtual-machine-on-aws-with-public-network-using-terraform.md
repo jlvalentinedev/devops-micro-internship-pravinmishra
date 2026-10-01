@@ -20,7 +20,7 @@ Create a `terraform-aws-vm` project directory for the AWS Terraform configuratio
 
 #### Screenshot 1 — File Explorer, VS Code, or terminal showing the `terraform-aws-vm` project directory
 
-Add your screenshot here.
+![terraform](screenshots/tf-assignment2task1.png)
 
 ---
 
@@ -34,9 +34,11 @@ Define the AWS provider, a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) 
 
 #### Screenshot 2 (optional) — `main.tf` showing the VPC and EC2 resource blocks
 
-Add your screenshot here.
+![terraform](screenshots/tf-assignment2task2_1.png)
 
 ---
+![terraform](screenshots/tf-assignment2task2.png)
+
 
 # Task 3 — Initialize Terraform
 
@@ -48,7 +50,7 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+![terraform](screenshots/tf-assignment2screen3.png)
 
 ---
 
@@ -62,13 +64,13 @@ Review `terraform plan`, run `terraform apply`, and record the EC2 instance's pu
 
 #### Screenshot 4 — Terraform apply output showing successful completion
 
-Add your screenshot here.
-
+![terraform](screenshots/tf-assignmenttask4.png)
 ---
+![terraform](screenshots/tf-task4screenshot4.png)
 
 #### Screenshot 5 — Terraform output showing the EC2 public IP
 
-Add your screenshot here.
+![terraform](screenshots/tf-assignment2screen5.png)
 
 ---
 
@@ -88,9 +90,10 @@ Add your screenshot here.
 
 #### Screenshot 7 — Browser showing the Nginx page through the EC2 public IP, or terminal showing a successful SSH connection
 
-Add your screenshot here.
+![terraform](screenshots/tf-task5screenshot7.png)
 
 ---
+![terraform](screenshots/tf-ngnix.png)
 
 # Task 6 — Destroy Resources
 
@@ -102,7 +105,7 @@ Run `terraform destroy` to remove the Terraform-managed AWS resources after test
 
 #### Screenshot 8 — Terminal showing successful `terraform destroy` completion
 
-Add your screenshot here.
+![terraform](screenshots/tf-destroy.png)
 
 ---
 
@@ -110,7 +113,8 @@ Add your screenshot here.
 
 Write a short paragraph about any challenges you faced and how you solved them.
 
-Write your answer here.
+One challenge I faced during this project was not initially seeing my EC2 instance in the AWS Console because I was viewing the wrong AWS region. I solved this by switching to the Stockholm (`eu-north-1`) region where Terraform created the resources. I also initially received a connection error when accessing the EC2 public IP because Nginx had not been installed and started. I connected to the instance using SSH, installed Nginx, started the service, and verified that it was running. After these steps, I was able to access the Nginx welcome page through the EC2 public IP.
+
 
 ---
 
@@ -124,14 +128,16 @@ Write your answer here.
 
 # Completion Checklist
 
-- [ ] Task 1: `terraform-aws-vm` project created (Screenshot 1)
-- [ ] Task 2: `main.tf` defines VPC, subnets, IGW, Security Group, and EC2 (Screenshot 2, optional)
-- [ ] Task 3: `terraform init` completed successfully (Screenshot 3)
-- [ ] Task 4: Plan reviewed and `terraform apply` completed, public IP recorded (Screenshots 4–5)
-- [ ] Task 5: EC2 instance verified running and accessible (Screenshots 6–7)
-- [ ] Task 6: `terraform destroy` completed successfully (Screenshot 8)
-- [ ] Challenges/solutions paragraph written (Notes)
-- [ ] No sensitive information exposed
+- [✅] Task 1: `terraform-aws-vm` project created (Screenshot 1)
+- [✅] Task 2: `main.tf` defines VPC, subnets, IGW, Security Group, and EC2 (Screenshot 2, optional)
+- [✅] Task 3: `terraform init` completed successfully (Screenshot 3)
+- [✅] Task 4: Plan reviewed and `terraform apply` completed, public IP recorded (Screenshots 4–5)
+- [✅] Task 4: Plan reviewed and `terraform apply` completed, public IP recorded (Screenshots 4–5)
+- [✅] Task 4: Plan reviewed and `terraform apply` completed, public IP recorded (Screenshots 4–5)
+- [✅] Task 5: EC2 instance verified running and accessible (Screenshots 6–7)
+- [✅] Task 6: `terraform destroy` completed successfully (Screenshot 8)
+- [✅] Challenges/solutions paragraph written (Notes)
+- [✅] No sensitive information exposed
 
 ---
 
