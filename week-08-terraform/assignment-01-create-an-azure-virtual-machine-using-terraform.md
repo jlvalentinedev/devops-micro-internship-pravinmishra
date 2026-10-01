@@ -20,7 +20,8 @@ Prepare your local environment for Terraform deployment by installing Terraform,
 
 #### Screenshot 1 — Terminal showing successful `terraform version` output
 
-Add your screenshot here.
+<img width="414" height="154" alt="Ass1-ss1" src="https://github.com/user-attachments/assets/33844398-b749-48b6-b7db-d5872210b383" />
+
 
 ---
 
