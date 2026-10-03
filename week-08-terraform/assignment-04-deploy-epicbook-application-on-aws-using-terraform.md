@@ -20,13 +20,15 @@ Define a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) and private subnet
 
 #### Screenshot 1 — Terraform configuration showing the VPC and both subnet CIDR ranges
 
-Add your screenshot here.
+<img width="694" height="128" alt="Ass4-ss1" src="https://github.com/user-attachments/assets/33a429cf-6347-44e2-b444-1a769c69b08a" />
+
 
 ---
 
 #### Screenshot 2 — Terraform configuration showing the Internet Gateway, public route table, and both Security Groups
 
-Add your screenshot here.
+<img width="427" height="102" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/3a94a58e-b995-4951-b62f-3969ba665248" />
+
 
 ---
 
@@ -40,19 +42,22 @@ Use Terraform to launch a t2.micro Ubuntu 22.04 EC2 instance in the public subne
 
 #### Screenshot 3 — Terraform apply output showing successful EC2 provisioning
 
-Add your screenshot here.
+<img width="1343" height="661" alt="Ass4-ss3" src="https://github.com/user-attachments/assets/3f850c00-ceec-4db8-8df8-05b1cc4e4ef1" />
+
 
 ---
 
 #### Screenshot 4 — EC2 instance running in the AWS Console with the public IP and subnet visible
 
-Add your screenshot here.
+<img width="531" height="432" alt="Ass4-ss4" src="https://github.com/user-attachments/assets/b1d35560-664c-4611-ab64-6a154d9b1223" />
+
 
 ---
 
 #### Screenshot 5 — Terminal showing successful SSH access and installed software
 
-Add your screenshot here.
+<img width="1296" height="653" alt="Ass4-ss5" src="https://github.com/user-attachments/assets/d27a8788-d36b-4baa-a4cc-d590bd8b1eed" />
+
 
 ---
 
@@ -66,13 +71,16 @@ Deploy the EpicBook frontend and backend on the EC2 instance and configure Nginx
 
 #### Screenshot 6 — Terminal showing the EpicBook application files and dependency installation
 
-Add your screenshot here.
+<img width="1339" height="624" alt="Ass4-ss6" src="https://github.com/user-attachments/assets/04e48e5d-dd1c-4fec-a6c8-fcb4a6fbef5e" />
+
 
 ---
 
 #### Screenshot 7 — Terminal showing the application and Nginx services running
 
-Add your screenshot here.
+<img width="1355" height="603" alt="Ass4-ss7a" src="https://github.com/user-attachments/assets/a271215f-7266-4c77-9376-1cb55ff4bb18" />
+<img width="1356" height="593" alt="Ass4-ss7b" src="https://github.com/user-attachments/assets/6dc7a172-e36b-4194-889d-bcb4b3381461" />
+
 
 ---
 
@@ -86,19 +94,22 @@ Provision a private Amazon RDS MySQL instance (db.t3.micro, Publicly accessible:
 
 #### Screenshot 8 — Terraform apply output showing successful RDS provisioning
 
-Add your screenshot here.
+<img width="1359" height="491" alt="Ass4-ss8" src="https://github.com/user-attachments/assets/a7c13eb1-e6f4-4f9f-b405-a21db8cf43dd" />
+
 
 ---
 
 #### Screenshot 9 — RDS instance in the AWS Console showing the private network configuration and Publicly accessible: No
 
-Add your screenshot here.
+<img width="1353" height="673" alt="Ass4-ss9" src="https://github.com/user-attachments/assets/13406b52-6f2b-44b3-876f-54c4eb8776d0" />
+
 
 ---
 
 #### Screenshot 10 — Terminal showing successful database initialization or table verification from EC2
 
-Add your screenshot here.
+<img width="1348" height="487" alt="Ass4-ss10" src="https://github.com/user-attachments/assets/e190fc4e-33e8-45a5-9e65-40cc11536243" />
+
 
 ---
 
@@ -112,13 +123,16 @@ Confirm EpicBook is accessible through the EC2 public IP and that navigation, ca
 
 #### Screenshot 11 — Browser showing the EpicBook application through the EC2 public IP
 
-Add your screenshot here.
+<img width="1343" height="583" alt="Ass4-ss11a" src="https://github.com/user-attachments/assets/1761a9cf-9df0-4594-be22-94ca6fdbbc01" />
+<img width="1363" height="557" alt="Ass4-ss11b" src="https://github.com/user-attachments/assets/73261d85-c9e6-4941-b8d0-0159ac93b179" />
+
 
 ---
 
 #### Screenshot 12 — Browser showing a working product, cart, order summary, or checkout flow
 
-Add your screenshot here.
+<img width="1349" height="379" alt="Ass4-ss12" src="https://github.com/user-attachments/assets/ea8ca3b4-f271-4b8a-9259-62cb0539e25e" />
+
 
 ---
 
@@ -126,7 +140,7 @@ Add your screenshot here.
 
 Write a short note describing any issue you faced, how you fixed it, and what you learned.
 
-Write your answer here.
+
 
 ---
 
@@ -142,13 +156,13 @@ Publish a LinkedIn post about what you achieved in this assignment, with public 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 13 — Published LinkedIn post showing the text and at least one image or proof
 
-Add your screenshot here.
+
 
 ---
 
