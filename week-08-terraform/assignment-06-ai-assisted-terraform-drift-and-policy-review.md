@@ -20,13 +20,15 @@ Confirm your existing Terraform project reports no pending changes, then create 
 
 #### Screenshot 1 — `terraform plan` showing no pending changes
 
-Add your screenshot here.
+<img width="1166" height="669" alt="Ass6-ss1" src="https://github.com/user-attachments/assets/a9122cda-d807-41d3-a769-05070dff9e04" />
+
 
 ---
 
 #### Screenshot 2 — Folder structure showing the new workspace folders alongside your Terraform project
 
-Add your screenshot here.
+<img width="425" height="426" alt="Ass6-ss2" src="https://github.com/user-attachments/assets/acd1b987-5d8e-48d1-aa80-a39ca4261db9" />
+
 
 ---
 
@@ -40,7 +42,8 @@ Add a `CLAUDE.md` describing the read-only drift-review workflow and the safety 
 
 #### Screenshot 3 — `CLAUDE.md` open showing the project overview, review workflow, and safety rules
 
-Add your screenshot here.
+<img width="1344" height="686" alt="Ass6-ss3" src="https://github.com/user-attachments/assets/b509090c-ae30-418d-8347-3b67df65df76" />
+
 
 ---
 
@@ -54,13 +57,15 @@ Create a Bash script that runs `terraform plan -detailed-exitcode`, converts the
 
 #### Screenshot 4 — The script open showing its destructive-change and open-ingress checks
 
-Add your screenshot here.
+<img width="1072" height="651" alt="Ass6-ss4" src="https://github.com/user-attachments/assets/bf54e005-b126-4f6e-9647-f9bd30c01acd" />
+
 
 ---
 
 #### Screenshot 5 — Terminal showing the script passes a syntax check and is executable
 
-Add your screenshot here.
+<img width="983" height="318" alt="Ass6-ss5" src="https://github.com/user-attachments/assets/5af85f21-3b32-4eb4-9d91-c2f6bf3db4c0" />
+
 
 ---
 
@@ -74,7 +79,8 @@ Run the script against your unchanged infrastructure and confirm it reports a he
 
 #### Screenshot 6 — Script output showing a healthy result against the clean baseline
 
-Add your screenshot here.
+<img width="715" height="196" alt="Ass6-ss6" src="https://github.com/user-attachments/assets/04094f32-c705-47b1-adbd-885c0cf2593a" />
+
 
 ---
 
@@ -88,13 +94,15 @@ Turn the script into a `/tf-drift-review` skill that reads the drift report, exp
 
 #### Screenshot 7 — Skill file showing the tool restrictions and safety rules
 
-Add your screenshot here.
+<img width="897" height="391" alt="Ass6-ss7" src="https://github.com/user-attachments/assets/fdb99067-bfd9-4d93-ac6b-bb79232eb98c" />
+
 
 ---
 
 #### Screenshot 8 — `/tf-drift-review` output against the healthy baseline
 
-Add your screenshot here.
+<img width="648" height="263" alt="Ass6-ss8" src="https://github.com/user-attachments/assets/064c908b-68c5-4cd2-b532-1efe62f07a19" />
+
 
 ---
 
@@ -108,13 +116,15 @@ Deliberately introduce a change Terraform did not make — a destructive change 
 
 #### Screenshot 9 — The drift you introduced, visible in your Terraform config or the cloud console
 
-Add your screenshot here.
+<img width="1355" height="634" alt="Ass6-ss9" src="https://github.com/user-attachments/assets/1bdb2d53-6f5c-48f4-8a83-ad537f4e98c3" />
+
 
 ---
 
 #### Screenshot 10 — `/tf-drift-review` output flagging the drift and explaining the risk
 
-Add your screenshot here.
+<img width="1358" height="584" alt="Ass6-ss10" src="https://github.com/user-attachments/assets/1f50a4b4-7b54-416d-9926-da3106a1ed34" />
+
 
 ---
 
@@ -128,13 +138,15 @@ Extend the Week 2 hooks pattern with a `PreToolUse` hook that blocks any `terraf
 
 #### Screenshot 11 — `settings.json` showing the new `PreToolUse` hook
 
-Add your screenshot here.
+<img width="1354" height="466" alt="Ass6-ss11" src="https://github.com/user-attachments/assets/d6b0b74e-41e2-43a5-a806-74c00ec368ee" />
+
 
 ---
 
 #### Screenshot 12 — Claude's blocked response when attempting `terraform apply` while the report is failing
 
-Add your screenshot here.
+<img width="1337" height="565" alt="Ass6-ss12" src="https://github.com/user-attachments/assets/d0157a96-4e14-44e7-b6a6-bc8c353fc3b2" />
+
 
 ---
 
@@ -148,13 +160,15 @@ Review the recommendation, resolve the drift yourself with a human-reviewed `ter
 
 #### Screenshot 13 — `terraform apply` completing successfully after your review
 
-Add your screenshot here.
+<img width="823" height="479" alt="Ass6-ss13" src="https://github.com/user-attachments/assets/9d4e5168-a407-4a4c-aa5c-468d4ab3c4eb" />
+
 
 ---
 
 #### Screenshot 14 — Second `/tf-drift-review` run showing a healthy result
 
-Add your screenshot here.
+<img width="969" height="386" alt="Ass6-ss14" src="https://github.com/user-attachments/assets/72f56a5d-a09c-472f-91dd-e3c85a1b9d44" />
+
 
 ---
 
@@ -162,7 +176,7 @@ Add your screenshot here.
 
 Explain why this workflow needs both a fixed-rule hook that blocks `apply` outright and an AI skill that explains the risk in plain language — why isn't one of the two enough on its own?
 
-Add your answer here
+
 
 ---
 
