@@ -20,7 +20,8 @@ Create a `terraform-react-azure` project directory for the Azure Terraform confi
 
 #### Screenshot 1 — File Explorer, VS Code, or terminal showing the `terraform-react-azure` project directory
 
-Add your screenshot here.
+<img width="739" height="194" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/66957d3c-d46b-4795-8c35-2b1d2e75db62" />
+
 
 ---
 
@@ -34,7 +35,8 @@ Define the resource group, virtual network/subnet, Network Security Group (SSH 2
 
 #### Screenshot 2 — VS Code showing `main.tf` with the required Azure resources, with any password or sensitive values hidden
 
-Add your screenshot here.
+<img width="791" height="349" alt="Ass3-ss2" src="https://github.com/user-attachments/assets/2a7f7491-48e5-4437-bd81-98be7ffb619f" />
+
 
 ---
 
@@ -48,7 +50,8 @@ Run `terraform init` and confirm the working directory initializes successfully.
 
 #### Screenshot 3 — Terminal showing successful `terraform init` output
 
-Add your screenshot here.
+<img width="1098" height="629" alt="Ass3-ss3" src="https://github.com/user-attachments/assets/d4b2c280-b27e-4968-a34a-402c83518f92" />
+
 
 ---
 
@@ -62,13 +65,17 @@ Review `terraform plan`, run `terraform apply`, and record the VM's public IP.
 
 #### Screenshot 4 — Terraform apply output showing successful completion
 
-Add your screenshot here.
+<img width="691" height="508" alt="Ass3-ss4a" src="https://github.com/user-attachments/assets/f27d1967-9740-4393-9cf0-920bad185781" />
+<img width="636" height="577" alt="Ass3-ss4b" src="https://github.com/user-attachments/assets/3d8f0038-d5b5-49c1-a76b-1c41dd8a47de" />
+
 
 ---
 
 #### Screenshot 5 — Azure portal showing the Virtual Machine running and its public IP
 
-Add your screenshot here.
+<img width="698" height="507" alt="Ass3-ss5" src="https://github.com/user-attachments/assets/6d7b4e43-a074-4941-953a-f04800d8e296" />
+<img width="630" height="270" alt="Ass3-ss5a" src="https://github.com/user-attachments/assets/e0e05cc0-9b28-4652-b60e-90a5d28997ea" />
+
 
 ---
 
@@ -82,7 +89,8 @@ Establish an SSH session with the Ubuntu VM through its public IP.
 
 #### Screenshot 6 — Terminal showing a successful SSH connection to the Azure VM
 
-Add your screenshot here.
+<img width="693" height="128" alt="Ass3-ss6" src="https://github.com/user-attachments/assets/bbc4e931-11d7-4da4-990c-6b41867cf0da" />
+
 
 ---
 
@@ -96,7 +104,8 @@ Update Ubuntu and install Node.js, npm, and Git.
 
 #### Screenshot 7 — Terminal showing successful installation and the `node -v` and `npm -v` output
 
-Add your screenshot here.
+<img width="509" height="215" alt="Ass3-ss7" src="https://github.com/user-attachments/assets/bb4ebd49-200c-4f42-a62c-2ae3b3f04abd" />
+
 
 ---
 
@@ -110,13 +119,15 @@ Follow the `my-react-app` repository README to clone, install, and build the app
 
 #### Screenshot 8 — Terminal showing the successful React build
 
-Add your screenshot here.
+<img width="707" height="333" alt="Ass3-ss8" src="https://github.com/user-attachments/assets/4b739cc3-3b27-4493-aa11-e05e25afe5f0" />
+
 
 ---
 
 #### Screenshot 9 — Terminal showing that Nginx is active and running
 
-Add your screenshot here.
+<img width="747" height="516" alt="Ass3-ss9" src="https://github.com/user-attachments/assets/bf10d6a0-3e6c-48a7-9392-f04ccb30f63d" />
+
 
 ---
 
@@ -130,7 +141,8 @@ Confirm the React application loads through the VM's public IP and navigation wo
 
 #### Screenshot 10 — Browser showing the React application with the Azure VM public IP visible in the address bar
 
-Add your screenshot here.
+<img width="766" height="419" alt="Ass3-ss10" src="https://github.com/user-attachments/assets/d9961c30-1fba-4ddd-a9ad-73825e5f457d" />
+
 
 ---
 
@@ -138,7 +150,7 @@ Add your screenshot here.
 
 Write a short summary of what you built and any issues you encountered and how you resolved them.
 
-Write your answer here.
+
 
 ---
 
