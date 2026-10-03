@@ -20,19 +20,23 @@ Create a custom VPC/VNet (10.0.0.0/16) with six subnets across two Availability 
 
 #### Screenshot 1 — VPC or VNet details showing 10.0.0.0/16
 
-Add your screenshot here.
+<img width="988" height="596" alt="Ass5-ss1a" src="https://github.com/user-attachments/assets/75bcaebb-e991-47db-926b-fbd064693972" />
+<img width="1011" height="419" alt="Ass5-ss1b" src="https://github.com/user-attachments/assets/16153b17-5f23-405d-a309-1a3f174310b0" />
+
 
 ---
 
 #### Screenshot 2 — Subnet list showing all six subnets, their tiers, CIDR ranges, and Availability Zones
 
-Add your screenshot here.
+<img width="1337" height="620" alt="Ass5-ss2" src="https://github.com/user-attachments/assets/0432323d-b95f-4c1a-9e02-36a5b1d20e4c" />
+
 
 ---
 
 #### Screenshot 3 — Terraform plan or cloud networking view showing the required routing and tier isolation
 
-Add your screenshot here.
+<img width="1315" height="745" alt="Ass5-ss3" src="https://github.com/user-attachments/assets/81562956-6b07-4a05-b173-8354ab026644" />
+
 
 ---
 
@@ -46,25 +50,28 @@ Configure tier-specific Security Groups/NSGs (Web Tier HTTP 80, App Tier 3001 on
 
 #### Screenshot 4 — Web, App, and Database Security Group or NSG rules
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 5 — Public frontend load balancer configuration
 
-Add your screenshot here.
+<img width="1151" height="319" alt="Ass5-ss5" src="https://github.com/user-attachments/assets/397b0022-2647-4c5d-af0b-6d7b552888d0" />
+
 
 ---
 
 #### Screenshot 6 — Internal backend load balancer configuration
 
-Add your screenshot here.
+<img width="685" height="334" alt="Ass5-ss6" src="https://github.com/user-attachments/assets/8e706b16-7afd-41b9-beba-ca762e807c7d" />
+
 
 ---
 
 #### Screenshot 7 — Healthy frontend and backend targets or backend pools
 
-Add your screenshot here.
+<img width="1341" height="447" alt="Ass5-ss7" src="https://github.com/user-attachments/assets/7d56d1fd-dc8a-458e-9b7b-928c0ceab2a1" />
+
 
 ---
 
@@ -78,19 +85,22 @@ Deploy the Next.js Web Tier behind Nginx on port 80 in the public subnets, and t
 
 #### Screenshot 8 — EC2 or Azure VM dashboard showing the frontend and backend VMs
 
-Add your screenshot here.
+<img width="1188" height="389" alt="Ass5-ss8" src="https://github.com/user-attachments/assets/c1f4d4b5-aa7d-4b4a-a545-9a57fd425125" />
+
 
 ---
 
 #### Screenshot 9 — Nginx status or frontend response on the Web Tier
 
-Add your screenshot here.
+<img width="1366" height="390" alt="Ass5-ss9" src="https://github.com/user-attachments/assets/60a88893-59d7-4c75-86fa-946489c1180e" />
+
 
 ---
 
 #### Screenshot 10 — Backend API response through the permitted internal path
 
-Add your screenshot here.
+<img width="1348" height="632" alt="Ass5-ss10" src="https://github.com/user-attachments/assets/6102d10c-1d20-400f-8ff6-07a76e7dfccd" />
+
 
 ---
 
@@ -104,31 +114,37 @@ Deploy a private managed MySQL database (Amazon RDS Multi-AZ or Azure Database f
 
 #### Screenshot 11 — Amazon RDS or Azure Database dashboard showing the primary database and read replica
 
-Add your screenshot here.
+<img width="1344" height="600" alt="Ass5-ss11" src="https://github.com/user-attachments/assets/fc6cd83e-dcf3-4104-af76-87cf20c6ddd5" />
+
 
 ---
 
 #### Screenshot 12 — Evidence of private database networking and permitted App Tier access
 
-Add your screenshot here.
+<img width="1343" height="562" alt="Ass5-ss12a" src="https://github.com/user-attachments/assets/2b2361d6-cf5b-4d48-8ddb-9f4e3b32214f" />
+<img width="1343" height="657" alt="Ass5-ss12b" src="https://github.com/user-attachments/assets/5845cdb8-4070-4c7d-8c53-28467e9a2732" />
+
 
 ---
 
 #### Screenshot 13 — Functional Book Review App homepage and login flow
 
-Add your screenshot here.
+<img width="1348" height="591" alt="Ass5-ss13" src="https://github.com/user-attachments/assets/01cd4b91-cdec-4eb2-afd6-983200ceda96" />
+
 
 ---
 
 #### Screenshot 14 — Functional review flow with working backend API and database integration
 
-Add your screenshot here.
+<img width="1344" height="610" alt="Ass5-ss14" src="https://github.com/user-attachments/assets/e98e45a1-00a5-4ffb-91dc-4b542ea17447" />
+
 
 ---
 
 #### Screenshot 15 (optional) — Application logs or terminal output
 
-Add your screenshot here.
+<img width="1349" height="656" alt="Ass5-ss15" src="https://github.com/user-attachments/assets/2a5167b3-ba80-49e0-88d9-eecc55699cfd" />
+
 
 ---
 
@@ -136,7 +152,7 @@ Add your screenshot here.
 
 Report the cloud platform used (AWS or Azure), your Terraform code structure (`main.tf`, `variables.tf`, `outputs.tf`, and supporting files), a link/description of your architecture diagram, and the Public Load Balancer DNS used to access the frontend.
 
-Write your answer here.
+
 
 ---
 
@@ -152,13 +168,13 @@ Publish a LinkedIn post about what you achieved in this assignment, with public 
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 16 — Published LinkedIn post showing the text and at least one image or proof
 
-Add your screenshot here.
+
 
 ---
 
