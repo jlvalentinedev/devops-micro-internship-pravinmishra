@@ -95,7 +95,11 @@ https://github.com/jlvalentinedev/devops-micro-internship-pravinmishra.git
 ## LinkedIn post URL
 
 
+<<<<<<< HEAD
 
+=======
+`Add your URL here`
+>>>>>>> upstream/main
 
 ---
 
