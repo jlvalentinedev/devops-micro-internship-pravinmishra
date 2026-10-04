@@ -31,7 +31,9 @@ Prepare the Book Review App project and configure the provided Claude Code Agent
 
 Add a screenshot of the project `CLAUDE.md` showing the three-tier architecture, security boundaries, Terraform requirements, and human-approval rules.
 
-Add your screenshot here.
+<img width="988" height="596" alt="Ass5-ss1a" src="https://github.com/user-attachments/assets/75bcaebb-e991-47db-926b-fbd064693972" />
+<img width="1011" height="419" alt="Ass5-ss1b" src="https://github.com/user-attachments/assets/16153b17-5f23-405d-a309-1a3f174310b0" />
+
 
 ---
 
@@ -39,7 +41,8 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform Engineer subagent configuration.
 
-Add your screenshot here.
+<img width="1337" height="620" alt="Ass5-ss2" src="https://github.com/user-attachments/assets/0432323d-b95f-4c1a-9e02-36a5b1d20e4c" />
+
 
 ---
 
@@ -47,7 +50,8 @@ Add your screenshot here.
 
 Add a screenshot showing the Architecture and Security Reviewer subagent configuration.
 
-Add your screenshot here.
+<img width="1315" height="745" alt="Ass5-ss3" src="https://github.com/user-attachments/assets/81562956-6b07-4a05-b173-8354ab026644" />
+
 
 ---
 
@@ -88,6 +92,7 @@ The diagram must show:
 - Read replica
 - Main traffic flow
 
+<<<<<<< HEAD
 ## Architecture Diagram
 
 Add the completed architecture diagram here.
@@ -95,6 +100,34 @@ Add the completed architecture diagram here.
 ---
 
 # Task 2 — Build the Terraform Networking and Security Layers
+=======
+
+
+---
+
+#### Screenshot 5 — Public frontend load balancer configuration
+
+<img width="1151" height="319" alt="Ass5-ss5" src="https://github.com/user-attachments/assets/397b0022-2647-4c5d-af0b-6d7b552888d0" />
+
+
+---
+
+#### Screenshot 6 — Internal backend load balancer configuration
+
+<img width="685" height="334" alt="Ass5-ss6" src="https://github.com/user-attachments/assets/8e706b16-7afd-41b9-beba-ca762e807c7d" />
+
+
+---
+
+#### Screenshot 7 — Healthy frontend and backend targets or backend pools
+
+<img width="1341" height="447" alt="Ass5-ss7" src="https://github.com/user-attachments/assets/7d56d1fd-dc8a-458e-9b7b-928c0ceab2a1" />
+
+
+---
+
+# Task 3 — VMs and Application Deployment
+>>>>>>> fa0fe3f5940441fa375cf0fca9c1c3c1fc878c30
 
 ## Goal
 
@@ -106,7 +139,8 @@ Create the modular Terraform project and implement the network and security laye
 
 Add a screenshot showing the modular Terraform project structure.
 
-Add your screenshot here.
+<img width="1188" height="389" alt="Ass5-ss8" src="https://github.com/user-attachments/assets/c1f4d4b5-aa7d-4b4a-a545-9a57fd425125" />
+
 
 ---
 
@@ -114,7 +148,8 @@ Add your screenshot here.
 
 Add a screenshot showing the six-subnet architecture across two availability locations.
 
-Add your screenshot here.
+<img width="1366" height="390" alt="Ass5-ss9" src="https://github.com/user-attachments/assets/60a88893-59d7-4c75-86fa-946489c1180e" />
+
 
 ---
 
@@ -122,7 +157,8 @@ Add your screenshot here.
 
 Add a screenshot showing the public and private tier separation, including routing and security boundaries.
 
-Add your screenshot here.
+<img width="1348" height="632" alt="Ass5-ss10" src="https://github.com/user-attachments/assets/6102d10c-1d20-400f-8ff6-07a76e7dfccd" />
+
 
 ---
 
@@ -138,7 +174,8 @@ Deploy the public and internal load balancers and the Web and Application comput
 
 Add a screenshot showing the Web and Application compute resources in their required subnets.
 
-Add your screenshot here.
+<img width="1344" height="600" alt="Ass5-ss11" src="https://github.com/user-attachments/assets/fc6cd83e-dcf3-4104-af76-87cf20c6ddd5" />
+
 
 ---
 
@@ -146,7 +183,9 @@ Add your screenshot here.
 
 Add a screenshot showing the internet-facing public load balancer.
 
-Add your screenshot here.
+<img width="1343" height="562" alt="Ass5-ss12a" src="https://github.com/user-attachments/assets/2b2361d6-cf5b-4d48-8ddb-9f4e3b32214f" />
+<img width="1343" height="657" alt="Ass5-ss12b" src="https://github.com/user-attachments/assets/5845cdb8-4070-4c7d-8c53-28467e9a2732" />
+
 
 ---
 
@@ -154,7 +193,8 @@ Add your screenshot here.
 
 Add a screenshot showing the private internal load balancer.
 
-Add your screenshot here.
+<img width="1348" height="591" alt="Ass5-ss13" src="https://github.com/user-attachments/assets/01cd4b91-cdec-4eb2-afd6-983200ceda96" />
+
 
 ---
 
@@ -162,7 +202,8 @@ Add your screenshot here.
 
 Add a screenshot showing healthy target groups or backend pools.
 
-Add your screenshot here.
+<img width="1344" height="610" alt="Ass5-ss14" src="https://github.com/user-attachments/assets/e98e45a1-00a5-4ffb-91dc-4b542ea17447" />
+
 
 ---
 
@@ -178,7 +219,8 @@ Deploy a private, highly available managed MySQL database with a read replica an
 
 Add a screenshot showing the managed MySQL database deployment.
 
-Add your screenshot here.
+<img width="1349" height="656" alt="Ass5-ss15" src="https://github.com/user-attachments/assets/2a5167b3-ba80-49e0-88d9-eecc55699cfd" />
+
 
 ---
 
@@ -427,7 +469,7 @@ Write your answer here.
 
 ### 15. Describe one recommendation you reviewed, modified, or rejected instead of accepting blindly.
 
-Write your answer here.
+
 
 ---
 
@@ -441,7 +483,19 @@ Write the post in your own words, include at least one project image or other pr
 
 ## LinkedIn Post URL
 
+<<<<<<< HEAD
 **LinkedIn Post URL:** Add your LinkedIn post URL here
+=======
+Paste your LinkedIn post URL here:
+
+
+
+---
+
+#### Screenshot 16 — Published LinkedIn post showing the text and at least one image or proof
+
+
+>>>>>>> fa0fe3f5940441fa375cf0fca9c1c3c1fc878c30
 
 ---
 

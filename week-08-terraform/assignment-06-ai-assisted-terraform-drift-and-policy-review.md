@@ -40,7 +40,8 @@ Confirm that your Terraform configuration and deployed infrastructure are curren
 
 Add a screenshot of `terraform plan` showing no pending changes.
 
-Add your screenshot here.
+<img width="1166" height="669" alt="Ass6-ss1" src="https://github.com/user-attachments/assets/a9122cda-d807-41d3-a769-05070dff9e04" />
+
 
 ---
 
@@ -48,7 +49,8 @@ Add your screenshot here.
 
 Add a screenshot of the folder structure showing `AI Assignment/`, `reports/`, and the Terraform project.
 
-Add your screenshot here.
+<img width="425" height="426" alt="Ass6-ss2" src="https://github.com/user-attachments/assets/acd1b987-5d8e-48d1-aa80-a39ca4261db9" />
+
 
 ## Questions
 
@@ -74,7 +76,8 @@ Provide Claude Code with clear project context, evidence requirements, and safet
 
 Add a screenshot of `CLAUDE.md` open in VS Code showing the Project Overview, Review Workflow, Safety Rules, and Output Rules.
 
-Add your screenshot here.
+<img width="1344" height="686" alt="Ass6-ss3" src="https://github.com/user-attachments/assets/b509090c-ae30-418d-8347-3b67df65df76" />
+
 
 ## Questions
 
@@ -104,7 +107,8 @@ Create a Bash script that gathers Terraform plan evidence and checks it for dest
 
 Add a screenshot of the top section of `tf-drift-check.sh` showing the variables and `checks` array.
 
-Add your screenshot here.
+<img width="1072" height="651" alt="Ass6-ss4" src="https://github.com/user-attachments/assets/bf54e005-b126-4f6e-9647-f9bd30c01acd" />
+
 
 ---
 
@@ -112,7 +116,8 @@ Add your screenshot here.
 
 Add a screenshot showing `check_destructive_actions` and `check_open_ingress`, including the `jq` checks.
 
-Add your screenshot here.
+<img width="983" height="318" alt="Ass6-ss5" src="https://github.com/user-attachments/assets/5af85f21-3b32-4eb4-9d91-c2f6bf3db4c0" />
+
 
 ---
 
@@ -158,7 +163,8 @@ Verify that the review workflow reports a healthy result against your clean Terr
 
 Add a screenshot of the drift script output showing your full name and a `HEALTHY` result.
 
-Add your screenshot here.
+<img width="715" height="196" alt="Ass6-ss6" src="https://github.com/user-attachments/assets/04094f32-c705-47b1-adbd-885c0cf2593a" />
+
 
 ---
 
@@ -196,7 +202,8 @@ Turn the Bash evidence-gathering workflow into a reusable Agentic AI review proc
 
 Add a screenshot of `SKILL.md` showing the frontmatter, allowed tools, and safety rules.
 
-Add your screenshot here.
+<img width="897" height="391" alt="Ass6-ss7" src="https://github.com/user-attachments/assets/fdb99067-bfd9-4d93-ac6b-bb79232eb98c" />
+
 
 ---
 
@@ -204,7 +211,8 @@ Add your screenshot here.
 
 Add a screenshot of `/tf-drift-review` showing the clean `HEALTHY` result.
 
-Add your screenshot here.
+<img width="648" height="263" alt="Ass6-ss8" src="https://github.com/user-attachments/assets/064c908b-68c5-4cd2-b532-1efe62f07a19" />
+
 
 ## Questions
 
@@ -242,7 +250,8 @@ Create a safe, intentional difference and confirm that Terraform and Claude dete
 
 Add a screenshot of the controlled change you introduced, with sensitive details hidden.
 
-Add your screenshot here.
+<img width="1355" height="634" alt="Ass6-ss9" src="https://github.com/user-attachments/assets/1bdb2d53-6f5c-48f4-8a83-ad537f4e98c3" />
+
 
 ---
 
@@ -250,7 +259,8 @@ Add your screenshot here.
 
 Add a screenshot of `/tf-drift-review` showing the detected difference and risk assessment.
 
-Add your screenshot here.
+<img width="1358" height="584" alt="Ass6-ss10" src="https://github.com/user-attachments/assets/1f50a4b4-7b54-416d-9926-da3106a1ed34" />
+
 
 ---
 
@@ -304,7 +314,8 @@ Overall Status: FAIL
 
 Add a screenshot of `.claude/settings.json` showing the `PreToolUse` safety hook.
 
-Add your screenshot here.
+<img width="1354" height="466" alt="Ass6-ss11" src="https://github.com/user-attachments/assets/d6b0b74e-41e2-43a5-a806-74c00ec368ee" />
+
 
 ---
 
@@ -312,7 +323,8 @@ Add your screenshot here.
 
 Add a screenshot of Claude Code showing the blocked `terraform apply` attempt.
 
-Add your screenshot here.
+<img width="1337" height="565" alt="Ass6-ss12" src="https://github.com/user-attachments/assets/d0157a96-4e14-44e7-b6a6-bc8c353fc3b2" />
+
 
 ## Questions
 
@@ -350,7 +362,8 @@ Resolve the detected difference intentionally, verify the infrastructure returns
 
 Add a screenshot of the human-reviewed resolution or `terraform apply` output where applicable.
 
-Add your screenshot here.
+<img width="823" height="479" alt="Ass6-ss13" src="https://github.com/user-attachments/assets/9d4e5168-a407-4a4c-aa5c-468d4ab3c4eb" />
+
 
 ---
 
@@ -358,7 +371,8 @@ Add your screenshot here.
 
 Add a screenshot of the final `/tf-drift-review` showing `HEALTHY`.
 
-Add your screenshot here.
+<img width="969" height="386" alt="Ass6-ss14" src="https://github.com/user-attachments/assets/72f56a5d-a09c-472f-91dd-e3c85a1b9d44" />
+
 
 ---
 
@@ -366,6 +380,7 @@ Add your screenshot here.
 
 Add a screenshot of `ls -lah reports` showing both:
 
+<<<<<<< HEAD
 - `drift-detected-report.txt`
 - `resolved-report.txt`
 
@@ -506,6 +521,9 @@ Confirm that the following files are included in your GitHub repository:
 - `reports/drift-detected-report.txt`
 - `reports/resolved-report.txt`
 - `drift-review-summary.md`
+=======
+
+>>>>>>> fa0fe3f5940441fa375cf0fca9c1c3c1fc878c30
 
 ---
 

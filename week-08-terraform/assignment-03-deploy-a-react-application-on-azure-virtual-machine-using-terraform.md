@@ -24,7 +24,8 @@ Prepare your local environment for Terraform deployment by installing Terraform,
 
 Add a screenshot of the terminal showing successful `terraform version` output.
 
-Add your screenshot here.
+<img width="739" height="194" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/66957d3c-d46b-4795-8c35-2b1d2e75db62" />
+
 
 ---
 
@@ -80,7 +81,8 @@ The `cloud-init.sh` file must contain the complete automated React application d
 
 Add a screenshot of VS Code showing the AzureRM provider, resource group, and Network Security Group configuration in `main.tf`.
 
-Add your screenshot here.
+<img width="791" height="349" alt="Ass3-ss2" src="https://github.com/user-attachments/assets/2a7f7491-48e5-4437-bd81-98be7ffb619f" />
+
 
 ---
 
@@ -124,7 +126,8 @@ Initialize the Terraform working directory and download the required provider co
 
 Add a screenshot of the terminal showing successful `terraform init` output.
 
-Add your screenshot here.
+<img width="1098" height="629" alt="Ass3-ss3" src="https://github.com/user-attachments/assets/d4b2c280-b27e-4968-a34a-402c83518f92" />
+
 
 ---
 
@@ -140,7 +143,9 @@ Review the Terraform execution plan and provision the Azure infrastructure.
 
 Add a screenshot showing the Terraform plan summary and the proposed resources.
 
-Add your screenshot here.
+<img width="691" height="508" alt="Ass3-ss4a" src="https://github.com/user-attachments/assets/f27d1967-9740-4393-9cf0-920bad185781" />
+<img width="636" height="577" alt="Ass3-ss4b" src="https://github.com/user-attachments/assets/3d8f0038-d5b5-49c1-a76b-1c41dd8a47de" />
+
 
 ---
 
@@ -148,7 +153,9 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+<img width="698" height="507" alt="Ass3-ss5" src="https://github.com/user-attachments/assets/6d7b4e43-a074-4941-953a-f04800d8e296" />
+<img width="630" height="270" alt="Ass3-ss5a" src="https://github.com/user-attachments/assets/e0e05cc0-9b28-4652-b60e-90a5d28997ea" />
+
 
 ---
 
@@ -178,7 +185,8 @@ Connect to the Azure Linux virtual machine and confirm that the cloud-init/user 
 
 Add a screenshot of SSH terminal showing successful connection to the Azure VM and evidence that the React application deployment completed such as the deployed files in `/var/www/html` or successful cloud-init output.
 
-Add your screenshot here.
+<img width="693" height="128" alt="Ass3-ss6" src="https://github.com/user-attachments/assets/bbc4e931-11d7-4da4-990c-6b41867cf0da" />
+
 
 ---
 
@@ -204,7 +212,8 @@ Add a screenshot of the browser showing the deployed React application successfu
 
 Ensure that the Azure VM public IP is visible in the browser address bar.
 
-Add your screenshot here.
+<img width="509" height="215" alt="Ass3-ss7" src="https://github.com/user-attachments/assets/bb4ebd49-200c-4f42-a62c-2ae3b3f04abd" />
+
 
 ---
 
@@ -220,11 +229,23 @@ Remove all Azure resources created by Terraform after completing the application
 
 Add a screenshot of the terminal showing successful `terraform destroy` completion.
 
-Add your screenshot here.
+<img width="707" height="333" alt="Ass3-ss8" src="https://github.com/user-attachments/assets/4b739cc3-3b27-4493-aa11-e05e25afe5f0" />
+
 
 ---
 
+<<<<<<< HEAD
 # Task 7 — Share Your Deployment Progress on LinkedIn
+=======
+#### Screenshot 9 — Terminal showing that Nginx is active and running
+
+<img width="747" height="516" alt="Ass3-ss9" src="https://github.com/user-attachments/assets/bf10d6a0-3e6c-48a7-9392-f04ccb30f63d" />
+
+
+---
+
+# Task 8 — Test the Deployment
+>>>>>>> fa0fe3f5940441fa375cf0fca9c1c3c1fc878c30
 
 ## Goal
 
@@ -261,10 +282,22 @@ Add a screenshot of your published LinkedIn post showing:
 
 Ensure that no passwords, private keys, account IDs, access tokens, or other sensitive information are visible.
 
-Add your screenshot here.
+<img width="766" height="419" alt="Ass3-ss10" src="https://github.com/user-attachments/assets/d9961c30-1fba-4ddd-a9ad-73825e5f457d" />
+
 
 ---
 
+<<<<<<< HEAD
+=======
+### Notes
+
+Write a short summary of what you built and any issues you encountered and how you resolved them.
+
+
+
+---
+
+>>>>>>> fa0fe3f5940441fa375cf0fca9c1c3c1fc878c30
 # Submission Instructions
 
 - Complete Tasks 0–7 in sequence.
