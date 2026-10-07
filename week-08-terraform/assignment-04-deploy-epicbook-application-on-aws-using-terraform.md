@@ -25,14 +25,16 @@ Define a VPC (10.0.0.0/16) with a public subnet (10.0.1.0/24) and private subnet
 
 #### Screenshot 1 — Terraform configuration showing the VPC and both subnet CIDR ranges
 
-<img width="694" height="128" alt="Ass4-ss1" src="https://github.com/user-attachments/assets/33a429cf-6347-44e2-b444-1a769c69b08a" />
+<img width="694" height="128" alt="Ass4-ss1" src="https://github.com/user-attachments/assets/30b2c5f8-c4e1-45e1-ad01-335bd06e7c56" />
+
 
 
 ---
 
 #### Screenshot 2 — Terraform configuration showing the Internet Gateway, public route table, and both Security Groups
 
-<img width="427" height="102" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/3a94a58e-b995-4951-b62f-3969ba665248" />
+<img width="427" height="102" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/113e210d-afc3-4aaa-a46e-e8f26533767d" />
+
 
 
 ---
@@ -47,21 +49,24 @@ Use Terraform to launch a t2.micro Ubuntu 22.04 EC2 instance in the public subne
 
 #### Screenshot 3 — Terraform apply output showing successful EC2 provisioning
 
-<img width="1343" height="661" alt="Ass4-ss3" src="https://github.com/user-attachments/assets/3f850c00-ceec-4db8-8df8-05b1cc4e4ef1" />
+<img width="1343" height="661" alt="Ass4-ss3" src="https://github.com/user-attachments/assets/545e4b9f-50ab-4e71-aa85-36b71930f3ba" />
+
 
 
 ---
 
 #### Screenshot 4 — EC2 instance running in the AWS Console with the public IP and subnet visible
 
-<img width="531" height="432" alt="Ass4-ss4" src="https://github.com/user-attachments/assets/b1d35560-664c-4611-ab64-6a154d9b1223" />
+<img width="531" height="432" alt="Ass4-ss4" src="https://github.com/user-attachments/assets/867ef3c3-1825-4c74-90a3-19be7a18890b" />
+
 
 
 ---
 
 #### Screenshot 5 — Terminal showing successful SSH access and installed software
 
-<img width="1296" height="653" alt="Ass4-ss5" src="https://github.com/user-attachments/assets/d27a8788-d36b-4baa-a4cc-d590bd8b1eed" />
+<img width="1296" height="653" alt="Ass4-ss5" src="https://github.com/user-attachments/assets/2c9c07be-4a55-4abc-a052-57bc56064449" />
+
 
 
 ---
@@ -76,15 +81,18 @@ Deploy the EpicBook frontend and backend on the EC2 instance and configure Nginx
 
 #### Screenshot 6 — Terminal showing the EpicBook application files and dependency installation
 
-<img width="1339" height="624" alt="Ass4-ss6" src="https://github.com/user-attachments/assets/04e48e5d-dd1c-4fec-a6c8-fcb4a6fbef5e" />
+<img width="1339" height="624" alt="Ass4-ss6" src="https://github.com/user-attachments/assets/36de15cf-8244-4038-9130-949af72cf058" />
+
 
 
 ---
 
 #### Screenshot 7 — Terminal showing the application and Nginx services running
 
-<img width="1355" height="603" alt="Ass4-ss7a" src="https://github.com/user-attachments/assets/a271215f-7266-4c77-9376-1cb55ff4bb18" />
-<img width="1356" height="593" alt="Ass4-ss7b" src="https://github.com/user-attachments/assets/6dc7a172-e36b-4194-889d-bcb4b3381461" />
+<img width="1355" height="603" alt="Ass4-ss7a" src="https://github.com/user-attachments/assets/f625f8e9-7381-4322-8b82-41969f5f54d9" />
+<img width="1356" height="593" alt="Ass4-ss7b" src="https://github.com/user-attachments/assets/2ad2e567-c0da-4cd0-9017-5fbce0a2e99c" />
+
+
 
 
 ---
@@ -99,21 +107,24 @@ Provision a private Amazon RDS MySQL instance (db.t3.micro, Publicly accessible:
 
 #### Screenshot 8 — Terraform apply output showing successful RDS provisioning
 
-<img width="1359" height="491" alt="Ass4-ss8" src="https://github.com/user-attachments/assets/a7c13eb1-e6f4-4f9f-b405-a21db8cf43dd" />
+<img width="1359" height="491" alt="Ass4-ss8" src="https://github.com/user-attachments/assets/9606276b-94fb-408f-91e7-77211add5e3f" />
+
 
 
 ---
 
 #### Screenshot 9 — RDS instance in the AWS Console showing the private network configuration and Publicly accessible: No
 
-<img width="1353" height="673" alt="Ass4-ss9" src="https://github.com/user-attachments/assets/13406b52-6f2b-44b3-876f-54c4eb8776d0" />
+<img width="1353" height="673" alt="Ass4-ss9" src="https://github.com/user-attachments/assets/86f786a0-d94f-49f9-ba4f-0885fd054517" />
+
 
 
 ---
 
 #### Screenshot 10 — Terminal showing successful database initialization or table verification from EC2
 
-<img width="1348" height="487" alt="Ass4-ss10" src="https://github.com/user-attachments/assets/e190fc4e-33e8-45a5-9e65-40cc11536243" />
+<img width="1348" height="487" alt="Ass4-ss10" src="https://github.com/user-attachments/assets/9d4794bc-a225-452f-bbc8-cfbb283edde8" />
+
 
 
 ---
@@ -128,15 +139,18 @@ Confirm EpicBook is accessible through the EC2 public IP and that navigation, ca
 
 #### Screenshot 11 — Browser showing the EpicBook application through the EC2 public IP
 
-<img width="1343" height="583" alt="Ass4-ss11a" src="https://github.com/user-attachments/assets/1761a9cf-9df0-4594-be22-94ca6fdbbc01" />
-<img width="1363" height="557" alt="Ass4-ss11b" src="https://github.com/user-attachments/assets/73261d85-c9e6-4941-b8d0-0159ac93b179" />
+
+<img width="1343" height="583" alt="Ass4-ss11a" src="https://github.com/user-attachments/assets/d54110fd-0dab-40f7-a54b-b49e8cdc8c8c" />
+<img width="1363" height="557" alt="Ass4-ss11b" src="https://github.com/user-attachments/assets/b382c3c9-4492-4a19-b807-e03aa3935e28" />
+
 
 
 ---
 
 #### Screenshot 12 — Browser showing a working product, cart, order summary, or checkout flow
 
-<img width="1349" height="379" alt="Ass4-ss12" src="https://github.com/user-attachments/assets/ea8ca3b4-f271-4b8a-9259-62cb0539e25e" />
+<img width="1349" height="379" alt="Ass4-ss12" src="https://github.com/user-attachments/assets/8544a39f-55e7-4e03-8979-10270aad3e7a" />
+
 
 
 ---
@@ -160,19 +174,20 @@ Publish a LinkedIn post about what you achieved in this assignment, with public 
 
 ### Screenshot 1 — Terraform Version
 
-Add a screenshot of the terminal showing successful `terraform version` output.
+<img width="694" height="128" alt="Ass4-ss1" src="https://github.com/user-attachments/assets/a1575f98-fee0-48af-bc97-cdf92a7ea83d" />
 
-<<<<<<< HEAD
-Add your screenshot here.
+
+
+
 =======
 
->>>>>>> fa0fe3f5940441fa375cf0fca9c1c3c1fc878c30
 
 ---
 
 ### Screenshot 2 — AWS CLI Version
 
-Add a screenshot of the terminal showing successful `aws --version` output.
+
+<img width="427" height="102" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/4df150b3-0c44-4926-a716-9c101a6fd137" />
 
 
 
@@ -182,7 +197,8 @@ Add a screenshot of the terminal showing successful `aws --version` output.
 
 Add a screenshot of VS Code showing the HashiCorp Terraform extension installed and enabled.
 
-Add your screenshot here.
+<img width="1343" height="661" alt="Ass4-ss3" src="https://github.com/user-attachments/assets/1f60b858-d7c6-42a5-a17e-55c91e05c70c" />
+
 
 ---
 
@@ -222,7 +238,8 @@ terraform-aws-epicbook/
 
 Add a screenshot of the VS Code Explorer showing the complete root project and the `network`, `ec2`, and `rds` module directory structure.
 
-Add your screenshot here.
+<img width="531" height="432" alt="Ass4-ss4" src="https://github.com/user-attachments/assets/57170f09-18dc-4892-b900-60ea32da5abc" />
+
 
 ---
 
@@ -251,7 +268,8 @@ The network module must include:
 
 Add a screenshot of VS Code showing the VPC, public subnet, and two private database subnet configurations.
 
-Add your screenshot here.
+<img width="1296" height="653" alt="Ass4-ss5" src="https://github.com/user-attachments/assets/1b429606-10cd-40c2-af79-a9692b41667d" />
+
 
 ---
 
@@ -259,7 +277,8 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the Internet Gateway, public route table, and route table association.
 
-Add your screenshot here.
+<img width="1339" height="624" alt="Ass4-ss6" src="https://github.com/user-attachments/assets/391f2be9-c2dd-4a83-9e85-9df019915e0f" />
+
 
 ---
 
@@ -267,7 +286,9 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the EC2 and RDS Security Groups, including MySQL access from the EC2 Security Group only.
 
-Add your screenshot here.
+<img width="1355" height="603" alt="Ass4-ss7a" src="https://github.com/user-attachments/assets/1d87132d-e7e8-4c6b-a677-fd1deac3d8bb" />
+<img width="1356" height="593" alt="Ass4-ss7b" src="https://github.com/user-attachments/assets/70aa3d06-4d77-47e3-a58f-65f624c8fbf7" />
+
 
 ---
 
@@ -275,7 +296,8 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the network module outputs.
 
-Add your screenshot here.
+<img width="1359" height="491" alt="Ass4-ss8" src="https://github.com/user-attachments/assets/4fe746c7-ddb2-494b-b2f1-909c2df67c0c" />
+
 
 ---
 
@@ -303,7 +325,8 @@ The `user_data.sh` script must install the required software without storing dat
 
 Add a screenshot of VS Code showing the EC2 resource and `user_data` configuration.
 
-Add your screenshot here.
+<img width="1353" height="673" alt="Ass4-ss9" src="https://github.com/user-attachments/assets/8fda4d6c-4021-4daa-8f51-9ca068c41ebc" />
+
 
 ---
 
@@ -313,7 +336,8 @@ Add a screenshot of VS Code showing `user_data.sh`.
 
 Ensure that no credentials, passwords, private keys, access tokens, or application secrets are visible.
 
-Add your screenshot here.
+<img width="1348" height="487" alt="Ass4-ss10" src="https://github.com/user-attachments/assets/24e33572-9c6f-4b26-a161-aa3f1ddbecfb" />
+
 
 ---
 
@@ -321,7 +345,9 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the EC2 module variables and outputs.
 
-Add your screenshot here.
+<img width="1343" height="583" alt="Ass4-ss11a" src="https://github.com/user-attachments/assets/a609d9be-ee59-4a1b-b535-e37313afaeb3" />
+<img width="1363" height="557" alt="Ass4-ss11b" src="https://github.com/user-attachments/assets/5581669d-ef31-4c4b-be73-e93fe43f0bc8" />
+
 
 ---
 
@@ -347,7 +373,9 @@ The RDS module must include:
 
 Add a screenshot of VS Code showing the DB subnet group and RDS MySQL configuration.
 
-Add your screenshot here.
+<img width="1349" height="379" alt="Ass4-ss12" src="https://github.com/user-attachments/assets/22912706-e09f-4637-b10e-dd5d88806916" />
+<img width="976" height="376" alt="Ass4-ss12b" src="https://github.com/user-attachments/assets/a320bd83-125f-497e-addc-068974c9aec3" />
+
 
 ---
 
@@ -357,7 +385,8 @@ Add a screenshot of VS Code showing `publicly_accessible = false`, the RDS Secur
 
 Ensure that the database password and other sensitive values are hidden.
 
-Add your screenshot here.
+<img width="1341" height="593" alt="Ass4-ss13" src="https://github.com/user-attachments/assets/adc362ce-22fa-40b1-9145-bf9de76b7ea8" />
+
 
 ---
 
@@ -365,7 +394,8 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the RDS endpoint output.
 
-Add your screenshot here.
+<img width="1349" height="536" alt="Ass4-ss14" src="https://github.com/user-attachments/assets/1858d8ee-1830-4c7a-9cad-3bc36db97bb4" />
+
 
 ---
 
@@ -381,7 +411,8 @@ Use the root Terraform configuration to call the Network, EC2, and RDS modules a
 
 Add a screenshot of VS Code showing the root `main.tf` with the Network, EC2, and RDS module blocks.
 
-Add your screenshot here.
+<img width="331" height="138" alt="Ass4-ss15" src="https://github.com/user-attachments/assets/f740b144-1c7c-4108-9193-1f54c6be5a5d" />
+
 
 ---
 
@@ -389,7 +420,7 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing values passed from the Network module to the EC2 and RDS modules.
 
-Add your screenshot here.
+
 
 ---
 
@@ -397,7 +428,8 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the root EC2 public IP and RDS endpoint outputs.
 
-Add your screenshot here.
+<img width="1030" height="226" alt="Ass4-ss17" src="https://github.com/user-attachments/assets/270c9879-d5a7-4a4c-89f2-612aeb9024a7" />
+
 
 ---
 
@@ -413,7 +445,8 @@ Initialize the modular Terraform project, validate the configuration, review the
 
 Add a screenshot of the terminal showing successful `terraform init` output.
 
-Add your screenshot here.
+<img width="787" height="328" alt="Ass4-ss18" src="https://github.com/user-attachments/assets/6f7ced0f-80d4-40be-bf5d-efc3fb367b09" />
+
 
 ---
 
@@ -421,7 +454,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful `terraform validate` output.
 
-Add your screenshot here.
+<img width="480" height="115" alt="Ass4-ss19" src="https://github.com/user-attachments/assets/3f984378-ac68-479b-81ac-a2bc22a59b6c" />
+
 
 ---
 
@@ -429,7 +463,8 @@ Add your screenshot here.
 
 Add a screenshot showing the Terraform plan summary and proposed resources.
 
-Add your screenshot here.
+<img width="1019" height="566" alt="Ass4-ss20" src="https://github.com/user-attachments/assets/5177c71c-8812-464f-bd36-255004fa23ea" />
+
 
 ---
 
@@ -437,7 +472,8 @@ Add your screenshot here.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-Add your screenshot here.
+<img width="1010" height="571" alt="Ass4-ss21" src="https://github.com/user-attachments/assets/247c47a9-517b-4287-be4d-280ce4b992e9" />
+
 
 ---
 
@@ -445,7 +481,8 @@ Add your screenshot here.
 
 Add a screenshot showing the EC2 public IP and RDS endpoint returned by `terraform output`.
 
-Add your screenshot here.
+<img width="779" height="230" alt="Ass4-ss22" src="https://github.com/user-attachments/assets/9092751e-c6a9-4176-8ab7-41b39e61d9e3" />
+
 
 ---
 
@@ -461,7 +498,8 @@ Verify that the EC2 and RDS resources were successfully provisioned and confirm 
 
 Add a screenshot of AWS CLI showing the EC2 instance running.
 
-Add your screenshot here.
+<img width="823" height="268" alt="Ass4-ss23" src="https://github.com/user-attachments/assets/7e919785-020b-4abf-9bb4-421a83afa8f7" />
+
 
 ---
 
@@ -469,7 +507,8 @@ Add your screenshot here.
 
 Add a screenshot of AWS CLI showing that RDS is available and not publicly accessible.
 
-Add your screenshot here.
+<img width="793" height="235" alt="Ass4-ss24" src="https://github.com/user-attachments/assets/93ba04ae-008f-4b67-a6e7-0a3d9f4cc34e" />
+
 
 ---
 
@@ -477,7 +516,8 @@ Add your screenshot here.
 
 Add a screenshot of the EC2 terminal showing the required software version checks and the active Nginx service.
 
-Add your screenshot here.
+<img width="1086" height="330" alt="Ass4-ss25" src="https://github.com/user-attachments/assets/7c448165-2b64-4fef-a800-286a0cf12652" />
+
 
 ---
 
@@ -495,7 +535,8 @@ Add a screenshot of the terminal showing a successful connection from EC2 to Ama
 
 Ensure that the database password is not visible.
 
-Add your screenshot here.
+<img width="978" height="366" alt="Ass4-ss26" src="https://github.com/user-attachments/assets/57fdcbe8-0437-4aac-8a40-2c486bf0af2c" />
+
 
 ---
 
@@ -503,7 +544,9 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the EpicBook tables and imported data.
 
-Add your screenshot here.
+<img width="1003" height="529" alt="Ass4-ss27a" src="https://github.com/user-attachments/assets/617c31e3-a03b-45b9-87e2-67cf0e3205af" />
+<img width="1325" height="537" alt="Ass4-ss27b" src="https://github.com/user-attachments/assets/4fc83b79-9cbd-4b24-98ff-17177e407225" />
+
 
 ---
 
@@ -519,7 +562,8 @@ Install EpicBook dependencies, configure the application to use Amazon RDS, conf
 
 Add a screenshot of the terminal showing successful dependency installation and the `node_modules` directory.
 
-Add your screenshot here.
+<img width="889" height="238" alt="Ass4-ss28" src="https://github.com/user-attachments/assets/9e3f4387-2e8c-4ffa-a067-4ada0495edf2" />
+
 
 ---
 
@@ -527,7 +571,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful Nginx configuration test and active service status.
 
-Add your screenshot here.
+<img width="679" height="157" alt="Ass4-ss29" src="https://github.com/user-attachments/assets/c9bc3154-ac13-4c5d-964c-bec4bc6351b8" />
+
 
 ---
 
@@ -535,7 +580,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing EpicBook running or listening on port `8080`.
 
-Add your screenshot here.
+<img width="1233" height="151" alt="Ass4-ss30" src="https://github.com/user-attachments/assets/01bc0d71-adf6-4f4b-ad11-1baeee43fb4c" />
+
 
 ---
 
@@ -555,7 +601,8 @@ Verify that EpicBook, EC2, Nginx, and Amazon RDS work together successfully.
 
 Add a screenshot of the browser showing EpicBook using the EC2 public IP.
 
-Add your screenshot here.
+<img width="1343" height="704" alt="Ass4-ss31" src="https://github.com/user-attachments/assets/6330eca8-2ff7-45e5-8382-7abe7ed22d5f" />
+
 
 ---
 
@@ -563,7 +610,8 @@ Add your screenshot here.
 
 Add a screenshot of the browser showing a successful cart or checkout action.
 
-Add your screenshot here.
+<img width="1351" height="688" alt="Ass4-ss32" src="https://github.com/user-attachments/assets/79ef084c-0d76-436b-a542-be064bc2f448" />
+
 
 ---
 
@@ -573,7 +621,8 @@ Add a screenshot of the terminal showing the corresponding RDS database record c
 
 Ensure that database credentials and other sensitive values are not visible.
 
-Add your screenshot here.
+<img width="649" height="320" alt="Ass4-ss33" src="https://github.com/user-attachments/assets/688be6d8-64cc-4afd-87ef-18e62a4fc98c" />
+
 
 ---
 
@@ -589,7 +638,8 @@ Remove all AWS resources created by the modular Terraform configuration.
 
 Add a screenshot of the terminal showing successful `terraform destroy` completion.
 
-Add your screenshot here.
+<img width="969" height="643" alt="Ass4-ss34" src="https://github.com/user-attachments/assets/cb64f45c-526c-4401-b9af-7d88435c72e6" />
+
 
 ---
 
@@ -605,13 +655,13 @@ Write the post in your own words and include at least one deployment screenshot 
 
 ### Screenshot 35 — Published LinkedIn Post
 
-Add a screenshot of the published LinkedIn post showing the post and at least one deployment image or other proof.
 
-Add your screenshot here.
+
+
 
 ## LinkedIn Post URL
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:**
 
 ---
 
