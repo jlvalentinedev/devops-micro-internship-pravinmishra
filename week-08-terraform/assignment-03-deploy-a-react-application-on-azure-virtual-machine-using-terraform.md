@@ -24,7 +24,8 @@ Prepare your local environment for Terraform deployment by installing Terraform,
 
 Add a screenshot of the terminal showing successful `terraform version` output.
 
-<img width="739" height="194" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/66957d3c-d46b-4795-8c35-2b1d2e75db62" />
+<img width="739" height="194" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/1a796761-befd-4056-8c84-cb363bc00a74" />
+
 
 
 ---
@@ -33,7 +34,8 @@ Add a screenshot of the terminal showing successful `terraform version` output.
 
 Add a screenshot of the terminal showing successful `az version` output.
 
-Add your screenshot here.
+
+
 
 ---
 
@@ -41,7 +43,8 @@ Add your screenshot here.
 
 Add a screenshot of the VS Code Extensions panel showing the HashiCorp Terraform extension installed and enabled.
 
-Add your screenshot here.
+<img width="1098" height="629" alt="Ass3-ss3" src="https://github.com/user-attachments/assets/0033f64f-6ac8-49d3-b6c9-29cafe1649ca" />
+
 
 ---
 
@@ -81,7 +84,9 @@ The `cloud-init.sh` file must contain the complete automated React application d
 
 Add a screenshot of VS Code showing the AzureRM provider, resource group, and Network Security Group configuration in `main.tf`.
 
-<img width="791" height="349" alt="Ass3-ss2" src="https://github.com/user-attachments/assets/2a7f7491-48e5-4437-bd81-98be7ffb619f" />
+<img width="691" height="508" alt="Ass3-ss4a" src="https://github.com/user-attachments/assets/fac56213-fc11-4ce3-b726-e518ddb77ee1" />
+<img width="636" height="577" alt="Ass3-ss4b" src="https://github.com/user-attachments/assets/c985eff4-23af-455b-9a1f-84efef404af8" />
+
 
 
 ---
@@ -92,7 +97,9 @@ Add a screenshot of VS Code showing the Linux virtual machine configuration, inc
 
 Ensure that passwords, private keys, account IDs, access tokens, and other sensitive information are hidden.
 
-Add your screenshot here.
+<img width="698" height="507" alt="Ass3-ss5" src="https://github.com/user-attachments/assets/49c53d24-d407-4d89-b46e-609e819acb4d" />
+<img width="630" height="270" alt="Ass3-ss5a" src="https://github.com/user-attachments/assets/3134db6f-5c75-474c-8e23-3d73a8c63378" />
+
 
 ---
 
@@ -102,7 +109,8 @@ Add a screenshot of VS Code showing the completed `cloud-init.sh` deployment scr
 
 Ensure that no passwords, Azure credentials, access tokens, SSH private keys, or other sensitive information are visible.
 
-Add your screenshot here.
+<img width="693" height="128" alt="Ass3-ss6" src="https://github.com/user-attachments/assets/14a3bcb6-fc61-4b52-9a89-5ab236af2b4b" />
+
 
 ---
 
@@ -110,7 +118,8 @@ Add your screenshot here.
 
 Add a screenshot of VS Code showing the public IP `output` block in `main.tf`.
 
-Add your screenshot here.
+<img width="509" height="215" alt="Ass3-ss7" src="https://github.com/user-attachments/assets/73f26bae-39b3-425b-bcb9-ccf3acc63ca3" />
+
 
 ---
 
@@ -126,7 +135,8 @@ Initialize the Terraform working directory and download the required provider co
 
 Add a screenshot of the terminal showing successful `terraform init` output.
 
-<img width="1098" height="629" alt="Ass3-ss3" src="https://github.com/user-attachments/assets/d4b2c280-b27e-4968-a34a-402c83518f92" />
+<img width="707" height="333" alt="Ass3-ss8" src="https://github.com/user-attachments/assets/28b2144c-ea0a-4fca-b6de-9c1910ae5052" />
+
 
 
 ---
@@ -143,8 +153,9 @@ Review the Terraform execution plan and provision the Azure infrastructure.
 
 Add a screenshot showing the Terraform plan summary and the proposed resources.
 
-<img width="691" height="508" alt="Ass3-ss4a" src="https://github.com/user-attachments/assets/f27d1967-9740-4393-9cf0-920bad185781" />
-<img width="636" height="577" alt="Ass3-ss4b" src="https://github.com/user-attachments/assets/3d8f0038-d5b5-49c1-a76b-1c41dd8a47de" />
+
+<img width="747" height="516" alt="Ass3-ss9" src="https://github.com/user-attachments/assets/e583afd8-9f47-4092-920a-cf08561c4a53" />
+
 
 
 ---
@@ -153,8 +164,9 @@ Add a screenshot showing the Terraform plan summary and the proposed resources.
 
 Add a screenshot showing successful `terraform apply` completion.
 
-<img width="698" height="507" alt="Ass3-ss5" src="https://github.com/user-attachments/assets/6d7b4e43-a074-4941-953a-f04800d8e296" />
-<img width="630" height="270" alt="Ass3-ss5a" src="https://github.com/user-attachments/assets/e0e05cc0-9b28-4652-b60e-90a5d28997ea" />
+
+<img width="766" height="419" alt="Ass3-ss10" src="https://github.com/user-attachments/assets/ba65bddb-ed58-4548-8ddb-ef5174677868" />
+
 
 
 ---
@@ -163,13 +175,14 @@ Add a screenshot showing successful `terraform apply` completion.
 
 Add a screenshot showing the VM public IP address returned by `terraform output`.
 
-Add your screenshot here.
+<img width="674" height="202" alt="Ass3-ss11" src="https://github.com/user-attachments/assets/9ce6a8c2-4f5d-4f1e-a160-33c4d9396fc3" />
+
 
 ## VM Public IP Address
 
 Record the public IP address displayed by `terraform output`.
 
-**VM Public IP Address:** Add the VM public IP address here
+
 
 ---
 
@@ -185,7 +198,9 @@ Connect to the Azure Linux virtual machine and confirm that the cloud-init/user 
 
 Add a screenshot of SSH terminal showing successful connection to the Azure VM and evidence that the React application deployment completed such as the deployed files in `/var/www/html` or successful cloud-init output.
 
-<img width="693" height="128" alt="Ass3-ss6" src="https://github.com/user-attachments/assets/bbc4e931-11d7-4da4-990c-6b41867cf0da" />
+<img width="995" height="433" alt="Ass3-ss12a" src="https://github.com/user-attachments/assets/f055d85e-1a70-4c4f-9704-14d65f9b7a13" />
+<img width="754" height="381" alt="Ass3-ss12b" src="https://github.com/user-attachments/assets/223bf9c7-090a-4f9f-a139-7cdf2db7075d" />
+
 
 
 ---
@@ -194,7 +209,8 @@ Add a screenshot of SSH terminal showing successful connection to the Azure VM a
 
 Add a screenshot of the terminal showing that the Nginx service is running successfully.
 
-Add your screenshot here.
+<img width="1137" height="428" alt="Ass3-ss13" src="https://github.com/user-attachments/assets/5a602064-b8bf-4bd9-95f2-5cb5ade5e149" />
+
 
 ---
 
@@ -212,7 +228,8 @@ Add a screenshot of the browser showing the deployed React application successfu
 
 Ensure that the Azure VM public IP is visible in the browser address bar.
 
-<img width="509" height="215" alt="Ass3-ss7" src="https://github.com/user-attachments/assets/bb4ebd49-200c-4f42-a62c-2ae3b3f04abd" />
+<img width="1339" height="553" alt="Ass3-ss14" src="https://github.com/user-attachments/assets/0788b3c2-01e2-4a50-badf-dc7f4a15f559" />
+
 
 
 ---
@@ -229,7 +246,8 @@ Remove all Azure resources created by Terraform after completing the application
 
 Add a screenshot of the terminal showing successful `terraform destroy` completion.
 
-<img width="707" height="333" alt="Ass3-ss8" src="https://github.com/user-attachments/assets/4b739cc3-3b27-4493-aa11-e05e25afe5f0" />
+<img width="1120" height="527" alt="Ass3-ss15" src="https://github.com/user-attachments/assets/afb39d35-95aa-4ed8-ae6f-9ed4dbeea6ed" />
+
 
 
 ---
@@ -239,7 +257,7 @@ Add a screenshot of the terminal showing successful `terraform destroy` completi
 =======
 #### Screenshot 9 — Terminal showing that Nginx is active and running
 
-<img width="747" height="516" alt="Ass3-ss9" src="https://github.com/user-attachments/assets/bf10d6a0-3e6c-48a7-9392-f04ccb30f63d" />
+
 
 
 ---
@@ -274,7 +292,7 @@ Check my DMI learning progress below. 🚀
 
 ### Screenshot 16 — LinkedIn Post
 
-Add a screenshot of your published LinkedIn post showing:
+
 
 - The React application deployment screenshot
 - The generated DMI Leaderboard message
@@ -282,7 +300,7 @@ Add a screenshot of your published LinkedIn post showing:
 
 Ensure that no passwords, private keys, account IDs, access tokens, or other sensitive information are visible.
 
-<img width="766" height="419" alt="Ass3-ss10" src="https://github.com/user-attachments/assets/d9961c30-1fba-4ddd-a9ad-73825e5f457d" />
+
 
 
 ---
@@ -297,7 +315,7 @@ Write a short summary of what you built and any issues you encountered and how y
 
 ---
 
->>>>>>> fa0fe3f5940441fa375cf0fca9c1c3c1fc878c30
+
 # Submission Instructions
 
 - Complete Tasks 0–7 in sequence.
