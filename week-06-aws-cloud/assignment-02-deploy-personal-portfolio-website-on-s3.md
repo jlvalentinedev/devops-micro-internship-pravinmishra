@@ -95,7 +95,7 @@ Load the site through the S3 website endpoint and confirm the homepage, images, 
 
 ---
 
-# Task 7 — (Optional) Update One Small Detail and Re-Upload
+# Task 7 — Update One Small Detail and Re-Upload
 
 ## Goal
 
@@ -103,9 +103,40 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 ### Evidence
 
-#### Screenshot 7 (optional) — Before and after views, or a browser view showing the updated text
+#### Screenshot 7 — Before and after views, or a browser view showing the updated text
 
 
+
+---
+# LinkedIn Post (Required)
+
+## Goal
+
+Publish a LinkedIn post sharing your experience deploying a portfolio website using Amazon S3 Static Website Hosting.
+
+Include:
+- A screenshot of your live portfolio website
+- Your live S3 Website Endpoint URL
+- A caption in your own words explaining what you deployed, what you learned about S3 hosting and public-read permissions, and any challenges you resolved
+- If you completed Task 7, describe how you updated and re-uploaded a website file
+
+Include the required hashtags, the credit note for your track, and the tags specified in the assignment guidelines.
+
+## Evidence
+
+#### LinkedIn Post URL
+
+Paste your LinkedIn post URL here:
+
+`Add your URL here`
+
+---
+
+#### Screenshot 8 — Published LinkedIn post showing your caption, live S3 website link, and portfolio screenshot
+
+Add your screenshot here.
+
+> **Privacy Note:** Do not expose credentials, billing details, or sensitive AWS account information.
 
 ---
 
@@ -119,6 +150,7 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 
 # Completion Checklist
 
+<<<<<<< HEAD
 - [✅] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
 - [✅] Task 2: Globally unique S3 bucket created (Screenshot 2)
 - [✅] Task 3: Website files uploaded with `index.html` at bucket root (Screenshot 3)
@@ -128,6 +160,18 @@ Edit a small visible detail, re-upload it to S3, and confirm the change appears 
 - [✅] Task 7: Optional small update re-uploaded and verified (Screenshot 7)
 - [✅] S3 Website Endpoint URL included
 - [✅] No sensitive account information exposed
+=======
+- [ ] Task 1: Template downloaded/cloned with `index.html` confirmed (Screenshot 1)
+- [ ] Task 2: Globally unique S3 bucket created (Screenshot 2)
+- [ ] Task 3: Website files uploaded with `index.html` at bucket root (Screenshot 3)
+- [ ] Task 4: Static website hosting enabled (Screenshot 4)
+- [ ] Task 5: Public-read bucket policy saved (Screenshot 5)
+- [ ] Task 6: Live website verified through the S3 website endpoint (Screenshot 6)
+- [ ] Task 7: Small update re-uploaded and verified (Screenshot 7)
+- [ ] S3 Website Endpoint URL included
+- [ ] No sensitive account information exposed
+- [ ] Linkedin post published
+>>>>>>> upstream/main
 
 ---
 
