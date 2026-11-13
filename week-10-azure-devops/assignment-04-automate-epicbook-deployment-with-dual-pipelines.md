@@ -70,7 +70,9 @@ Add a screenshot of the Infrastructure Pipeline run showing:
 * `backend_private_ip`
 * `mysql_fqdn`
 
-Add your screenshot here.
+<img width="747" height="237" alt="Ass4-ss1Real" src="https://github.com/user-attachments/assets/ecdffbdf-af54-41f8-be7c-7a4d220567db" />
+
+
 
 > Do not expose the MySQL password, Client Secret, Terraform state, SSH private key, or another sensitive value.
 
@@ -86,7 +88,8 @@ Add a screenshot of the Azure Portal Resource Group overview showing:
 * Azure Database for MySQL Flexible Server
 * Related EpicBook resources
 
-Add your screenshot here.
+<img width="1332" height="345" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/c9d58e2e-7bda-49e9-ad2d-d694506964e3" />
+
 
 > Hide sensitive IDs, credentials, and database details.
 
@@ -124,7 +127,8 @@ Run the Application Pipeline to configure the VMs, deploy EpicBook, and verify t
 
 Add a screenshot of the Application Pipeline run summary showing all required stages or jobs succeeded.
 
-Add your screenshot here.
+<img width="1099" height="380" alt="Ass4-ss3" src="https://github.com/user-attachments/assets/0273b790-3fc8-4d3b-9221-165d63ffc319" />
+
 
 ---
 
@@ -137,7 +141,8 @@ Add a screenshot of the Application Pipeline log showing:
 * Zero failed hosts
 * Zero unreachable hosts
 
-Add your screenshot here.
+<img width="973" height="178" alt="Ass4-ss4" src="https://github.com/user-attachments/assets/b82e98f0-08eb-49e5-8b13-d88857d99107" />
+
 
 > Do not expose the SSH private key, MySQL password, Client Secret, or complete database connection string.
 
@@ -162,7 +167,8 @@ Add a browser screenshot showing:
 
 The screenshot may show a product, cart, or successful order view.
 
-Add your screenshot here.
+<img width="1359" height="686" alt="Ass4-ss5" src="https://github.com/user-attachments/assets/b2840c6f-2de8-488f-b186-1243d82a7aae" />
+
 
 > Do not expose credentials or sensitive information.
 
@@ -172,15 +178,15 @@ Add your screenshot here.
 
 ## Frontend Application URL
 
-[Paste your final EpicBook application URL here.]
+http://16.170.247.69/
 
 ## Infrastructure Repository URL
 
-[Paste your Infrastructure Repository URL here.]
+
 
 ## Application Repository URL
 
-[Paste your Application Repository URL here.]
+
 
 ---
 
@@ -188,7 +194,7 @@ Add your screenshot here.
 
 Write a short explanation of why separate Infrastructure and Application Repositories were used.
 
-[Write your explanation here.]
+I successfully automated the EpicBook deployment on Microsoft Azure using two separate GitHub repositories and two Azure DevOps pipelines. I configured Terraform to provision the required Azure infrastructure and used Ansible to configure the frontend and backend servers, prepare the database connection, configure Nginx, and deploy the EpicBook application. I created and executed separate Infrastructure and Application pipelines, both of which completed successfully. This demonstrated how infrastructure provisioning and application deployment can be automated independently using Terraform, Ansible, GitHub, and Azure DevOps.
 
 ---
 
@@ -201,7 +207,7 @@ Write a short explanation of how the following non-sensitive Terraform outputs w
 * `backend_private_ip`
 * `mysql_fqdn`
 
-[Write your explanation here.]
+Separate Infrastructure and Application repositories were used to maintain a clear separation of responsibilities. The Infrastructure repository contains Terraform configurations for provisioning Azure resources, while the Application repository contains Ansible playbooks and application deployment configurations. This separation makes the project easier to maintain, troubleshoot, update, and manage independently while allowing both pipelines to work together to deliver the complete application.
 
 ---
 
@@ -216,11 +222,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+
 
 Your post must include:
 
