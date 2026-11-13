@@ -28,7 +28,8 @@ Add a screenshot of the cloud console showing:
 - SSH port 22 enabled from your IP address
 - HTTP port 80 enabled from Anywhere
 
-Add your screenshot here.
+<img width="1357" height="639" alt="Ass1-ss1" src="https://github.com/user-attachments/assets/6c477232-4568-48d5-895b-12adade6823e" />
+
 
 ---
 
@@ -50,7 +51,7 @@ cat /var/log/cloud-init-output.log
 
 The visible output must show Docker installation activity.
 
-Add your screenshot here.
+
 
 ---
 
@@ -76,7 +77,8 @@ and
 docker ps
 ```
 
-Add your screenshot here.
+<img width="698" height="157" alt="Ass1-ss3" src="https://github.com/user-attachments/assets/ab387f38-05b4-4166-a127-aef7b09e6a52" />
+
 
 ---
 
@@ -92,7 +94,8 @@ Download the static website source code.
 
 Add a screenshot of the terminal showing the contents of the `Azure-Static-Website` project directory after cloning the repository.
 
-Add your screenshot here.
+<img width="854" height="700" alt="Ass1-ss4" src="https://github.com/user-attachments/assets/43f129e5-2dc3-45bb-b6e1-03966b99081b" />
+
 
 ---
 
@@ -114,7 +117,8 @@ cat Dockerfile
 
 The Dockerfile must use `nginx:alpine`, copy the website files to the Nginx web root, and expose port 80.
 
-Add your screenshot here.
+<img width="680" height="255" alt="Ass1-ss5" src="https://github.com/user-attachments/assets/6d3a4de9-8afd-4144-b196-490118f74002" />
+
 
 ---
 
@@ -136,7 +140,8 @@ docker images
 
 The output must include the `static-site` image with the `latest` tag.
 
-Add your screenshot here.
+<img width="1313" height="225" alt="Ass1-ss6" src="https://github.com/user-attachments/assets/36eb93ce-422b-42df-8605-dd6132a92fe0" />
+
 
 ---
 
@@ -162,7 +167,8 @@ The output must show the running `static-site` container with the port mapping:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="1286" height="198" alt="Ass1-ss7" src="https://github.com/user-attachments/assets/b9bbf818-1c4c-4676-8d53-0d1e20079e70" />
+
 
 ---
 
@@ -182,7 +188,8 @@ Add a screenshot of the terminal showing the output of:
 curl ifconfig.me
 ```
 
-Add your screenshot here.
+<img width="1126" height="144" alt="Ass1-ss8" src="https://github.com/user-attachments/assets/06aa2272-19cb-4689-83fb-ab9ff1abbb25" />
+
 
 ---
 
@@ -192,13 +199,14 @@ Add a screenshot of the browser showing the deployed static website.
 
 Ensure that the VM public IP address is visible in the browser address bar.
 
-Add your screenshot here.
+<img width="1355" height="691" alt="Ass1-ss9" src="https://github.com/user-attachments/assets/b7100e9f-a0be-4bb1-8943-4a4f3415c1a5" />
+
 
 ---
 
 # Public Application URL
 
-**VM Public IP / Application URL:** `Add your application URL here`
+**VM Public IP / Application URL:** `
 
 ---
 
@@ -210,7 +218,7 @@ Create a LinkedIn post describing what you deployed, the deployment process, and
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn Post URL here`
+**LinkedIn Post URL:** `
 
 #### LinkedIn Post Screenshot
 
