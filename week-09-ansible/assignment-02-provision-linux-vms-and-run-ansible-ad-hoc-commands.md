@@ -24,19 +24,21 @@ This project will use the Git repository and Ansible controller prepared in Assi
 
 #### Screenshot 1 — Terminal showing the complete `ansible-adhoc-lab` project structure
 
-Add your screenshot here.
+<img width="879" height="380" alt="Ass2-ss1" src="https://github.com/user-attachments/assets/4325294b-aa9f-43c9-82e6-b89c94a74be7" />
+
 
 ---
 
 #### Screenshot 2 — Terminal showing `git status --short` with the new project files and updated `.gitignore`
 
-Add your screenshot here.
+<img width="775" height="251" alt="Ass2-ss2" src="https://github.com/user-attachments/assets/2dd33e8d-0dd5-48ea-887e-0e03987f059b" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -57,25 +59,28 @@ Do not configure both providers for this assignment.
 
 #### Screenshot 3 — Terraform configuration showing the three or four server roles and the `for_each` or `count` implementation
 
-Add your screenshot here.
+<img width="985" height="498" alt="Ass2-ss3" src="https://github.com/user-attachments/assets/5c40cffc-ce2e-49cc-81e9-ca245863b350" />
+
 
 ---
 
 #### Screenshot 4 — Terraform configuration showing SSH restricted to the controller IP and HTTP allowed only for web hosts
 
-Add your screenshot here.
+<img width="1366" height="709" alt="Ass2-ss4" src="https://github.com/user-attachments/assets/5f25a266-c14d-4ac6-9816-f0e69535245f" />
+
 
 ---
 
 #### Screenshot 5 — Terraform output configuration showing how public IP addresses are associated with the server roles
 
-Add your screenshot here.
+<img width="1366" height="555" alt="Ass2-ss5" src="https://github.com/user-attachments/assets/6aaab7fb-b4ea-4dcb-9bb4-a11051e8580d" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -89,25 +94,28 @@ Initialize and validate the Terraform configuration, review the execution plan, 
 
 #### Screenshot 6 — Final `terraform apply` output showing `Apply complete`
 
-Add your screenshot here.
+<img width="1339" height="501" alt="Ass2-ss6" src="https://github.com/user-attachments/assets/b2bbd8ca-a192-466c-916e-ad021aa8dba2" />
+
 
 ---
 
 #### Screenshot 7 — `terraform output public_ips` showing the role-to-IP mapping for all three or four VMs
 
-Add your screenshot here.
+<img width="1338" height="423" alt="Ass2-ss7" src="https://github.com/user-attachments/assets/90585ddf-1281-43fa-8b61-aa1791b8deb6" />
+
 
 ---
 
 #### Screenshot 8 — Azure Portal or AWS Management Console showing all three or four VMs in the `Running` state, with their role-based names visible
 
-Add your screenshot here.
+<img width="1358" height="413" alt="Ass2-ss8" src="https://github.com/user-attachments/assets/22991971-7523-44de-b6cd-fb3886ba7fa2" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -121,13 +129,14 @@ Verify that each managed VM can be accessed from the Ansible controller using SS
 
 #### Screenshot 9 — Terminal showing successful SSH hostname output from all VMs
 
-Add your screenshot here.
+<img width="741" height="275" alt="Ass2-ss9" src="https://github.com/user-attachments/assets/698b1e01-ca05-4e5a-846a-e6355989e828" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -143,19 +152,22 @@ The inventory allows Ansible to run commands against all servers, or only specif
 
 #### Screenshot 10 — `inventory.ini` showing the `web`, `app`, and `db` groups
 
-Add your screenshot here.
+<img width="1272" height="381" alt="Ass2-ss10" src="https://github.com/user-attachments/assets/5b3d53e7-b2c9-4172-8694-bf9edc0d7e4c" />
+
 
 ---
 
 #### Screenshot 11 — Output of `ansible-inventory -i inventory.ini --graph`
 
-Add your screenshot here.
+<img width="1160" height="263" alt="Ass2-ss11" src="https://github.com/user-attachments/assets/8817b293-6f0f-4c46-b23c-3ea0c9e410fa" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
+
 
 ---
 
@@ -171,43 +183,49 @@ This task proves that the inventory is working and that Ansible can control mult
 
 #### Screenshot 12 — Output of `ansible all -i inventory.ini -m ping`
 
-Add your screenshot here.
+<img width="1069" height="475" alt="Ass2-ss12" src="https://github.com/user-attachments/assets/8eb60c6d-acc5-456d-adaa-b669595d648b" />
+
 
 ---
 
 #### Screenshot 13 — Output of `ansible all -i inventory.ini -m command -a "uptime"`
 
-Add your screenshot here.
+<img width="1197" height="295" alt="Ass2-ss13" src="https://github.com/user-attachments/assets/8b451e0c-ccb2-4dd8-aa09-be6648c1fedf" />
+
 
 ---
 
 #### Screenshot 14 — Output of `ansible web -i inventory.ini -m apt -a "name=nginx state=present update_cache=yes" --become`
 
-Add your screenshot here.
+<img width="1042" height="634" alt="Ass2-ss14" src="https://github.com/user-attachments/assets/f6cb9303-485f-444a-915f-8941e6f210a4" />
+
 
 ---
 
 #### Screenshot 15 — Output of `ansible web -i inventory.ini -m service -a "name=nginx state=started enabled=yes" --become`
 
-Add your screenshot here.
+<img width="1043" height="626" alt="Ass2-ss15" src="https://github.com/user-attachments/assets/5ee14411-bd4e-4d28-80cb-a3e9f08d2663" />
+
 
 ---
 
 #### Screenshot 16 — Output of `ansible all -i inventory.ini -m apt -a "name=htop state=present update_cache=yes" --become`
 
-Add your screenshot here.
+<img width="974" height="597" alt="Ass2-ss16" src="https://github.com/user-attachments/assets/a9121ea8-16b8-4567-b4fd-a4f6c5b63aeb" />
+
 
 ---
 
 #### Screenshot 17 — Output of `ansible web -i inventory.ini -m command -a "systemctl is-active nginx"`
 
-Add your screenshot here.
+<img width="867" height="234" alt="Ass2-ss17" src="https://github.com/user-attachments/assets/8ee98bf3-e146-4425-8ab7-411bfd199c72" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -219,13 +237,13 @@ Add your task notes here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 
@@ -235,37 +253,41 @@ Answer the following in your own words:
 
 **1. What is the purpose of an Ansible inventory file?**
 
-Add your answer here.
+The Ansible inventory file identifies the managed servers Ansible will control. It contains host information, connection details, and groups such as web, app, and db. This allows me to run commands against individual servers, specific groups, or all servers without listing their addresses every time.
 
 ---
 
 **2. What is the difference between the `web`, `app`, and `db` groups in your inventory?**
 
-Add your answer here.
+web contains web servers that handle HTTP requests. In this lab, web1 and web2 run Nginx.
+
+app contains application servers where application logic would run. In this lab, the server is app1.
+
+db contains database servers intended to store and manage application data. In this lab, the server is db1.
 
 ---
 
 **3. What does the Ansible `ping` module verify?**
 
-Add your answer here.
+The Ansible ping module checks whether Ansible can connect to a managed host over SSH and execute Python successfully. A successful result returns "ping": "pong". It is not the same as sending an ICMP network ping.
 
 ---
 
 **4. Why do package installation commands require `--become`?**
 
-Add your answer here.
+The --become option enables privilege escalation, usually to the root user. Installing system packages, starting system services, and enabling services at boot generally require administrative privileges. Without --become, these operations may fail with permission errors.
 
 ---
 
 **5. When would you use an ad-hoc command instead of a playbook?**
 
-Add your answer here.
+Ad-hoc commands are useful for quick, one-time tasks such as checking uptime, testing connectivity, installing a package, or checking service status. Playbooks are better for repeatable, multi-step automation that needs to be documented, version-controlled, reused, or shared across environments.
 
 ---
 
 **6. What is one challenge you faced while setting up SSH or inventory, and how did you fix it?**
 
-Add your answer here.
+During this lab, SSH connections initially timed out because the AWS security group restricted SSH access to a specific IP address. I updated the security-group rule to allow SSH from other IPv4 addresses, which restored connectivity. I then used ANSIBLE_HOST_KEY_CHECKING=False temporarily for the Ansible commands to avoid interruptions from first-time SSH host-key prompts. After this, all four servers returned successful Ansible ping results.
 
 ---
 
