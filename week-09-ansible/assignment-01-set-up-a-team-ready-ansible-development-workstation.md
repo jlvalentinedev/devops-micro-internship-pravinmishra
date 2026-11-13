@@ -24,7 +24,8 @@ Create the assignment workspace, initialize a Git repository, prepare the requir
 
 #### Screenshot 1 — Terminal showing the `ansible-onboarding` path, `ls -la` output, and `git status` confirming the Git repository is on the `main` branch
 
-Add your screenshot here.
+<img width="584" height="372" alt="Ass1-ss1" src="https://github.com/user-attachments/assets/18a1c5d2-3aca-4aab-8077-ce76011b506c" />
+
 
 ---
 
@@ -38,7 +39,9 @@ Create an isolated Python virtual environment and install Ansible and the requir
 
 #### Screenshot 2 — Terminal showing the active `(.venv)` environment, `which ansible`, `ansible --version`, `ansible-lint --version`, `yamllint --version`, and `pre-commit --version`
 
-Add your screenshot here.
+<img width="1039" height="222" alt="Ass1-ss2" src="https://github.com/user-attachments/assets/b1260df3-1020-4a21-a8b7-8f2b90972874" />
+<img width="1130" height="361" alt="Ass1-ss2b" src="https://github.com/user-attachments/assets/3858605e-0949-45ed-afd6-a012fdf8c5d1" />
+
 
 ---
 
@@ -52,13 +55,15 @@ Configure Visual Studio Code to use the project’s Python virtual environment a
 
 #### Screenshot 3 — VS Code Extensions panel showing the Ansible, YAML, and Python extensions installed
 
-Add your screenshot here.
+<img width="1338" height="642" alt="Ass1-ss3" src="https://github.com/user-attachments/assets/aec5fc9d-d126-4a80-8148-acee714484d0" />
+
 
 ---
 
 #### Screenshot 4 — VS Code showing `.vscode/settings.json` and `.editorconfig` open side by side, with the required settings clearly visible
 
-Add your screenshot here.
+<img width="1366" height="685" alt="Ass1-ss4" src="https://github.com/user-attachments/assets/eb07ad46-6a3c-4593-8500-be04684a96da" />
+
 
 ---
 
@@ -72,13 +77,15 @@ Create a reusable `ansible.cfg` file containing the default settings that will b
 
 #### Screenshot 5 — `ansible.cfg` open in VS Code or another editor, showing the complete configuration
 
-Add your screenshot here.
+<img width="1366" height="518" alt="Ass1-ss5" src="https://github.com/user-attachments/assets/e2a386b2-427b-4168-b068-79d678eb4670" />
+
 
 ---
 
 #### Screenshot 6 — Terminal showing `ansible --version` with the `ansible.cfg` path and the output of `ansible-config dump --only-changed`
 
-Add your screenshot here.
+<img width="1025" height="485" alt="Ass1-ss6" src="https://github.com/user-attachments/assets/2a75d2eb-a6c3-4b6a-b46b-573c46bec96d" />
+
 
 ---
 
@@ -92,7 +99,8 @@ Prepare SSH key authentication, load the key into the SSH agent, configure reusa
 
 #### Screenshot 7 — Terminal showing `ssh-add -l` with the ED25519 key loaded and the SSH configuration verification output
 
-Add your screenshot here.
+<img width="970" height="244" alt="Ass1-ss7" src="https://github.com/user-attachments/assets/9b56f990-9319-4abe-91ac-599e0f851acb" />
+
 
 ---
 
@@ -106,7 +114,9 @@ Configure your Git identity and install pre-commit hooks that validate YAML and 
 
 #### Screenshot 8 — Terminal showing your Git full name, Git email, default branch, successful `pre-commit install` output, and `.git/hooks/pre-commit`
 
-Add your screenshot here.
+<img width="1058" height="120" alt="Ass1-ss8" src="https://github.com/user-attachments/assets/5dd65b13-02b7-431c-9bf6-c63765f8ece7" />
+<img width="1019" height="626" alt="Ass1-ss8b" src="https://github.com/user-attachments/assets/d310123a-2629-4132-96ce-496aabeb90e4" />
+
 
 ---
 
@@ -120,13 +130,17 @@ Verify that Ansible, the linting tools, Git hooks, SSH agent, and Git ignore rul
 
 #### Screenshot 9 — Terminal showing `pre-commit run --all-files` completing successfully
 
-Add your screenshot here.
+<img width="850" height="177" alt="Ass1-ss9" src="https://github.com/user-attachments/assets/216b2275-a368-4917-a3aa-bbd5fb723a4b" />
+
+
 
 ---
 
 #### Screenshot 10 — Terminal showing `ansible --version` with the project configuration path and `ssh-add -l` with the ED25519 key loaded
 
-Add your screenshot here.
+<img width="985" height="211" alt="Ass1-ss10" src="https://github.com/user-attachments/assets/489fe1ec-3445-43f7-a74b-42b5a51d869b" />
+<img width="801" height="117" alt="Ass1-ss10b" src="https://github.com/user-attachments/assets/b9522f98-352c-4530-ab23-b33e6e772149" />
+
 
 ---
 
@@ -140,13 +154,14 @@ Document the completed Ansible workstation setup and create a reusable checklist
 
 #### Screenshot 11 — Terminal showing the final `ansible-onboarding` project structure
 
-Add your screenshot here.
+<img width="370" height="437" alt="Ass1-ss11" src="https://github.com/user-attachments/assets/d68a71f3-3ef6-4edb-b666-aff6d27e223f" />
+
 
 ---
 
 #### Screenshot 12 — VS Code Markdown preview showing your full name, project summary, and part of the “New Machine? Do This” checklist
 
-Add your screenshot here.
+
 
 ---
 
@@ -162,7 +177,7 @@ Get your progress link from **DMI Leaderboard → Your name → Share your progr
 
 #### Screenshot 13 — Published WhatsApp Status showing your Ansible workstation screenshot, caption, and personal DMI progress link
 
-Add your screenshot here.
+
 
 > **Privacy Note:** Do not display private keys, credentials, private messages, phone numbers, or other sensitive information.
 
@@ -174,25 +189,25 @@ Answer the following in your own words:
 
 **1. What is one feature that makes your workstation setup team-friendly?**
 
-Add your answer here.
+Using a requirements.txt file makes the setup team-friendly because other team members can install the same Python dependencies and Ansible version, helping everyone maintain a consistent development environment.
 
 ---
 
 **2. What is one pitfall you avoided while completing the setup?**
 
-Add your answer here.
+I avoided installing Ansible globally, which could cause dependency conflicts with other Python projects or system-managed packages. Instead, I used a dedicated virtual environment for the project.
 
 ---
 
 **3. Why should Ansible be installed inside a Python virtual environment?**
 
-Add your answer here.
+A Python virtual environment isolates Ansible and its dependencies from the system Python installation. This prevents version conflicts, makes dependency management easier, and allows the project environment to be recreated consistently.
 
 ---
 
 **4. Why must SSH private keys and `.venv/` remain outside version control?**
 
-Add your answer here.
+SSH private keys must remain outside version control because they contain sensitive credentials that could allow unauthorized access to servers. The .venv/ directory should also be excluded because it contains locally installed dependencies, can be recreated from the requirements file, and may differ across operating systems.
 
 ---
 
