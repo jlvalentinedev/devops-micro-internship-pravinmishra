@@ -26,7 +26,8 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+<img width="784" height="100" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/6f03e43c-09e5-4a71-a824-a3f3e86b55b2" />
+
 
 ---
 
@@ -38,7 +39,8 @@ Add a screenshot of the terminal showing the created host directory:
 $HOME/nginx-logs
 ```
 
-Add your screenshot here.
+<img width="784" height="100" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/47237afd-a813-4a4b-9fbf-441be9d5dc92" />
+
 
 ---
 
@@ -56,7 +58,8 @@ The output must show the `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="1036" height="172" alt="Ass4-ss3" src="https://github.com/user-attachments/assets/b1e927cd-063e-420a-ab82-bff7241b5371" />
+
 
 ---
 
@@ -70,7 +73,8 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="845" height="497" alt="Ass4-ss4" src="https://github.com/user-attachments/assets/ba8f484f-ea28-435d-88e4-10772b5e1e93" />
+
 
 ---
 
@@ -84,7 +88,8 @@ $HOME/nginx-logs
 
 The output must show `access.log`, `error.log`, and an access-log entry created when you opened the Nginx page.
 
-Add your screenshot here.
+<img width="734" height="115" alt="Ass4-ss5" src="https://github.com/user-attachments/assets/b8e67468-5023-48bb-92ad-2b3b8b4d088d" />
+
 
 ---
 
@@ -97,7 +102,8 @@ docker stop myweb
 docker rm myweb
 ```
 
-Add your screenshot here.
+<img width="525" height="162" alt="Ass4-ss6" src="https://github.com/user-attachments/assets/3dc5d86a-f2cc-471c-8513-49928909b2c3" />
+
 
 ---
 
@@ -111,7 +117,8 @@ $HOME/nginx-logs
 
 The access log must retain its content after the container has been removed.
 
-Add your screenshot here.
+<img width="720" height="117" alt="Ass4-ss7" src="https://github.com/user-attachments/assets/89b5e2a5-c4ab-4558-9764-72dc9c2b931b" />
+
 
 ---
 
@@ -127,7 +134,8 @@ Deploy backend and frontend containers that share data through a named Docker Vo
 
 Add a screenshot of the terminal showing the `two-tier-app` project structure, including separate `backend` and `frontend` directories with a `Dockerfile` and `index.js` file in each.
 
-Add your screenshot here.
+<img width="618" height="242" alt="Ass4-ss8" src="https://github.com/user-attachments/assets/525978d9-6893-4316-ba71-2056597255a3" />
+
 
 ---
 
@@ -139,7 +147,8 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+<img width="693" height="218" alt="Ass4-ss9" src="https://github.com/user-attachments/assets/78efdbbb-83d5-4fbd-8381-7d49c16da8a0" />
+
 
 ---
 
@@ -151,7 +160,8 @@ Add a screenshot of the terminal showing `shared-data` in:
 docker volume ls
 ```
 
-Add your screenshot here.
+<img width="747" height="196" alt="Ass4-ss10" src="https://github.com/user-attachments/assets/e22460bb-7e34-43b9-9a5f-7a4030e19520" />
+
 
 ---
 
@@ -159,7 +169,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed backend `Dockerfile`.
 
-Add your screenshot here.
+<img width="780" height="444" alt="Ass4-ss11" src="https://github.com/user-attachments/assets/39866a07-765d-4782-ac1e-c32a3369c492" />
+
 
 ---
 
@@ -167,7 +178,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `backend-app:latest` image build.
 
-Add your screenshot here.
+<img width="701" height="293" alt="Ass4-ss12" src="https://github.com/user-attachments/assets/c6115236-b9fd-4ef9-b49b-bc3f4afec1df" />
+
 
 ---
 
@@ -181,7 +193,8 @@ docker ps
 
 The output must show the running `backend` container.
 
-Add your screenshot here.
+<img width="1020" height="156" alt="Ass4-ss13" src="https://github.com/user-attachments/assets/df2cc5f0-3efb-4af5-b513-23f359ca91dd" />
+
 
 ---
 
@@ -189,7 +202,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the completed frontend `Dockerfile`.
 
-Add your screenshot here.
+<img width="735" height="439" alt="Ass4-ss14" src="https://github.com/user-attachments/assets/9f576a74-325c-49d8-9613-6c7ef171c569" />
+
 
 ---
 
@@ -197,7 +211,8 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing successful completion of the `frontend-app:latest` image build.
 
-Add your screenshot here.
+<img width="793" height="200" alt="Ass4-ss15" src="https://github.com/user-attachments/assets/4b614019-007f-4bc6-8c2b-ef03ead14f50" />
+
 
 ---
 
@@ -215,7 +230,8 @@ The output must show both `backend` and `frontend` containers running. Only `fro
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="1024" height="222" alt="Ass4-ss16" src="https://github.com/user-attachments/assets/7904776f-1574-415a-a1e6-74ec84dfb083" />
+
 
 ---
 
@@ -229,7 +245,8 @@ The output must include:
 Data written: Hello from Backend!
 ```
 
-Add your screenshot here.
+<img width="1018" height="262" alt="Ass4-ss17" src="https://github.com/user-attachments/assets/7d8368d3-8f3a-4c40-b306-1d18925fbe68" />
+
 
 ---
 
@@ -243,7 +260,8 @@ Hello from Backend!
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="868" height="266" alt="Ass4-ss18" src="https://github.com/user-attachments/assets/316ce08f-8946-4fc5-ab85-4fbde42d47af" />
+
 
 ---
 
@@ -257,7 +275,8 @@ Test Data 1
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="975" height="370" alt="Ass4-ss19" src="https://github.com/user-attachments/assets/37947b35-8490-4070-bf5e-37444343dcd8" />
+
 
 ---
 
@@ -271,7 +290,8 @@ Test Data 2 - New Update
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="926" height="360" alt="Ass4-ss20" src="https://github.com/user-attachments/assets/d2b05e01-61dc-40f1-8485-5bcc93b77afe" />
+
 
 ---
 
@@ -279,7 +299,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing the `frontend` and `backend` containers removed and recreated using the same `shared-data` Docker Volume.
 
-Add your screenshot here.
+
 
 ---
 
@@ -295,7 +315,8 @@ This proves that the `shared-data` Docker Volume outlived both application conta
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="877" height="445" alt="Ass4-ss22" src="https://github.com/user-attachments/assets/7d9530d2-0fb9-43f4-99a4-f584425969f6" />
+
 
 ---
 
@@ -308,13 +329,19 @@ Write a short explanation covering:
 - How Task 2 proved Docker Volume persistence
 - Why Docker Volumes are commonly used for application data
 
-Write your explanation here.
+1. **Bind Mount vs Docker Volume:** A Bind Mount connects a specific directory or file on the host machine to a container, while a Docker Volume is managed by Docker and stored in its dedicated storage area.
+
+2. **Task 1 — Bind Mount Persistence:** Task 1 demonstrated Bind Mount persistence by storing data in a host directory, deleting or recreating the container, and confirming that the data remained available.
+
+3. **Task 2 — Docker Volume Persistence:** Task 2 demonstrated Docker Volume persistence by storing data in a Docker-managed volume and confirming that the data remained intact even after the container was removed and recreated.
+
+4. **Why Docker Volumes Are Commonly Used:** Docker Volumes are commonly used for application data because they persist independently of containers, are managed by Docker, support easier backups and migration, and provide reliable storage for databases and other stateful applications.
 
 ---
 
 # Public Application URL
 
-**Application URL:** `Add your VM public IP URL here`
+**Application URL:** 
 
 ---
 
@@ -330,7 +357,7 @@ Create a LinkedIn post about Docker Volumes and Bind Mounts, including one diffe
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
