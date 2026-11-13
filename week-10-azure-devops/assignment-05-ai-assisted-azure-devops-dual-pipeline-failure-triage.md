@@ -42,17 +42,18 @@ Confirm that both EpicBook pipelines are healthy and place the supplied assignme
 
 Terminal output showing the latest completed Infrastructure and Application Pipeline runs with successful results.
 
-Add your screenshot here.
+<img width="1122" height="411" alt="Ass5-ss1" src="https://github.com/user-attachments/assets/001f0e02-f871-444b-a16f-bcf6538441f1" />
+
 
 ## Notes
 
 ### 1. What proves that both pipelines were healthy before the drill?
 
-[Write your answer here.]
+Both the Infrastructure and Application pipelines had completed successfully on the main branch. Their latest run results showed succeeded.
 
 ### 2. Why is a healthy baseline necessary before introducing a controlled failure?
 
-[Write your answer here.]
+It establishes that both pipelines were working before the drill, making it easier to identify the effect of the intentional failure and distinguish it from pre-existing problems.
 
 ---
 
@@ -68,21 +69,22 @@ Configure the supplied project context and verify the safety boundaries Claude m
 
 `CLAUDE.md` open in the editor with the Project Overview, Incident Workflow, Safety Rules, and Output Rules visible.
 
-Add your screenshot here.
+<img width="1253" height="716" alt="Ass5-ss2" src="https://github.com/user-attachments/assets/ca497665-7b0d-45e4-9124-41ba3ea5798c" />
+
 
 ## Notes
 
 ### 1. Why does Claude need project-specific operational context?
 
-[Write your answer here.]
+It helps Claude understand the project structure, pipeline responsibilities, incident workflow, and operational boundaries so that its diagnosis and recommendations are relevant.
 
 ### 2. Which rules keep the human responsible for the recovery action?
 
-[Write your answer here.]
+Claude must only gather evidence, analyze failures, and recommend fixes. A human must review and approve the recommendation and manually apply the recovery action.
 
 ### 3. Which rules protect pipeline credentials and application secrets?
 
-[Write your answer here.]
+Claude must not expose tokens, passwords, private keys, service connection credentials, or other secrets. It must use sanitized logs and never reproduce sensitive information.
 
 ---
 
@@ -98,7 +100,8 @@ Configure the supplied Bash script and verify that it retrieves and classifies e
 
 Editor showing the script configuration variables, report filenames, check-function array, and read-only log-retrieval functions. Ensure that no token is visible.
 
-Add your screenshot here.
+<img width="1321" height="596" alt="Ass5-ss3" src="https://github.com/user-attachments/assets/7280c369-a742-4ab0-97b7-d1b50c88bfcb" />
+
 
 ---
 
@@ -106,29 +109,30 @@ Add your screenshot here.
 
 Terminal showing successful Bash syntax validation and executable file permission.
 
-Add your screenshot here.
+<img width="1114" height="230" alt="Ass5-ss4" src="https://github.com/user-attachments/assets/d3cd2ac3-de6b-4cc4-a653-76f4e57d00eb" />
+
 
 ## Notes
 
 ### 1. Why are pipeline metadata and step console logs handled separately?
 
-[Write your answer here.]
+Pipeline metadata identifies the run's status, result, branch, and completion time, while console logs provide detailed information about what happened during individual pipeline steps.
 
 ### 2. How does the script obtain the actual console logs?
 
-[Write your answer here.]
+It uses Azure DevOps authenticated API requests to retrieve pipeline run information, identify the relevant timeline records and log references, and download the corresponding console logs.
 
 ### 3. How does the check-function array control the classification loop?
 
-[Write your answer here.]
+The array stores the diagnostic check functions. The classification loop executes each function against the retrieved evidence to identify matching failure categories.
 
 ### 4. What prevents a failed but unmatched run from being reported as healthy?
 
-[Write your answer here.]
+The script checks the pipeline run result independently of category matching. A failed run remains a failure even when no known pattern matches, in which case it is classified as an unclassified pipeline failure.
 
 ### 5. Why are different exit codes useful to another automation tool?
 
-[Write your answer here.]
+They allow another tool to distinguish healthy runs, warnings, pipeline failures, and script or configuration errors without interpreting the entire report.
 
 ---
 
@@ -144,17 +148,18 @@ Run the supplied script against the healthy baseline and verify the initial pipe
 
 Healthy pipeline report showing your Full Name, both successful pipelines, Overall Status `HEALTHY`, and captured exit code `0`.
 
-Add your screenshot here.
+<img width="1142" height="647" alt="Ass5-ss5" src="https://github.com/user-attachments/assets/c38d69b1-bc95-4428-95ea-086d5cf13fa8" />
+
 
 ## Notes
 
 ### 1. What evidence proves that both pipelines are healthy?
 
-[Write your answer here.]
+Both pipelines have completed runs with a succeeded result, the report shows Overall Status: HEALTHY, and the script returns exit code 0.
 
 ### 2. Why must the baseline exit code be verified before the incident drill?
 
-[Write your answer here.]
+It confirms that the script can successfully retrieve and analyze pipeline evidence before the controlled failure is introduced. This prevents script errors from being mistaken for pipeline failures.
 
 ---
 
@@ -170,7 +175,8 @@ Configure the supplied Claude Code skill and verify that it runs the Bash tool a
 
 `SKILL.md` showing the frontmatter, manual-invocation setting, narrowly scoped tools, safety rules, and required output structure.
 
-Add your screenshot here.
+<img width="1341" height="639" alt="Ass5-ss6" src="https://github.com/user-attachments/assets/c975c88e-4b30-485e-aa45-d9622910587a" />
+
 
 ---
 
@@ -178,25 +184,26 @@ Add your screenshot here.
 
 Healthy `/pipeline-triage` result showing that both pipelines are healthy and no fix is required.
 
-Add your screenshot here.
+<img width="980" height="727" alt="Ass5-ss7" src="https://github.com/user-attachments/assets/580f9594-f8d9-4552-bb43-780bece33159" />
+
 
 ## Notes
 
 ### 1. Why is `disable-model-invocation: true` appropriate for this skill?
 
-[Write your answer here.]
+It ensures the skill runs only when explicitly invoked by a human, preventing Claude from automatically initiating pipeline triage.
 
 ### 2. Why should the skill avoid broad Bash approval?
 
-[Write your answer here.]
+Broad Bash approval could allow unintended commands that modify files, infrastructure, or pipeline configurations. Restricting Bash to the approved triage command reduces that risk.
 
 ### 3. What work is performed by Bash, and what work is performed by Claude?
 
-[Write your answer here.]
+Bash retrieves pipeline metadata and sanitized console logs, classifies failures, and generates reports. Claude interprets the evidence, explains the likely cause, and recommends a recovery action for human review.
 
 ### 4. Why are permission rules required in addition to written safety instructions?
 
-[Write your answer here.]
+Written instructions guide Claude's behavior, while permission rules enforce restrictions at the tool-execution level. Both provide stronger protection against unintended actions.
 
 ---
 
@@ -212,25 +219,26 @@ Create a controlled Application Pipeline failure that can be diagnosed without c
 
 Failed Application Pipeline run showing the temporary branch, failed status, failed step, and relevant non-sensitive error evidence.
 
-Add your screenshot here.
+<img width="759" height="607" alt="Ass5-ss8" src="https://github.com/user-attachments/assets/09deea88-3872-4058-97d5-d21e2d9e6e22" />
+
 
 ## Notes
 
 ### 1. What exact failure did you introduce?
 
-[Write your answer here.]
+I introduced an invalid dependency named not-a-real-package-xyz with version 1.0.0 into the application's package.json, causing dependency installation to fail.
 
 ### 2. Which category should detect it?
 
-[Write your answer here.]
+Dependency Installation Failure.
 
 ### 3. Why is the failure safe and easily reversible?
 
-[Write your answer here.]
+It is introduced on a separate temporary branch and does not require modifying AWS infrastructure or production data. The invalid dependency can be removed through a Git revert.
 
 ### 4. How did you prevent the deliberate failure from reaching `main` or changing the deployed application?
 
-[Write your answer here.]
+I isolated the change on the temporary drill/pipeline-failure branch and kept it separate from main. The drill does not require deployment to production.
 
 ---
 
@@ -246,25 +254,26 @@ Use `/pipeline-triage` to classify the failed Application Pipeline without allow
 
 `/pipeline-triage` output and saved incident report showing the affected pipeline, failure category, sanitized evidence, recommendation, and your Full Name.
 
-Add your screenshot here.
+<img width="1040" height="549" alt="Ass5-ss9" src="https://github.com/user-attachments/assets/051841be-e6b5-4769-b95e-d72bc9c87368" />
+
 
 ## Notes
 
 ### 1. Which failure category was identified?
 
-[Write your answer here.]
+Dependency Installation Failure.
 
 ### 2. What exact evidence supported the diagnosis?
 
-[Write your answer here.]
+The failed dependency installation step and the package manager's error identifying not-a-real-package-xyz as an unavailable package.
 
 ### 3. Did Claude apply the fix or rerun the pipeline? Why is that important?
 
-[Write your answer here.]
+No. Claude only analyzed the evidence and recommended a fix. This preserves human control, prevents unauthorized changes, and ensures recovery actions are reviewed before execution.
 
 ### 4. Which part represents Gather, and which part represents Analyze?
 
-[Write your answer here.]
+Gather is performed by the Bash script when it retrieves pipeline metadata and console logs. Analyze is performed by Claude when it interprets the evidence, classifies the failure, and recommends a recovery action.
 
 ---
 
@@ -280,7 +289,8 @@ Apply the recommended fix manually and verify that the Application Pipeline and 
 
 Corrected Application Pipeline run showing the temporary branch and successful status.
 
-Add your screenshot here.
+<img width="1323" height="319" alt="Ass5-ss10" src="https://github.com/user-attachments/assets/11609274-b2f9-4eae-b417-cc249354e078" />
+
 
 ---
 
@@ -288,29 +298,30 @@ Add your screenshot here.
 
 Recovery `/pipeline-triage` output showing Overall Status `HEALTHY`, exit code `0`, your Full Name, and both saved report filenames.
 
-Add your screenshot here.
+<img width="1288" height="673" alt="Ass5-ss11" src="https://github.com/user-attachments/assets/65558f72-e25a-4c25-906b-61f828422195" />
+
 
 ## Notes
 
 ### 1. What exact fix did you apply?
 
-[Write your answer here.]
+I manually reverted the commit that introduced the invalid dependency using git revert --no-edit HEAD on the temporary drill branch.
 
 ### 2. Did the fix match Claude’s recommendation? Explain briefly.
 
-[Write your answer here.]
+Yes. Claude recommended correcting the invalid dependency. Reverting the intentional failure restored the original valid application dependencies.
 
 ### 3. What evidence proves that the pipeline recovered?
 
-[Write your answer here.]
+Yes. Claude recommended correcting the invalid dependency. Reverting the intentional failure restored the original valid application dependencies.
 
 ### 4. Why is a second triage run required after the pipeline becomes green?
 
-[Write your answer here.]
+The corrected Application Pipeline completed successfully on the temporary branch, its result showed succeeded, and the subsequent triage report showed Overall Status: HEALTHY with exit code 0.
 
 ### 5. What risk would be created if Claude could automatically edit, push, approve, and rerun the pipeline?
 
-[Write your answer here.]
+It confirms that the latest pipeline results have actually recovered and that both pipelines are healthy, rather than relying only on the visual success indicator from one pipeline run.
 
 ---
 
@@ -318,7 +329,7 @@ Add your screenshot here.
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+
 
 ## Evidence
 
@@ -326,7 +337,7 @@ Add your screenshot here.
 
 Published LinkedIn post showing its text and at least one image or link.
 
-Add your screenshot here.
+
 
 ---
 
