@@ -34,7 +34,8 @@ Create and enter a dedicated directory for the auto-scaling lab.
 
 #### Screenshot 1 — Terminal showing that you are working inside `~/k8s-labs/autoscaling`
 
-Add your screenshot here.
+<img width="766" height="192" alt="image" src="https://github.com/user-attachments/assets/124300c4-bd87-4cdd-b1f8-0d5a3ee7e785" />
+
 
 ---
 
