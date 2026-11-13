@@ -28,7 +28,8 @@ docker network ls
 
 The output must include the default `bridge`, `host`, and `none` networks.
 
-Add your screenshot here.
+<img width="909" height="164" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/551b49b9-be77-4198-88fa-95e4ff16c0e5" />
+
 
 ---
 
@@ -40,7 +41,8 @@ Add a screenshot of the terminal showing successful completion of:
 docker pull nginx:alpine
 ```
 
-Add your screenshot here.
+<img width="856" height="158" alt="Ass3-ss2" src="https://github.com/user-attachments/assets/54edb3c0-ee27-4d34-b0eb-b5791fbd63b8" />
+
 
 ---
 
@@ -58,7 +60,8 @@ The output must show the running `myweb` container with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="1101" height="173" alt="Ass3-ss3" src="https://github.com/user-attachments/assets/7162317a-5b9d-4219-b38a-3740101adb2c" />
+
 
 ---
 
@@ -72,7 +75,8 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="1359" height="488" alt="Ass3-ss4" src="https://github.com/user-attachments/assets/b2cb7819-548a-48c1-9f7d-2ffa6ed75c87" />
+
 
 ---
 
@@ -92,7 +96,8 @@ Add a screenshot of the terminal showing `mynetwork` in:
 docker network ls
 ```
 
-Add your screenshot here.
+<img width="698" height="203" alt="Ass3-ss5" src="https://github.com/user-attachments/assets/c314e934-585f-4a6c-ae57-276892439242" />
+
 
 ---
 
@@ -106,7 +111,8 @@ docker ps
 
 The output must show both `web` and `client` containers running without published host ports.
 
-Add your screenshot here.
+<img width="1033" height="177" alt="Ass3-ss6" src="https://github.com/user-attachments/assets/75127587-4b47-4986-9ea1-56cf677e4782" />
+
 
 ---
 
@@ -120,7 +126,7 @@ docker exec client wget -qO- http://web
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+
 
 ---
 
@@ -134,7 +140,8 @@ docker network inspect mynetwork
 
 The output must show both `web` and `client` connected to `mynetwork`.
 
-Add your screenshot here.
+<img width="1099" height="638" alt="Ass3-ss8" src="https://github.com/user-attachments/assets/7aa0776b-65dd-47cf-9237-fcd6a86bca05" />
+
 
 ---
 
@@ -156,7 +163,8 @@ docker network ls
 
 The output must include both `frontend-network` and `backend-network`.
 
-Add your screenshot here.
+<img width="637" height="181" alt="Ass3-ss9" src="https://github.com/user-attachments/assets/629ad860-5c79-41cd-9f5f-e63f01768f80" />
+
 
 ---
 
@@ -174,7 +182,8 @@ The output must show:
 - `backend` without a published host port
 - `db` without a published host port
 
-Add your screenshot here.
+<img width="1069" height="183" alt="Ass3-ss10" src="https://github.com/user-attachments/assets/834af327-7e48-4733-8dc4-26ee626afb99" />
+
 
 ---
 
@@ -188,7 +197,8 @@ docker network inspect frontend-network
 
 The output must show `frontend` and `backend`.
 
-Add your screenshot here.
+<img width="967" height="708" alt="Ass3-ss11" src="https://github.com/user-attachments/assets/964a33e9-386c-4325-9183-d6c6c7b2c0cb" />
+
 
 ---
 
@@ -202,7 +212,8 @@ docker network inspect backend-network
 
 The output must show `backend` and `db`.
 
-Add your screenshot here.
+<img width="955" height="703" alt="Ass3-ss12" src="https://github.com/user-attachments/assets/518bfd70-de3d-4341-bca8-b28f8c148d1a" />
+
 
 ---
 
@@ -216,7 +227,7 @@ docker exec frontend wget -qO- http://backend
 
 The output must display the Nginx Welcome Page HTML.
 
-Add your screenshot here.
+
 
 ---
 
@@ -224,7 +235,7 @@ Add your screenshot here.
 
 Add a screenshot of the terminal showing a successful connection to `db` on port `27017` from the `backend` container.
 
-Add your screenshot here.
+
 
 ---
 
@@ -238,7 +249,7 @@ The output must include:
 Expected result: frontend cannot reach db
 ```
 
-Add your screenshot here.
+
 
 ---
 
@@ -252,7 +263,8 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="1362" height="460" alt="Ass3-ss16" src="https://github.com/user-attachments/assets/a1f08b88-4ef2-4150-b7f5-dba26b09dc89" />
+
 
 ---
 
@@ -274,7 +286,8 @@ docker ps
 
 The output must show the running `fastapp` container.
 
-Add your screenshot here.
+<img width="816" height="261" alt="Ass3-ss17" src="https://github.com/user-attachments/assets/77f3c2d0-2a62-40e5-bf05-67dc120b3932" />
+
 
 ---
 
@@ -292,7 +305,8 @@ The output must confirm:
 "NetworkMode": "host"
 ```
 
-Add your screenshot here.
+<img width="893" height="221" alt="Ass3-ss18" src="https://github.com/user-attachments/assets/9181ae05-a0e1-4000-a67b-2bbc34669617" />
+
 
 ---
 
@@ -306,7 +320,8 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="1127" height="497" alt="Ass3-ss19" src="https://github.com/user-attachments/assets/7a51011e-20bb-4b54-9b60-0c6417b9dd7d" />
+
 
 ---
 
@@ -319,7 +334,7 @@ docker stop fastapp
 docker rm fastapp
 ```
 
-Add your screenshot here.
+
 
 ---
 
@@ -333,6 +348,14 @@ Write a short note explaining:
 - The difference between bridge mode and host network mode
 
 Write your note here.
+
+1. **Default Bridge Networking:** Docker's default bridge network allows containers to communicate using IP addresses, but container names are not automatically resolved through Docker DNS.
+
+2. **Custom Bridge Network:** A custom bridge network provides automatic DNS resolution, allowing containers to communicate using their container names instead of IP addresses.
+
+3. **Why the Frontend Could Not Access the Database in Task 3:** The frontend could not access the database because they were not properly connected through a shared Docker network, or the database hostname and connection configuration were incorrect.
+
+4. **Bridge Mode vs Host Network Mode:** Bridge mode gives containers their own network interfaces and IP addresses, using port mapping to expose services. Host network mode shares the host machine's network namespace, so containers use the host's network interfaces directly without port mapping.
 
 ---
 
@@ -348,7 +371,7 @@ Create a LinkedIn post about the Docker networking modes explored, one key lesso
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
