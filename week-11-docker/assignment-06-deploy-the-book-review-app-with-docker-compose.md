@@ -30,7 +30,7 @@ backend/
 docker-compose.yml
 ```
 
-Add your screenshot here.
+
 
 ---
 
@@ -47,7 +47,7 @@ backend/.dockerignore
 
 Ensure that no real passwords, tokens, or secrets are visible.
 
-Add your screenshot here.
+
 
 ---
 
@@ -63,7 +63,8 @@ Prepare Dockerfiles for the frontend and backend services and build both service
 
 Add a screenshot showing the completed `frontend/Dockerfile`.
 
-Add your screenshot here.
+<img width="776" height="482" alt="Ass6-ss3" src="https://github.com/user-attachments/assets/623f4ec4-4f82-4c1c-a0c9-96ede870f0eb" />
+
 
 ---
 
@@ -71,7 +72,8 @@ Add your screenshot here.
 
 Add a screenshot showing the completed `backend/Dockerfile`.
 
-Add your screenshot here.
+<img width="618" height="341" alt="Ass6-ss4" src="https://github.com/user-attachments/assets/538fbfc9-d925-405d-9daa-bc2663ef7ae9" />
+
 
 ---
 
@@ -83,7 +85,8 @@ Add a screenshot of the terminal showing successful completion of:
 docker compose build
 ```
 
-Add your screenshot here.
+<img width="940" height="482" alt="Ass6-ss5" src="https://github.com/user-attachments/assets/311676f1-9157-484c-a6c1-d2ac0a91d3f8" />
+
 
 ---
 
@@ -105,7 +108,7 @@ Add a screenshot showing the MySQL service in `docker-compose.yml`, including:
 - `mysql_data` volume mount
 - No published MySQL port
 
-Add your screenshot here.
+
 
 ---
 
@@ -118,7 +121,8 @@ Add a screenshot showing the backend service configuration, including:
 - Browser frontend origin configured for CORS
 - Published backend port
 
-Add your screenshot here.
+<img width="609" height="375" alt="Ass6-ss7" src="https://github.com/user-attachments/assets/08f63d4a-1fa9-4cea-8d15-e98ef00c08ea" />
+
 
 ---
 
@@ -130,7 +134,8 @@ Add a screenshot showing the frontend service configuration, including:
 - `depends_on` for the backend service
 - Browser-facing `NEXT_PUBLIC_API_URL`
 
-Add your screenshot here.
+<img width="662" height="561" alt="Ass6-ss8" src="https://github.com/user-attachments/assets/bacd0477-5cfb-4374-b7e1-f0aec29901d2" />
+
 
 ---
 
@@ -138,7 +143,8 @@ Add your screenshot here.
 
 Add a screenshot showing the `mysql_data` volume definition in `docker-compose.yml`.
 
-Add your screenshot here.
+<img width="1042" height="412" alt="Ass6-ss9" src="https://github.com/user-attachments/assets/86768327-2171-477b-b733-127d0b19e9c2" />
+
 
 ---
 
@@ -160,7 +166,8 @@ docker compose ps
 
 The output must show the MySQL, backend, and frontend services running. MySQL must show as healthy.
 
-Add your screenshot here.
+<img width="1271" height="223" alt="Ass6-ss10" src="https://github.com/user-attachments/assets/65c38769-1b46-4ed0-9d5d-b51c535f022c" />
+
 
 ---
 
@@ -174,7 +181,8 @@ docker compose logs mysql backend --tail=50
 
 The logs must show MySQL readiness and successful backend database connection.
 
-Add your screenshot here.
+<img width="1035" height="483" alt="Ass6-ss11" src="https://github.com/user-attachments/assets/41e19979-82f7-43ec-9901-b9bccba76f62" />
+
 
 ---
 
@@ -192,7 +200,8 @@ Add a browser screenshot showing successful user registration or login.
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="987" height="416" alt="Ass6-ss12" src="https://github.com/user-attachments/assets/5df72b50-9805-4209-968c-8b17ad277ae9" />
+
 
 ---
 
@@ -202,7 +211,8 @@ Add a browser screenshot showing a created book review visible in the applicatio
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="1365" height="421" alt="Ass6-ss13" src="https://github.com/user-attachments/assets/9e49f276-894f-4394-9e80-8ad303ebc01d" />
+
 
 ---
 
@@ -213,7 +223,7 @@ Add a browser developer-tools screenshot with:
 - The Network tab showing a successful API request
 - The Console drawer showing no CORS error after the API interaction
 
-Add your screenshot here.
+
 
 ---
 
@@ -231,7 +241,8 @@ Add a browser screenshot showing the registered user or created review before th
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="859" height="360" alt="Ass6-ss15" src="https://github.com/user-attachments/assets/8cd30e49-1a9e-4f42-9752-469a82d7da13" />
+
 
 ---
 
@@ -247,7 +258,8 @@ docker compose ps
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+<img width="1331" height="307" alt="Ass6-ss16" src="https://github.com/user-attachments/assets/24524a42-90fe-4b43-9305-10a0b4658e88" />
+
 
 ---
 
@@ -257,7 +269,7 @@ Add a browser screenshot showing the same registered user or review after the st
 
 Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+
 
 ---
 
@@ -277,13 +289,19 @@ Write a short explanation of 5–8 lines covering:
 - When a full reset is useful
 - Why a full reset must not be used before persistence evidence is captured
 
-Write your explanation here.
+The `docker compose down` command stops and removes the Compose containers and default networks but preserves named volumes by default.  
+Named volumes should be kept when preserving MySQL data because they store database files independently of the containers.  
+When named volumes are removed using `docker compose down -v`, the stored MySQL data is permanently deleted.  
+A full reset is useful when starting a fresh environment, troubleshooting configuration issues, or removing all previous application data.  
+The full reset should only be performed when intentionally discarding the existing data.  
+It must not be used before capturing persistence evidence because removing the volumes would destroy the data needed to demonstrate that persistence works.  
+Therefore, always capture the required screenshots and verify important data before performing a full reset.
 
 ---
 
 # Final Public Frontend URL
 
-**Frontend URL:** `http://<VM_PUBLIC_IP>:<FRONTEND_PORT>`
+**Frontend URL:** `
 
 Replace the placeholder with your working application URL.
 
@@ -291,7 +309,7 @@ Replace the placeholder with your working application URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** `
 
 ---
 
@@ -303,7 +321,7 @@ Create a LinkedIn post about the Book Review App deployment and what you learned
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** ``
 
 #### LinkedIn Post Screenshot
 
