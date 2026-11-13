@@ -22,13 +22,14 @@ Create separate directories and files for the Terraform infrastructure and Ansib
 
 #### Screenshot 1 — Terminal or VS Code showing the complete `mini-finance` project structure
 
-Add your screenshot here.
+<img width="686" height="346" alt="Ass4-ss1" src="https://github.com/user-attachments/assets/a3e534f9-81ce-4ac3-a2f4-9e7602652f50" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -42,19 +43,21 @@ Use Terraform to provision an Ubuntu Virtual Machine with the required Azure net
 
 #### Screenshot 2 — Terraform code showing the `Allow-SSH` rule for port `22` and the `Allow-HTTP` rule for port `80`
 
-Add your screenshot here.
+<img width="723" height="597" alt="Ass4-ss2" src="https://github.com/user-attachments/assets/90438cec-442b-4e82-ab72-e1b71a143981" />
+
 
 ---
 
 #### Screenshot 3 — Terraform code showing the association between `nsg-mini-finance` and `nic-mini-finance`
 
-Add your screenshot here.
+<img width="1023" height="474" alt="Ass4-ss3" src="https://github.com/user-attachments/assets/89064628-ce41-448f-81b8-8a7b71569410" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -68,19 +71,21 @@ Format and validate the Terraform configuration, review the execution plan, and 
 
 #### Screenshot 4 — End of the `terraform apply` output showing `Apply complete!` with no errors
 
-Add your screenshot here.
+<img width="806" height="228" alt="Ass4-ss4" src="https://github.com/user-attachments/assets/7f0d5783-ff47-49f6-a5b2-f01705c903fa" />
+
 
 ---
 
 #### Screenshot 5 — Output of `terraform output public_ip` showing the VM’s public IP address
 
-Add your screenshot here.
+<img width="674" height="188" alt="Ass4-ss5" src="https://github.com/user-attachments/assets/40cd1cc9-cef4-4c14-bc0a-3256eb13bc0c" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -94,13 +99,14 @@ Confirm that the Ansible controller can connect to the Terraform-provisioned Azu
 
 #### Screenshot 6 — Passwordless SSH command and the returned `mini-finance` hostname
 
-Add your screenshot here.
+<img width="607" height="219" alt="Ass4-ss6" src="https://github.com/user-attachments/assets/7bc00ae5-90e1-4de4-a825-f996f792ef5c" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -114,7 +120,8 @@ Add the Terraform-provisioned Azure VM to the Ansible inventory and confirm that
 
 #### Screenshot 7 — Ansible ping output showing `SUCCESS` and `pong` from the Azure VM
 
-Add your screenshot here.
+<img width="929" height="332" alt="Ass4-ss7" src="https://github.com/user-attachments/assets/59235211-73b6-47e7-a086-92503b5b11a9" />
+
 
 ---
 
@@ -123,7 +130,7 @@ Add your screenshot here.
 Copy and paste the complete contents of your `ansible/inventory.ini` file below:
 
 ```ini
-Add your inventory.ini content here.
+
 ```
 
 ---
@@ -145,7 +152,8 @@ Screenshot must show:
 - Nginx service configured as started and enabled
 - Beginning of Play 2 with the Git repository URL and synchronization task
 
-Add your screenshot here.
+<img width="940" height="632" alt="Ass4-ss8" src="https://github.com/user-attachments/assets/6b2c0b52-3eb4-4ab2-b82a-6a4dd1d955c9" />
+
 
 ---
 
@@ -159,7 +167,8 @@ Screenshot must show:
 - Play 3 targeting `localhost`
 - The `uri` verification and `assert` condition
 
-Add your screenshot here.
+<img width="873" height="515" alt="Ass4-ss9" src="https://github.com/user-attachments/assets/009cd42b-740c-4704-8e20-0b63b1473287" />
+
 
 ---
 
@@ -168,7 +177,7 @@ Add your screenshot here.
 Copy and paste the complete contents of your `ansible/site.yml` file below:
 
 ```yaml
-Add your site.yml content here.
+
 ```
 
 ---
@@ -183,25 +192,28 @@ Validate the syntax of the multi-play Ansible playbook and run it to install Ngi
 
 #### Screenshot 10 — Successful playbook syntax check showing `playbook: site.yml`
 
-Add your screenshot here.
+<img width="1004" height="194" alt="Ass4-ss10" src="https://github.com/user-attachments/assets/c534fd43-1e62-4f69-adfb-0e90f11ba087" />
+
 
 ---
 
 #### Screenshot 11 — Play 3 output showing the successful HTTP verification and assertion
 
-Add your screenshot here.
+<img width="1068" height="397" alt="Ass4-ss11" src="https://github.com/user-attachments/assets/a2d18076-f799-464a-b25c-369b2689d430" />
+
 
 ---
 
 #### Screenshot 12 — Final `PLAY RECAP` showing `failed=0` and `unreachable=0`
 
-Add your screenshot here.
+<img width="1257" height="340" alt="Ass4-ss12" src="https://github.com/user-attachments/assets/706c95bb-a540-400e-bb10-4a8daabdfb27" />
+
 
 ---
 
 ### Notes
 
-Add your task notes here.
+
 
 ---
 
@@ -215,7 +227,8 @@ Confirm that the Mini Finance website is publicly accessible through the Azure V
 
 #### Screenshot 13 — Mini Finance website successfully loading in the browser, with the Azure VM’s public IP address visible in the address bar
 
-Add your screenshot here.
+<img width="1332" height="677" alt="Ass4-ss13" src="https://github.com/user-attachments/assets/ffce3210-0f8a-4d9e-beb6-6ba1f206497a" />
+
 
 ---
 
@@ -224,7 +237,7 @@ Add your screenshot here.
 Add your deployed website URL below:
 
 ```text
-http://<PUBLIC_IP>
+
 ```
 
 ---
@@ -239,7 +252,8 @@ Create a `README.md` file to document the Mini Finance infrastructure and deploy
 
 #### Screenshot 14 — Completed `README.md` displayed in the VS Code Markdown preview or terminal
 
-Add your screenshot here.
+<img width="1010" height="676" alt="Ass4-ss14a" src="https://github.com/user-attachments/assets/a54f6551-bc99-41f0-870f-da4cbe7b3bfe" />
+
 
 ---
 
@@ -248,7 +262,7 @@ Add your screenshot here.
 Copy and paste the complete contents of your `README.md` file below:
 
 ```markdown
-Add your README.md content here.
+
 ```
 
 ---
@@ -259,7 +273,7 @@ Add your README.md content here.
 
 #### Screenshot 15 — Published LinkedIn post showing the text and at least one deployment screenshot
 
-Add your screenshot here.
+
 
 ---
 
@@ -267,7 +281,7 @@ Add your screenshot here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
@@ -275,13 +289,13 @@ Paste your LinkedIn post URL here:
 
 **One challenge you faced and how you fixed it:**
 
-Add your answer here.
+
 
 ---
 
 **One real-world example where you can use this learning:**
 
-Add your answer here.
+I can use Terraform and Ansible together to deploy and manage a production website on AWS. Terraform can provision the required infrastructure, such as EC2 instances, security groups, and networking resources, while Ansible can install and configure Nginx, deploy website files, and verify that the website is accessible. This approach makes infrastructure provisioning and application deployment repeatable, consistent, and easier to maintain.
 
 ---
 
@@ -291,61 +305,62 @@ Answer the following in your own words:
 
 **1. What did you provision using Terraform in this assignment?**
 
-Add your answer here.
+I used Terraform to provision AWS infrastructure required for hosting the website, including an EC2 instance and a security group. The security group controls inbound traffic, allowing SSH access from my public IP address and HTTP traffic from the internet.
 
 ---
 
 **2. What did Ansible configure and deploy in this assignment?**
 
-Add your answer here.
+Ansible installed and configured the required web server (Nginx), deployed the website files to the EC2 instance, and verified that the website was responding correctly.
 
 ---
 
 **3. Why is SSH access on port `22` restricted to your public IP address?**
 
-Add your answer here.
+SSH access is restricted to my public IP address to reduce unauthorized access attempts. It ensures that only connections from my trusted network can remotely manage the EC2 instance, reducing its exposure to potential attackers.
 
 ---
 
 **4. Why is HTTP port `80` open to the internet?**
 
-Add your answer here.
+HTTP port 80 is open to the internet so that users can access the hosted website through a web browser. Unlike SSH, which is used for administration, HTTP provides public access to the website.
 
 ---
 
 **5. What is the purpose of the Ansible inventory file?**
 
-Add your answer here.
+The Ansible inventory file identifies the servers Ansible manages. It contains information such as the server's IP address, SSH username, connection details, and private key location, allowing Ansible to connect to the correct EC2 instance
 
 ---
 
 **6. Why does the playbook use separate plays for install, deploy, and verify?**
 
-Add your answer here.
+Separating the playbook into installation, deployment, and verification makes the automation easier to understand, manage, and troubleshoot. Each play has a specific responsibility: installing dependencies, deploying website files, and checking that the website works correctly.
 
 ---
 
 **7. Why is `rsync` useful when deploying website files?**
 
-Add your answer here.
+rsync transfers files efficiently by synchronizing changes between the local machine and the remote server. Instead of transferring every file repeatedly, it can transfer only changed files, saving time and bandwidth during deployment.
 
 ---
 
 **8. What does the Ansible `uri` module verify in this assignment?**
 
-Add your answer here.
+The Ansible uri module sends an HTTP request to the deployed website and checks the response. It verifies that the web server is accessible and returns the expected HTTP status code, such as 200 OK.
 
 ---
 
 **9. What issue did you face during this assignment, and how did you fix it?**
 
-Add your answer here.
+I encountered SSH connectivity and private key permission issues while connecting Ansible to the EC2 instance. I resolved the issue by copying the SSH private key into the appropriate location, setting the correct file permissions using chmod 600, and ensuring that the inventory file referenced the correct private key path.
 
 ---
 
 **10. What did you learn from using Terraform and Ansible together?**
 
-Add your answer here.
+I learned that Terraform and Ansible complement each other in infrastructure automation. Terraform provisions the cloud infrastructure, while Ansible configures the servers and deploys applications. Using both tools creates a more repeatable and efficient deployment workflow, reduces manual configuration, and improves consistency.
+
 
 ---
 
