@@ -104,7 +104,7 @@ Review the Terraform execution plan, provision the AWS resources, and record the
 
 #### Screenshot 7 — Terraform output showing the public IP address of the EC2 instance
 
-Add your screenshot here.
+
 
 ---
 
@@ -134,7 +134,7 @@ Confirm that:
 
 #### Screenshot 8 — AWS CLI output showing the EC2 instance ID, `running` state, and public IP address
 
-Add your screenshot here.
+
 
 ---
 
