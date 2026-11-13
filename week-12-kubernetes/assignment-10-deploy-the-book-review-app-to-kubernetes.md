@@ -38,7 +38,8 @@ Prepare the cluster, application source, container images, and tooling needed fo
 
 #### Screenshot 1 — Active Kubernetes context and Ready nodes
 
-Add your screenshot here.
+<img width="1849" height="277" alt="image" src="https://github.com/user-attachments/assets/f4f4a0f8-1ecc-46e6-a8d6-f51d741a7f6b" />
+
 
 ---
 
@@ -46,7 +47,7 @@ Add your screenshot here.
 
 Required only if you choose Helm. Skip this screenshot if using YAML manifests.
 
-Add your screenshot here, or write “Not applicable — using YAML manifests.”
+Not applicable — using YAML manifest
 
 ---
 
@@ -60,7 +61,7 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
-Add your screenshot here.
+
 
 ---
 
@@ -74,13 +75,15 @@ Provide application configuration and credentials without embedding sensitive va
 
 #### Screenshot 4 — ConfigMap configuration or describe output showing non-sensitive values
 
-Add your screenshot here.
+<img width="1036" height="448" alt="image" src="https://github.com/user-attachments/assets/cd019a2d-9f9c-4d27-8582-48a91eeb547a" />
+
 
 ---
 
 #### Screenshot 5 — Secret references or describe output showing names and keys without sensitive values
 
-Add your screenshot here.
+<img width="1255" height="432" alt="image" src="https://github.com/user-attachments/assets/5cd2bddf-2958-4b55-858c-9ff68c43d715" />
+
 
 ---
 
@@ -94,13 +97,15 @@ Provide persistent MySQL storage and allow the backend to connect without exposi
 
 #### Screenshot 6 — Managed MySQL status or MySQL StatefulSet and PVC status
 
-Add your screenshot here.
+<img width="1807" height="301" alt="image" src="https://github.com/user-attachments/assets/55553ea5-91a8-40e4-a278-1e3431e4b74d" />
+
 
 ---
 
 #### Screenshot 7 — Successful database connectivity or schema verification with credentials hidden
 
-Add your screenshot here.
+<img width="1132" height="504" alt="image" src="https://github.com/user-attachments/assets/faa7328a-3b3b-49aa-9aac-4343722116de" />
+
 
 ---
 
@@ -114,7 +119,8 @@ Run one or two Node.js/Express backend replicas on port 3001 and expose them thr
 
 #### Screenshot 8 — Backend Deployment, ready Pods, and internal Service
 
-Add your screenshot here.
+<img width="1273" height="391" alt="image" src="https://github.com/user-attachments/assets/79b611c8-699b-4f8b-ab45-54f9833985f1" />
+
 
 ---
 
@@ -122,7 +128,8 @@ Add your screenshot here.
 
 If the application does not log successful database connections, provide a successful database-backed request alongside the startup logs.
 
-Add your screenshot here.
+<img width="1344" height="739" alt="image" src="https://github.com/user-attachments/assets/09e7b640-bece-4f2c-bb54-1dc717e8696e" />
+
 
 ---
 
@@ -136,13 +143,15 @@ Run the Next.js frontend behind Nginx on port 80 and proxy API requests to the i
 
 #### Screenshot 10 — Frontend Deployment and Ready Pods
 
-Add your screenshot here.
+<img width="1230" height="568" alt="image" src="https://github.com/user-attachments/assets/b72b1c3a-0e86-4f49-940b-ca56fdd415fd" />
+
 
 ---
 
 #### Screenshot 11 — Nginx reverse-proxy configuration showing the internal backend Service name and port 3001
 
-Add your screenshot here.
+<img width="1303" height="210" alt="image" src="https://github.com/user-attachments/assets/3fa70fd8-f8a6-4981-a200-bf5c9d429f3f" />
+
 
 ---
 
@@ -156,13 +165,15 @@ Expose the frontend and enforce the intended communication path between applicat
 
 #### Screenshot 12 — Frontend LoadBalancer or Ingress configuration and assigned endpoint, or documented local access method
 
-Add your screenshot here.
+<img width="1774" height="331" alt="image" src="https://github.com/user-attachments/assets/a2cf2f14-9388-406a-8ce9-a4ee2857f6d1" />
+
 
 ---
 
 #### Screenshot 13 — Internal backend Service and NetworkPolicy or equivalent restriction, with access-test evidence
 
-Add your screenshot here.
+<img width="1357" height="799" alt="image" src="https://github.com/user-attachments/assets/34d5df3c-8837-4870-b6f9-209e9b8251b0" />
+
 
 ---
 
@@ -176,31 +187,35 @@ Prove that the frontend, backend, and MySQL database work together and collect o
 
 #### Screenshot 14 — `kubectl get all` output for the book-review namespace
 
-Add your screenshot here.
+<img width="1357" height="799" alt="image" src="https://github.com/user-attachments/assets/34b04a44-1d5b-43ac-a01d-5ed9badcd7b0" />
+
 
 ---
 
 #### Screenshot 15 — Functional Book Review App in the browser with the URL visible, including evidence of a successful user flow
 
-Add your screenshot here.
+<img width="1914" height="877" alt="image" src="https://github.com/user-attachments/assets/a229eb28-a0b2-4f85-b262-78e103f6df3c" />
+
 
 ---
 
 #### Screenshot 16 — Frontend or Nginx container logs
 
-Add your screenshot here.
+<img width="1822" height="892" alt="image" src="https://github.com/user-attachments/assets/89e27caa-0696-4c32-bc59-cfbff5b3ee24" />
+
 
 ---
 
 #### Screenshot 17 — Backend logs and evidence of a successful database-backed operation
 
-Add your screenshot here.
+<img width="1738" height="820" alt="image" src="https://github.com/user-attachments/assets/9de95f83-1670-4b71-8b09-5991d239e511" />
+
 
 ---
 
 #### Screenshot 18 — Optional: Kubernetes dashboard
 
-Add your screenshot here, or write “Not attempted.”
+
 
 Multiple images may be included under a screenshot number when needed to demonstrate the complete user flow.
 
@@ -216,7 +231,7 @@ Add selected improvements without breaking the required three-tier architecture.
 
 #### Screenshot 19 — Optional: Evidence of selected Helm, HPA, probe, or TLS improvements
 
-Add your screenshot here, or write “Not attempted.”
+
 
 ---
 
@@ -230,11 +245,11 @@ Explain your three-tier architecture, demonstrate the working application, and s
 
 #### Screenshot 20 — Published LinkedIn post about your Book Review App deployment on Kubernetes
 
-Add your screenshot here.
+
 
 ### LinkedIn Post URL
 
-Add your published LinkedIn post URL here.
+
 
 ---
 
@@ -244,31 +259,66 @@ Add your published LinkedIn post URL here.
 
 Describe the application components and user flows you successfully deployed and tested.
 
-Add your summary here.
+I successfully deployed and tested NGINX applications using different Kubernetes Service types: ClusterIP, NodePort, and LoadBalancer on Azure Kubernetes Service (AKS).
+
+I configured Deployments with multiple replicas, readiness probes, and liveness probes. I tested internal application communication using ClusterIP and DNS, explored external access through NodePort, and exposed an NGINX application publicly through an Azure LoadBalancer Service.
+
+I also tested how Kubernetes handles Pod replacement, scaling, and readiness during rolling updates. I verified that Services provide stable access to applications even when backend Pods are replaced or scaled.
 
 ## Issues and Fixes
 
 Describe the main issues encountered, their causes, and how you resolved them.
 
-Add your summary here.
+Describe the main issues encountered, their causes, and how you resolved them.
+
+During the exercises, I intentionally introduced configuration errors to understand how Kubernetes responds to unhealthy workloads and incorrect Service configurations.
+
+Readiness probe failures: An incorrect HTTP path caused Pods to become NotReady. I restored the correct probe path and reapplied the Deployment configuration.
+
+Liveness probe failures: An invalid health-check path caused Kubernetes to restart unhealthy containers. I corrected the configuration to restore stable operation.
+
+Service selector mismatch: An incorrect selector resulted in empty Service endpoints. I restored the matching Pod labels to re-establish connectivity.
+
+NodePort connectivity: External access can depend on the cluster's networking configuration. I learned to distinguish between Service configuration issues and host-to-cluster network limitations.
+
+LoadBalancer provisioning: The external IP may initially remain pending while Azure provisions the required networking resources. Waiting for the IP assignment allowed public endpoint testing.
 
 ## Tools and Sources Used
 
 List the documentation and tools that helped you complete the assignment.
 
-Add your tools and sources here.
+Tools and Sources Used
+List the documentation and tools that helped you complete the assignment.
+
+Tools:
+
+Kubernetes (kubectl)
+
+Azure Kubernetes Service (AKS)
+
+Microsoft Azure Portal
+
+NGINX
+
+YAML manifests
+
+Linux terminal / Ubuntu on WSL
+
+Docker and Kubernetes container networking
+
+curl for HTTP connectivity testing
 
 ## Optional Improvements
 
 Describe any optional improvements implemented, or write “Not attempted.”
 
-Add your summary here.
+
 
 ## Cleanup or Reuse Plan
 
 State which resources were removed or why the environment is being retained.
 
-Add your cleanup status or reuse plan here.
+
 
 ---
 
