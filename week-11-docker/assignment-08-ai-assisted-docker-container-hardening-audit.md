@@ -12,7 +12,7 @@ In this assignment, you will build a read-only Bash script that audits a running
 
 # Target Container
 
-**Target Container Name:** `Add the exact container name here`
+**Target Container Name:** 
 
 ---
 
@@ -33,7 +33,8 @@ docker-audit.sh
 SKILL.md
 ```
 
-Add your screenshot here.
+<img width="755" height="182" alt="Ass8-ss1" src="https://github.com/user-attachments/assets/0ecff47f-14f3-4be6-9d61-ed6fc685e58a" />
+
 
 ---
 
@@ -49,7 +50,8 @@ Add the supplied `docker-audit` skill to Claude Code and confirm that it is avai
 
 Add a screenshot of Claude Code showing `docker-audit` in the available skill list.
 
-Add your screenshot here.
+<img width="880" height="541" alt="Ass8-ss2" src="https://github.com/user-attachments/assets/b4641061-a90f-41fc-a178-a790c0d6a014" />
+
 
 ---
 
@@ -70,7 +72,8 @@ Add a terminal screenshot showing:
 - Your full name
 - The usage message displayed when the script runs without a container name
 
-Add your screenshot here.
+<img width="683" height="194" alt="Ass8-ss3" src="https://github.com/user-attachments/assets/ceb38e41-47bf-4048-a19a-0c8da66689a9" />
+
 
 ---
 
@@ -90,7 +93,8 @@ Add a terminal screenshot showing:
 - `docker ps`
 - The audit command using the selected target container name
 
-Add your screenshot here.
+<img width="888" height="114" alt="Ass8-ss4" src="https://github.com/user-attachments/assets/28990005-185d-4adc-93ff-107c0da49a55" />
+
 
 ---
 
@@ -98,7 +102,8 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the initial Docker audit results.
 
-Add your screenshot here.
+<img width="1019" height="702" alt="Ass8-ss5" src="https://github.com/user-attachments/assets/f7b1becb-2515-4098-ab1a-6206a4e25582" />
+
 
 ---
 
@@ -119,7 +124,8 @@ Add a Claude Code screenshot showing:
 - Recommended manual fix
 - Verification method
 
-Add your screenshot here.
+<img width="1005" height="670" alt="Ass8-ss6" src="https://github.com/user-attachments/assets/416ec6fd-8fe4-466e-beb0-b5d7b10ab9a4" />
+
 
 ---
 
@@ -135,7 +141,8 @@ Manually fix one WARN or FAIL finding from the initial audit.
 
 Add a screenshot of the updated Dockerfile or `docker-compose.yml` showing the selected hardening fix.
 
-Add your screenshot here.
+<img width="719" height="444" alt="Ass8-ss7" src="https://github.com/user-attachments/assets/e80c42ff-24a1-456c-84b0-7d7d37cd7d0b" />
+
 
 ---
 
@@ -143,7 +150,8 @@ Add your screenshot here.
 
 Add a terminal screenshot showing your full name and the rebuilt or recreated service/container running successfully.
 
-Add your screenshot here.
+<img width="768" height="189" alt="Ass8-ss8" src="https://github.com/user-attachments/assets/775d5636-4f97-4a75-839c-35c2ea6a3221" />
+
 
 ---
 
@@ -163,7 +171,8 @@ Add a terminal screenshot showing:
 - The updated running container
 - The final audit report
 
-Add your screenshot here.
+<img width="1018" height="378" alt="Ass8-ss9" src="https://github.com/user-attachments/assets/71232b5f-c6e6-40c8-897e-bada98198d6a" />
+
 
 ---
 
@@ -178,6 +187,13 @@ Write a short comparison covering:
 
 Write your comparison here.
 
+The initial Docker security audit identified configuration weaknesses, including containers running with excessive privileges and unnecessary components in the images.  
+To address these issues, I updated the Dockerfile and Docker Compose configuration to apply more secure container settings.  
+I optimized the Docker image, configured the backend to run as a non-root user, and improved container security settings.  
+After applying the changes, I ran the security audit again and confirmed that the identified issues had been addressed.  
+The improvements reduced the container attack surface, limited unnecessary privileges, and strengthened the overall security of the application deployment.
+:::Note: Keep the final audit claim only if your actual audit results confirmed that the identified issues were resolved.
+
 ---
 
 # LinkedIn Requirement
@@ -188,13 +204,13 @@ Create a LinkedIn post about the container security checks you performed, one ha
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** 
 
 #### LinkedIn Post Screenshot
 
 Add a screenshot of the published LinkedIn post, including the final audit result.
 
-Add your screenshot here.
+
 
 ---
 
