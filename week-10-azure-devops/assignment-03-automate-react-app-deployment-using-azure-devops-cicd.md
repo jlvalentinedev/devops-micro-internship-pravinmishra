@@ -37,7 +37,8 @@ Add a screenshot of Azure Repos showing:
 * `main` branch
 * Project files
 
-Add your screenshot here.
+<img width="1363" height="646" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/5debda99-f7af-4883-b541-4d62e6437bb5" />
+
 
 ---
 
@@ -81,7 +82,8 @@ Add a screenshot of the Azure Pipeline YAML open in the editor showing:
 * Publish stage
 * Deploy stage
 
-Add your screenshot here.
+<img width="1363" height="646" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/aeac10cb-3ee3-4934-80b0-731abf9a800b" />
+
 
 > Do not expose passwords, private keys, tokens, or cloud credentials.
 
@@ -104,7 +106,7 @@ Add a screenshot of one Azure DevOps pipeline run showing all four stages succee
 * Publish
 * Deploy
 
-Add your screenshot here.
+
 
 ---
 
@@ -122,7 +124,7 @@ Add a screenshot of the pipeline SSH verification log or VM terminal showing the
 
 `/var/www/html`
 
-Add your screenshot here.
+
 
 ---
 
@@ -142,8 +144,9 @@ Add a browser screenshot showing:
 * VM public IP address in the browser address bar
 * Your Full Name
 * Deployment date
+* 
 
-Add your screenshot here.
+
 
 ## Final Application URL
 
@@ -151,7 +154,7 @@ Add your screenshot here.
 
 Replace the placeholder and paste your final application URL below:
 
-[Paste your final application URL here.]
+
 
 ---
 
@@ -159,7 +162,7 @@ Replace the placeholder and paste your final application URL below:
 
 Write a short explanation of the CI/CD workflow you created.
 
-[Write your summary here.]
+
 
 ---
 
@@ -174,11 +177,11 @@ Add a screenshot of your LinkedIn post showing:
 * Post text
 * At least one image or link
 
-Add your screenshot here.
+
 
 ## LinkedIn Post URL
 
-[Paste your public LinkedIn post URL here.]
+
 
 > Do not expose VM passwords, tokens, private keys, cloud credentials, or other sensitive information.
 
