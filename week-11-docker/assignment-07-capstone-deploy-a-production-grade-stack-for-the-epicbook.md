@@ -22,7 +22,8 @@ Review the EpicBook repository and design the intended application architecture.
 
 Add a terminal screenshot showing the EpicBook project structure after cloning the repository.
 
-Add your screenshot here.
+<img width="809" height="384" alt="Ass7-ss1" src="https://github.com/user-attachments/assets/4fcadc28-91c1-4aef-b06d-62098b1fb859" />
+
 
 ---
 
@@ -41,7 +42,8 @@ Add a screenshot of your architecture diagram showing:
 
 Add your full name inside the diagram or as a clear caption below it.
 
-Add your screenshot here.
+<img width="758" height="429" alt="Ass7-ss2" src="https://github.com/user-attachments/assets/740c080c-5b59-443d-9275-a55a1fb6873e" />
+
 
 ---
 
@@ -55,7 +57,7 @@ docs/02-env-and-ports.md
 
 It must document environment-variable names, internal ports, persistent-data details, and the health-check method. Do not expose real credentials or values.
 
-Add your screenshot here.
+
 
 ---
 
@@ -77,7 +79,8 @@ Add a screenshot showing `backend/Dockerfile`, including:
 - Internal backend port
 - Non-root user configuration
 
-Add your screenshot here.
+<img width="512" height="295" alt="Ass7-ss4" src="https://github.com/user-attachments/assets/e7a4cfa9-e66b-4dce-888d-0fd7d239d35f" />
+
 
 ---
 
@@ -88,7 +91,8 @@ Add a screenshot showing `frontend/Dockerfile`, including:
 - Nginx runtime image
 - Static frontend files copied to the Nginx web root
 
-Add your screenshot here.
+<img width="592" height="161" alt="Ass7-ss5" src="https://github.com/user-attachments/assets/56822319-b220-4fc1-9a62-672d8abce1c0" />
+
 
 ---
 
@@ -101,7 +105,8 @@ backend/.dockerignore
 frontend/.dockerignore
 ```
 
-Add your screenshot here.
+<img width="514" height="267" alt="Ass7-ss6" src="https://github.com/user-attachments/assets/1daed5d8-7909-4585-b2e6-c6d2fbe8fd1d" />
+
 
 ---
 
@@ -115,7 +120,8 @@ Add a terminal screenshot showing successful builds of:
 
 The screenshot must also show the baseline and optimized backend image-size comparison.
 
-Add your screenshot here.
+<img width="548" height="715" alt="Ass7-ss7" src="https://github.com/user-attachments/assets/e254fb22-a187-46bd-a63c-da184f13d7fd" />
+
 
 ---
 
@@ -123,7 +129,8 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the optimized backend container running as a non-root user.
 
-Add your screenshot here.
+<img width="849" height="465" alt="Ass7-ss8" src="https://github.com/user-attachments/assets/01cc9b4c-a1ae-4287-a149-70244ebf4684" />
+
 
 ---
 
@@ -137,6 +144,13 @@ Write a short note covering:
 - The security benefit of running the backend as a non-root user
 
 Write your note here.
+
+The baseline backend Docker image was larger than the optimized image because it included unnecessary build tools and dependencies.  
+The optimized multi-stage build produced a smaller runtime image, reducing storage requirements and improving deployment efficiency.  
+The image-size reduction was calculated by comparing the baseline image size with the optimized image size.  
+One Docker layer-caching optimization used was copying `package*.json` before the application source code and installing dependencies separately.  
+This allows Docker to reuse the dependency installation layer when application source files change, reducing rebuild time.  
+Running the backend as a non-root user improves security by limiting container privileges and reducing the potential impact of unauthorized access or container compromise.
 
 ---
 
@@ -159,7 +173,8 @@ backend
 database
 ```
 
-Add your screenshot here.
+<img width="849" height="664" alt="Ass7-ss9" src="https://github.com/user-attachments/assets/d22720ef-0c37-4b6c-876c-54d9a2e06e15" />
+
 
 ---
 
@@ -171,7 +186,8 @@ Add a screenshot showing:
 - `back-tier` network
 - `db_data` named volume
 
-Add your screenshot here.
+<img width="729" height="254" alt="Ass7-ss10" src="https://github.com/user-attachments/assets/76c537b5-1474-4df2-ab8a-a743abe12110" />
+
 
 ---
 
@@ -179,7 +195,8 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful Docker Compose validation without exposing environment-variable values or secrets.
 
-Add your screenshot here.
+<img width="825" height="150" alt="Ass7-ss11" src="https://github.com/user-attachments/assets/d9b40ec0-cacb-4489-a5dc-48382aa1125f" />
+
 
 ---
 
@@ -195,7 +212,8 @@ Configure health checks and ensure services start only after their dependencies 
 
 Add a screenshot showing the backend application configuration for the `/health` endpoint.
 
-Add your screenshot here.
+<img width="1366" height="615" alt="Ass7-ss12" src="https://github.com/user-attachments/assets/1e1dd301-60f3-499c-879d-fe468f02a0a7" />
+
 
 ---
 
@@ -203,7 +221,8 @@ Add your screenshot here.
 
 Add a screenshot showing `docker-compose.yml` with health checks for MySQL and the backend.
 
-Add your screenshot here.
+<img width="1273" height="557" alt="Ass7-ss13" src="https://github.com/user-attachments/assets/b6a624ec-fb54-4663-94c4-a11dfd23f13b" />
+
 
 ---
 
@@ -215,7 +234,8 @@ Add a screenshot showing:
 - Reverse-proxy health check
 - `depends_on` conditions using `service_healthy`
 
-Add your screenshot here.
+<img width="1324" height="437" alt="Ass7-ss14" src="https://github.com/user-attachments/assets/87574e46-07cc-4a1d-97f4-eec504a734a7" />
+
 
 ---
 
@@ -223,7 +243,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing Docker Compose service status. The database, backend, frontend, and reverse proxy must be running successfully.
 
-Add your screenshot here.
+
 
 ---
 
@@ -231,7 +251,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing a successful response from the public application health endpoint through the reverse proxy.
 
-Add your screenshot here.
+
 
 ---
 
@@ -245,7 +265,7 @@ docs/03-healthchecks-and-depends-on.md
 
 Explain the health-check method for each service and the startup dependency order.
 
-Add your screenshot here.
+
 
 ---
 
@@ -268,7 +288,8 @@ It must show routes for:
 - API requests
 - Health endpoint
 
-Add your screenshot here.
+<img width="849" height="677" alt="Ass7-ss18" src="https://github.com/user-attachments/assets/5a59c293-d95b-4a49-b9f8-d3977940e6ec" />
+
 
 ---
 
@@ -276,7 +297,8 @@ Add your screenshot here.
 
 Add a screenshot of `docker-compose.yml` showing that only the `reverse-proxy` service publishes port 80.
 
-Add your screenshot here.
+<img width="617" height="141" alt="Ass7-ss19" src="https://github.com/user-attachments/assets/a3327c98-a728-4eab-b042-e817abd6026b" />
+
 
 ---
 
@@ -289,7 +311,7 @@ Add a terminal screenshot showing successful requests through the selected rever
 - One static asset
 - Health endpoint
 
-Add your screenshot here.
+
 
 ---
 
@@ -299,7 +321,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+
 
 ---
 
@@ -313,7 +335,8 @@ docs/04-proxy-routing-and-cors.md
 
 Explain the proxy routes and state whether CORS was required and why.
 
-Add your screenshot here.
+<img width="1232" height="191" alt="Ass7-ss22" src="https://github.com/user-attachments/assets/29303ab4-195d-40bc-8bc2-b6051d13ae59" />
+
 
 ---
 
@@ -329,7 +352,7 @@ Verify MySQL persistence and perform a controlled backup and restore drill.
 
 Add a terminal screenshot showing the `db_data` named volume and its MySQL mount configuration.
 
-Add your screenshot here.
+
 
 ---
 
@@ -337,7 +360,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing the selected test data before the backup and restore drill.
 
-Add your screenshot here.
+
 
 ---
 
@@ -345,7 +368,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful backup creation and the backup file stored in the host backup directory.
 
-Add your screenshot here.
+
 
 ---
 
@@ -353,7 +376,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing that the selected test record was removed during the controlled data-loss test.
 
-Add your screenshot here.
+
 
 ---
 
@@ -361,7 +384,7 @@ Add your screenshot here.
 
 Add a terminal screenshot showing successful restore and verification that the deleted test record is available again.
 
-Add your screenshot here.
+
 
 ---
 
@@ -371,7 +394,7 @@ Add a terminal screenshot showing that database data remains available after a n
 
 Do not use `docker compose down -v`.
 
-Add your screenshot here.
+
 
 ---
 
@@ -385,7 +408,7 @@ docs/05-persistence-and-backup.md
 
 Include the backup plan and restore procedure.
 
-Add your screenshot here.
+
 
 ---
 
@@ -405,7 +428,7 @@ Add a screenshot showing:
 - Proxy log format
 - Docker Compose host log-directory bind mount
 
-Add your screenshot here.
+
 
 ---
 
@@ -416,7 +439,7 @@ Add a terminal screenshot showing:
 - Selected reverse-proxy logs available from the host directory after a proxy restart
 - Backend logs displayed through Docker Compose
 
-Add your screenshot here.
+
 
 ---
 
@@ -450,7 +473,8 @@ Add a cloud-console screenshot showing:
 - SSH port 22 restricted to your IP address
 - HTTP port 80 allowed from Anywhere
 
-Add your screenshot here.
+<img width="712" height="316" alt="Ass7-ss32" src="https://github.com/user-attachments/assets/1f1d0d7d-8922-44d1-a0de-add93b3c6829" />
+
 
 ---
 
@@ -462,7 +486,7 @@ Add a VM terminal screenshot showing:
 - Successful public health or API response
 - No published database, frontend, or backend ports
 
-Add your screenshot here.
+
 
 ---
 
@@ -472,7 +496,7 @@ Add a browser screenshot showing the EpicBook application loaded through the VM 
 
 Add your full name as a clear caption below the screenshot.
 
-Add your screenshot here.
+
 
 ---
 
@@ -502,7 +526,7 @@ Optionally automate image build, image push, and deployment through GitHub Actio
 
 Add a screenshot showing a successful pipeline run with build, image push, deployment, and verification stages.
 
-Add your screenshot here.
+
 
 ---
 
@@ -537,7 +561,7 @@ Add a terminal screenshot showing:
 - Backend restart
 - Successful health-check recovery
 
-Add your screenshot here.
+
 
 ---
 
@@ -550,7 +574,7 @@ Add a terminal screenshot showing:
 - Database restart
 - Successful application recovery
 
-Add your screenshot here.
+
 
 ---
 
@@ -579,7 +603,7 @@ Replace the placeholder with your working public URL.
 
 # GitHub Repository URL
 
-**Your Fork or Repository URL:** `Add your GitHub repository URL here`
+**Your Fork or Repository URL:** 
 
 ---
 
@@ -598,7 +622,7 @@ Your post must include:
 
 ### Evidence
 
-**LinkedIn Post URL:** `Add your LinkedIn post URL here`
+**LinkedIn Post URL:** `
 
 #### LinkedIn Post Screenshot
 
