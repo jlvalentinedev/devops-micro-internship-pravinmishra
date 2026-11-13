@@ -31,7 +31,8 @@ Create the required folders and files for the Ansible project.
 
 ### Screenshot 1 — Terminal or VS Code showing the complete `static-web` project structure
 
-Add your screenshot here.
+<img width="1068" height="197" alt="Ass3-ss1" src="https://github.com/user-attachments/assets/caa3522c-dcc0-42c5-b4a7-12cd56b30c6c" />
+
 
 ---
 
@@ -45,7 +46,8 @@ Add both Ubuntu servers to the Ansible inventory.
 
 ### Screenshot 2 — Output of `ansible-inventory -i inventory.ini --graph` showing `web1` and `web2`
 
-Add your screenshot here.
+<img width="1112" height="252" alt="Ass3-ss2" src="https://github.com/user-attachments/assets/82cebc5a-35a0-47c1-9ce9-1be8e73df2b6" />
+
 
 ---
 
@@ -69,7 +71,8 @@ Confirm that the Ansible controller can connect to both servers.
 
 ### Screenshot 3 — Ansible ping output showing `SUCCESS` and `pong` for both servers
 
-Add your screenshot here.
+<img width="1283" height="344" alt="Ass3-ss3" src="https://github.com/user-attachments/assets/7ac67507-f014-4a74-b0d7-dbffd0bcfb01" />
+
 
 ---
 
@@ -83,7 +86,8 @@ Download `index.html` to the Ansible controller and personalize the website with
 
 ### Screenshot 4 — Edited `files/index.html` showing the footer line with your full name
 
-Add your screenshot here.
+<img width="1105" height="162" alt="Ass3-ss4" src="https://github.com/user-attachments/assets/c54b1976-8b2a-4c5b-881f-1488a7c3bc9d" />
+
 
 ---
 
@@ -113,7 +117,8 @@ Check the playbook for YAML or Ansible syntax errors before running it.
 
 ### Screenshot 5 — Successful syntax-check output showing `playbook: site.yml`
 
-Add your screenshot here.
+<img width="1272" height="222" alt="Ass3-ss5" src="https://github.com/user-attachments/assets/9b9e4669-c65e-470a-acb4-01ab8dacefea" />
+
 
 ---
 
@@ -127,13 +132,15 @@ Install Nginx, deploy the website, and verify both servers in one playbook run.
 
 ### Screenshot 6 — Play 3 verification showing HTTP `200` for both servers
 
-Add your screenshot here.
+<img width="991" height="462" alt="Ass3-ss6" src="https://github.com/user-attachments/assets/3318f56f-fe23-49a3-96c9-dacad37e8b00" />
+
 
 ---
 
 ### Screenshot 7 — Final play recap showing `unreachable=0` and `failed=0` for `web1`, `web2`, and `localhost`
 
-Add your screenshot here.
+<img width="1128" height="365" alt="Ass3-ss7" src="https://github.com/user-attachments/assets/5c4aaa9e-c3f4-458a-9fbd-4ffec8d70f0f" />
+
 
 ---
 
@@ -147,7 +154,8 @@ Run the playbook again and confirm that it does not make unnecessary changes.
 
 ### Screenshot 8 — Second playbook run showing the play recap with `changed=0`, `unreachable=0`, and `failed=0` for both web servers
 
-Add your screenshot here.
+<img width="1124" height="381" alt="Ass3-ss8" src="https://github.com/user-attachments/assets/f81976ce-847f-4814-a21a-a247e7eaca06" />
+
 
 ---
 
@@ -161,19 +169,23 @@ Confirm that the static website is accessible from both public IP addresses.
 
 ### Screenshot 9 — `curl -I` output showing HTTP `200 OK` from both servers
 
-Add your screenshot here.
+<img width="1020" height="482" alt="Ass3-ss9" src="https://github.com/user-attachments/assets/71f98ef5-bafb-4e5f-861e-bbb2e7289c2d" />
+
 
 ---
 
 ### Screenshot 10 — Browser showing the website from Server 1 with the public IP and your full name visible
 
-Add your screenshot here.
+<img width="1366" height="714" alt="Ass3-ss10" src="https://github.com/user-attachments/assets/db3644f1-8893-49ad-840e-c77640c96411" />
+
 
 ---
 
 ### Screenshot 11 — Browser showing the website from Server 2 with the public IP and your full name visible
 
-Add your screenshot here.
+<img width="1366" height="745" alt="Ass3-ss11a" src="https://github.com/user-attachments/assets/f8aa4619-4fc1-4e26-a53a-563f3acdad51" />
+<img width="1366" height="701" alt="Ass3-ss11b" src="https://github.com/user-attachments/assets/12fdc46f-04cb-46ca-a076-10357c29e528" />
+
 
 ---
 
@@ -199,7 +211,7 @@ Document how the project works and record what you learned.
 Copy and paste the complete contents of your `README.md` file below:
 
 ```markdown
-Add your README.md content here.
+
 ```
 
 ---
@@ -212,13 +224,13 @@ Add your README.md content here.
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 ### Screenshot — Published LinkedIn post
 
-Add your screenshot here.
+
 
 ---
 
@@ -228,37 +240,37 @@ Answer the following in your own words:
 
 **1. What issue did you face while completing this assignment, and how did you fix it?**
 
-Add your answer here.
+The main issue I faced was an SSH connection timeout when Ansible tried to connect to both EC2 web servers. I discovered that the security group allowed SSH access only from an outdated public IP address. I fixed this by updating the inbound SSH rule to allow my current public IP address, after which Ansible successfully pinged both servers.
 
 ---
 
 **2. What did you learn from this assignment?**
 
-Add your answer here.
+I learned how to use a multi-play Ansible playbook to automate the deployment of a static website to multiple AWS EC2 servers. I also learned how to configure an inventory, install and manage Nginx, copy website files, use handlers, verify HTTP responses, and test idempotency.
 
 ---
 
 **3. Why is it useful to split installation, deployment, and verification into separate plays?**
 
-Add your answer here.
+Splitting these tasks into separate plays makes the playbook easier to understand, maintain, and troubleshoot. Each play has a specific responsibility: installing and configuring Nginx, deploying the website, or verifying that the servers respond correctly. It also allows verification to run from the Ansible controller without requiring administrative privileges on localhost.
 
 ---
 
 **4. What is one benefit of using the Ansible `copy` module instead of cloning the website directly from Git on every managed server?**
 
-Add your answer here.
+The copy module allows me to maintain one version of the website file on the Ansible controller and distribute the same file to all managed servers. This keeps the deployment consistent and avoids requiring Git or repository access on every web server.
 
 ---
 
 **5. What does idempotency mean in this assignment?**
 
-Add your answer here.
+Idempotency means that running the same playbook repeatedly produces the desired state without making unnecessary changes. In this assignment, the second run reported changed=0 on both web servers because Nginx was already installed and running, and the website files were already up to date.
 
 ---
 
 **6. What does the Ansible `uri` module verify in Play 3?**
 
-Add your answer here.
+The uri module sends HTTP requests to both web servers and checks their responses. In this assignment, it verifies that each website returns HTTP status code 200, confirming that the web pages are accessible and responding successfully.
 
 ---
 
