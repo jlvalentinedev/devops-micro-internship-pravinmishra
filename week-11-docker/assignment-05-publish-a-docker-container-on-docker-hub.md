@@ -26,7 +26,8 @@ Add a screenshot of Docker Hub showing your newly created public repository:
 my-react-app
 ```
 
-Add your screenshot here.
+<img width="1366" height="649" alt="Ass5-ss1" src="https://github.com/user-attachments/assets/4b890e9d-f978-4cb5-a243-4abffee70b90" />
+
 
 ---
 
@@ -40,7 +41,8 @@ Login Succeeded
 
 Ensure that your full name is visible and that no password, Personal Access Token, or device code is exposed.
 
-Add your screenshot here.
+<img width="769" height="312" alt="Ass5-ss2" src="https://github.com/user-attachments/assets/aef24064-7ea4-4641-bb19-31101603d3dd" />
+
 
 ---
 
@@ -54,7 +56,8 @@ docker image ls <YOUR_DOCKERHUB_USERNAME>/my-react-app
 
 The output must show the `latest` tag.
 
-Add your screenshot here.
+<img width="727" height="161" alt="Ass5-ss3" src="https://github.com/user-attachments/assets/f8d3c86e-7b5d-44ad-9f2e-82070bd06e12" />
+
 
 ---
 
@@ -68,7 +71,8 @@ docker push <YOUR_DOCKERHUB_USERNAME>/my-react-app:latest
 
 The output must include a pushed status or image digest.
 
-Add your screenshot here.
+<img width="819" height="235" alt="Ass5-ss4" src="https://github.com/user-attachments/assets/5d97a28f-9110-4259-a56d-1b07bec5532e" />
+
 
 ---
 
@@ -76,7 +80,8 @@ Add your screenshot here.
 
 Add a screenshot of your Docker Hub repository showing the uploaded `latest` image tag.
 
-Add your screenshot here.
+<img width="731" height="496" alt="Ass5-ss5" src="https://github.com/user-attachments/assets/f8c04901-d302-4dee-8822-9481c0fb1baf" />
+
 
 ---
 
@@ -88,7 +93,8 @@ Add a screenshot of the terminal showing:
 - Successful `docker pull` output
 - `docker image ls` showing the pulled image
 
-Add your screenshot here.
+<img width="865" height="232" alt="Ass5-ss6" src="https://github.com/user-attachments/assets/e0e0466e-734c-471e-afe5-7d676ffdbf50" />
+
 
 ---
 
@@ -106,7 +112,8 @@ The output must show the running `react-container` with:
 0.0.0.0:80->80/tcp
 ```
 
-Add your screenshot here.
+<img width="1214" height="345" alt="Ass5-ss7" src="https://github.com/user-attachments/assets/c1f37c23-3018-4ea8-8eba-f5d04f31b6bc" />
+
 
 ---
 
@@ -120,13 +127,14 @@ http://<YOUR-VM-PUBLIC-IP>
 
 Ensure that the VM public IP is visible in the address bar. Add your full name as a clear caption directly below the screenshot.
 
-Add your screenshot here.
+<img width="1353" height="719" alt="Ass5-ss8" src="https://github.com/user-attachments/assets/8ce195fe-d23e-4b9d-acb9-fb05e4dc1796" />
+
 
 ---
 
 # Docker Hub Repository URL
 
-**Repository URL:** `Add your Docker Hub repository URL here`
+**Repository URL:** `
 
 ---
 
@@ -138,7 +146,11 @@ Write a short explanation covering:
 - Why a container registry is useful in DevOps workflows
 - Why production deployments should use versioned image tags instead of relying only on `latest`
 
-Write your explanation here.
+1. **Why Image Tagging Is Required:** Image tagging identifies a Docker image with a specific name and version, making it possible to reference and push the correct image to Docker Hub.
+
+2. **Why a Container Registry Is Useful:** A container registry provides a central location for storing, managing, and distributing Docker images, allowing development and deployment teams to share images across different environments and CI/CD pipelines.
+
+3. **Why Production Should Use Versioned Image Tags:** Production deployments should use specific versioned tags, such as `myapp:v1.0.0`, instead of relying only on `latest`. Versioned tags make deployments predictable, improve traceability, simplify rollbacks, and prevent unexpected changes when a newer image is pushed.
 
 ---
 
@@ -162,7 +174,7 @@ Include:
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
