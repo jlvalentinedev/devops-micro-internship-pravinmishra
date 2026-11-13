@@ -58,7 +58,8 @@ Add a screenshot from AWS or Azure showing:
 * VM status as **Running**
 * Public IP address
 
-Add your screenshot here.
+<img width="1359" height="565" alt="Ass1-ss1" src="https://github.com/user-attachments/assets/69eb450d-1d3c-44d3-8187-d983415b2d53" />
+
 
 ---
 
@@ -72,7 +73,8 @@ Add an SSH terminal screenshot showing the output of:
 
 The screenshot must confirm a supported Ubuntu version, `x86_64` architecture, and a successful HTTP response from Azure DevOps.
 
-Add your screenshot here.
+<img width="530" height="522" alt="Ass1-ss2" src="https://github.com/user-attachments/assets/50ef4f13-4588-4eb4-aff2-347b24384f6a" />
+
 
 ---
 
@@ -93,7 +95,8 @@ Add a terminal screenshot showing:
 * Agent service start
 * `sudo ./svc.sh status` reporting that the service is running
 
-Add your screenshot here.
+<img width="851" height="707" alt="Ass1-ss3" src="https://github.com/user-attachments/assets/12cd0003-dcdb-4be8-a727-fb1c01ebebf9" />
+
 
 > Ensure that the PAT is not visible.
 
@@ -116,7 +119,8 @@ Add a screenshot of the Azure DevOps Agent Pool **Agents** page showing:
 * Agent status as **Online**
 * Agent enabled and available
 
-Add your screenshot here.
+<img width="1037" height="718" alt="Ass1-ss4" src="https://github.com/user-attachments/assets/59fae4d4-0171-4316-8d37-8f6a3045c234" />
+
 
 ---
 
@@ -138,7 +142,8 @@ Add a screenshot of `azure-pipelines.yml` open in the Azure Repos editor showing
 * Your Full Name
 * Linux verification commands
 
-Add your screenshot here.
+<img width="1092" height="580" alt="Ass1-ss5" src="https://github.com/user-attachments/assets/964625d2-1982-459b-a32f-f6aeb41ab838" />
+
 
 ---
 
@@ -156,7 +161,8 @@ Add a screenshot of the successful Azure DevOps pipeline run showing:
 * Output from `df -h`
 * Output from `pwd`
 
-Add your screenshot here.
+<img width="1352" height="638" alt="Ass1-ss6" src="https://github.com/user-attachments/assets/1f3aa413-61aa-4fb9-97cb-3fc3cdb4fe57" />
+
 
 ---
 
@@ -165,7 +171,7 @@ Add your screenshot here.
 Paste the contents of your completed `azure-pipelines.yml` file below.
 
 ```yaml
-# Paste your completed azure-pipelines.yml here
+
 ```
 
 > Do not include your PAT, SSH private key, password, or cloud credentials in the YAML file.
@@ -176,7 +182,7 @@ Paste the contents of your completed `azure-pipelines.yml` file below.
 
 Write a short summary of what you configured.
 
-[Write your summary here.]
+I successfully provisioned an Ubuntu virtual machine on AWS and configured it as a self-hosted Azure DevOps agent. I created an Azure DevOps Personal Access Token (PAT) and agent pool, downloaded and configured the Azure Pipelines agent, and registered it with Azure DevOps. I installed and started the agent as a Linux system service and verified that it was running and showing as Online in the Azure DevOps agent pool. Finally, I created and executed a YAML test pipeline on the self-hosted agent, successfully verifying the Ubuntu environment, agent identity, machine information, disk space, and working directory.
 
 ---
 
@@ -191,9 +197,9 @@ Add a screenshot of your LinkedIn post showing:
 * Three to five lines explaining your experience
 * A screenshot of the successful pipeline run with no secrets visible
 
-Add your screenshot here.
 
-**LinkedIn Post URL:** [Paste your LinkedIn post URL here]
+
+**LinkedIn Post URL:** 
 
 ---
 
