@@ -201,14 +201,14 @@ Verify the public application and its use of the imported RDS data.
 =======
 #### Screenshot 20 — Terminal showing a successful HTTP request to EpicBook through the public Nginx endpoint using curl -i http://<EC2_PUBLIC_IP>/
 
-Add your screenshot here.
+
 
 >>>>>>> upstream/main
 ---
 
 #### Screenshot 21 — Terminal showing the successful database connectivity test using `SELECT 1;` or similar
 
-Add your screenshot here.
+
 ![alt text](screenshots/Ass4-ss21.png)
 ---
 
@@ -236,13 +236,13 @@ Add the credit note for your track, replace `YOUR-GITHUB-USERNAME` with your Git
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 22 — Published LinkedIn post showing your caption, application URL, and live EpicBook screenshot
 
-Add your screenshot here.
+
 
 > **Privacy Note:** Do not expose passwords, private keys, `.env` values, database credentials, or sensitive AWS account information.
 

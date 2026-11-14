@@ -87,8 +87,8 @@ This is not a course. It is an internship-style program — real deployments, re
  Week 04 → Git & GitHub 
 [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) 
 =======
-<!-- Week 04 → Git & GitHub -->
-<!-- [![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) -->
+ Week 04 → Git & GitHub 
+[![Week 04 – Git](./badges/week-04.svg)](./week-04-git-and-github/) 
 >>>>>>> feature/week5-jira-sprint
 >>>>>>> upstream/main
 
@@ -98,23 +98,23 @@ This is not a course. It is an internship-style program — real deployments, re
  Week 06 → AWS Cloud 
  [![Week 06 – AWS](./badges/week-06.svg)](./week-06-aws-cloud/) -
 
-<!-- Week 07 → Azure Cloud -->
-<!-- [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) -->
+ Week 07 → Azure Cloud 
+ [![Week 07 – Azure](./badges/week-07.svg)](./week-07-azure-cloud/) 
 
-<!-- Week 08 → Terraform -->
-<!-- [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) -->
+ Week 08 → Terraform 
+ [![Week 08 – Terraform](./badges/week-08.svg)](./week-08-terraform/) 
 
-<!-- Week 09 → Ansible -->
-<!-- [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) -->
+ Week 09 → Ansible 
+ [![Week 09 – Ansible](./badges/week-09.svg)](./week-09-ansible/) 
 
-<!-- Week 10 → Azure DevOps CI/CD -->
-<!-- [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) -->
+ Week 10 → Azure DevOps CI/CD 
+ [![Week 10 – CI/CD](./badges/week-10.svg)](./week-10-azure-devops/) 
 
-<!-- Week 11 → Docker -->
-<!-- [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) -->
+ Week 11 → Docker 
+ [![Week 11 – Docker](./badges/week-11.svg)](./week-11-docker/) 
 
-<!-- Week 12 → Kubernetes -->
-<!-- [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) -->
+ Week 12 → Kubernetes 
+ [![Week 12 – K8s](./badges/week-12.svg)](./week-12-kubernetes/) 
 
 <!-- Week 13 → Final Project / Capstone -->
 <!-- [![Week 13 – Capstone](./badges/week-13.svg)](./week-13-final-project/) -->
@@ -145,21 +145,15 @@ This is not a course. It is an internship-style program — real deployments, re
 | 02 | Agentic AI with Claude Code | ✅ Completed | ✅ Completed |(https://www.linkedin.com/posts/jlvalentine80_devops-cloud-cloudcomputing-activity-7478581176199368705-j39G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | https://medium.com/@jahreeka_25700/reflection-week-2-e485ab072f50?sharedUserId=jahreeka_25700 |
 | 03 | Linux & Bash for DevOps |  Completed | ✅ Completed | https://www.linkedin.com/posts/jlvalentine80_dmi-devops-micro-internship-with-agentic-share-7486244469365846017-tVf4/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8| https://medium.com/@jahreeka_25700/this-week-in-the-dmi-mentorship-program-pushed-me-to-think-more-deeply-about-how-disciplined-caa4dad893ca?sharedUserId=jahreeka_25700 |https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 |
 | 04 | Git & GitHub | ✅ Completed | ✅ Completed| https://www.linkedin.com/feed/update/urn:li:share:7489855963261235201/ | https://medium.com/@jahreeka_25700/building-an-ai-assisted-git-safety-net-pre-commit-hooks-and-pr-ready-checks-fc85be2cbdb8?sharedUserId=jahreeka_25700 |
-<<<<<<< HEAD
 | 05 | DevOps Lifecycle & Agile | ✅ Completed| ✅ Completed | (https://www.linkedin.com/posts/jlvalentine80_devops-cloud-cloudcomputing-activity-7478581176199368705-j39G?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 | |
 | 06 | AWS Cloud | ✅ Completed | ✅ Completed| https://lnkd.in/p/gnuXJ7sh | https://lnkd.in/p/gnuXJ7sh|https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 |
-| 07 | Azure Cloud | ⏳ Pending | ⏳ Pending | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 | |
-=======
-| 05 | DevOps Lifecycle & Agile | ✅ Completed| ✅ Completed |(https://www.linkedin.com/posts/jlvalentine80_devops-aws-ec2-share-7492329316748517378-__RH/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAALB3J0BwtFufEKpichQKK5s_jlChwTdfk8) | — |
-| 06 | AWS Cloud | ⬜ Not Started | ⏳ Pending | — | — |
-| 07 | Azure Cloud | ⬜ Not Started | ⏳ Pending | — | — |
->>>>>>> feature/week5-jira-sprint
-| 08 | Terraform | ⬜ Not Started | ⏳ Pending | — | — |
-| 09 | Ansible | ⬜ Not Started | ⏳ Pending | — | — |
-| 10 | Azure DevOps (CI/CD) | ⬜ Not Started | ⏳ Pending | — | — |
-| 11 | Docker | ⬜ Not Started | ⏳ Pending | — | — |
-| 12 | Kubernetes | ⬜ Not Started | ⏳ Pending | — | — |
-| 13 | Final Project | ⬜ Not Started | ⏳ Pending | — | — |
+| 07 | Azure Cloud | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?sharedUserId=jahreeka_25700 | |
+| 08 | Terraform | ✅ Completed | ✅ Completed | — |https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub|
+| 09 | Ansible | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub |
+| 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub|
+| 11 | Docker | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub |
+| 12 | Kubernetes | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub|
+| 13 | Final Project | ⬜ Not Started | ⬜ Not Started | — | 
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
 **Assignment:** ⏳ Pending &nbsp;|&nbsp; ✅ Solved

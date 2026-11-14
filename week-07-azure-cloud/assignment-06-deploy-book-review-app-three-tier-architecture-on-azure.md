@@ -182,7 +182,6 @@ Deploy the backend on one private Ubuntu VM using port **3001**. Connect to Azur
 
 #### Screenshot 12 — Successful backend health or API response from the Web VM through the App VM’s private IP
 
-Add your screenshot here.
 
 ---
 
@@ -312,13 +311,14 @@ Include **#DMIByPravinMishra #Azure #DevOps #CloudComputing**. Add the credit no
 
 Paste your published LinkedIn post URL here:
 
-`Add your URL here`
+
+
 
 ---
 
 #### Screenshot 23 — Published LinkedIn post showing your caption, website URL, and application screenshot
 
-Add your screenshot here.
+
 
 ---
 

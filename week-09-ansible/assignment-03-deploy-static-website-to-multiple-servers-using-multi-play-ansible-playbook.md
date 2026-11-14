@@ -6,7 +6,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 
 ## Student Details
 
-**Full Name:** Add your full name here  
+**Full Name:** Jerrica LaToya Valentine
 **Cloud Platform Used:** AWS / Azure  
 **Server 1 URL:** `http://<SERVER_1_PUBLIC_IP>`  
 **Server 2 URL:** `http://<SERVER_2_PUBLIC_IP>`

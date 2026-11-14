@@ -20,7 +20,7 @@ Launch an Ubuntu EC2 instance named `Mini-Finance-Web-EC2` in a public subnet wi
 
 #### Screenshot 1 — EC2 instance details showing the instance name, Running state, passed status checks, and public IPv4 address
 
-Add your screenshot here.
+
 
 ---
 
@@ -34,7 +34,6 @@ Configure the attached security group to allow SSH on port 22 from your IP addre
 
 #### Screenshot 2 — Attached security group’s inbound rules showing SSH on port 22 restricted to your IP address and HTTP on port 80 allowed from 0.0.0.0/0
 
-Add your screenshot here.
 
 ---
 
@@ -48,7 +47,7 @@ Connect to your Ubuntu EC2 instance using SSH and confirm that you are logged in
 
 #### Screenshot 3 — Terminal showing a successful SSH connection to the EC2 instance, with the Ubuntu user prompt visible
 
-Add your screenshot here.
+
 
 ---
 
@@ -62,7 +61,7 @@ Install Nginx and Git. Start Nginx, enable it to start after reboot, and verify 
 
 #### Screenshot 4 — Terminal showing Nginx is active and enabled, the installed Nginx and Git versions, and a successful local HTTP response
 
-Add your screenshot here.
+
 
 ---
 
@@ -76,21 +75,21 @@ Clone `https://github.com/pravinmishraaws/mini_finance.git` into your home direc
 
 #### Screenshot 5 — Terminal showing the successful repository clone and the website files listed inside ~/mini_finance
 
-Add your screenshot here.
+
 
 ---
 
 # Task 6 — Copy the Website Files to the Nginx Web Root
 
 ## Goal
-
+our screenshot here.
 Replace the default content in `/var/www/html/` with the Mini Finance website files. Set the required ownership and permissions, and verify that the deployed files are present.
 
 ### Evidence
 
 #### Screenshot 6 — Terminal showing the output of `ls -la /var/www/html/`, with the deployed website files, ownership, and permissions visible
 
-Add your screenshot here.
+
 
 ---
 
@@ -139,13 +138,13 @@ Add the credit note for your track, replace `YOUR-GITHUB-USERNAME` with your Git
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 8 — Published LinkedIn post showing your caption, website URL, and live Mini Finance website screenshot
 
-Add your screenshot here.
+ 
 
 ---
 

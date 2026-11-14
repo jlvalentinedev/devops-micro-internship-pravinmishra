@@ -23,7 +23,7 @@ Download and extract the Mini Finance application from [GitHub](https://github.c
 
 #### Screenshot 1 — Extracted project folder showing `index.html` and the supporting files and folders
 
-Add your screenshot here.
+
 >>>>>>> upstream/main
 
 ---
@@ -41,7 +41,7 @@ Create Resource Group `mini-finance-rg` and a globally unique Storage Account na
 
 #### Screenshot 2 — Storage Account Overview or configuration showing its name, `mini-finance-rg`, region, Standard performance, and LRS redundancy
 
-Add your screenshot here.
+
 >>>>>>> upstream/main
 
 ---
@@ -59,7 +59,7 @@ Enable Static Website Hosting, set `index.html` as the index document, optionall
 
 #### Screenshot 3 — Static website configuration showing hosting enabled, the index document, the error-document setting, and the Primary endpoint URL
 
-Add your screenshot here.
+
 >>>>>>> upstream/main
 
 ---
@@ -74,13 +74,13 @@ Upload all Mini Finance website files to `$web`, with `index.html` directly at t
 
 #### Screenshot 4 — `$web` container showing `index.html` at the root and the supporting files and folders
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 5 — An uploaded CSS or image folder showing its contents and folder path
 
-Add your screenshot here.
+
 
 ---
 
@@ -120,13 +120,13 @@ Include **#DMIByPravinMishra #Azure #DevOps #CloudComputing**.
 
 Paste your published LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 7 — Published LinkedIn post showing your caption, website URL, and Mini Finance website screenshot
 
-Add your screenshot here.
+
 
 ---
 

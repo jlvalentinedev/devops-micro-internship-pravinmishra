@@ -59,7 +59,7 @@ Add a screenshot showing the Architecture and Security Reviewer subagent configu
 
 Add a screenshot showing Terraform MCP connected and available.
 
-Add your screenshot here.
+
 
 ---
 
@@ -497,7 +497,7 @@ Write the post in your own words, include at least one project image or other pr
 ## LinkedIn Post URL
 
 
-**LinkedIn Post URL:** Add your LinkedIn post URL here
+**LinkedIn Post URL:** 
 
 
 

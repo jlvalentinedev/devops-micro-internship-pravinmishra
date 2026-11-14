@@ -57,14 +57,14 @@ Deploy Ubuntu 22.04 LTS VM `web-nginx` in `web-subnet`, inside `vnet-demo-rg`, w
 
 #### Screenshot 4 — VM Overview showing `web-nginx`, its running status, and public IP
 
-Add your screenshot here.
+
 >>>>>>> upstream/main
 
 ---
 
 #### Screenshot 5 — VM Networking configuration showing `eb-demo-vnet`, `web-subnet`, and inbound rules allowing SSH 22 and HTTP 80
 
-Add your screenshot here.
+
 
 ---
 
@@ -78,13 +78,13 @@ Install, enable, and start NGINX on `web-nginx`, then verify the default page th
 
 #### Screenshot 6 — Terminal showing `sudo systemctl status nginx --no-pager` with NGINX active and running
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 7 — Browser showing the NGINX welcome page through the VM Public IP, with the address bar visible
 
-Add your screenshot here.
+
 
 ---
 
@@ -98,13 +98,13 @@ Create Standard Public Load Balancer `web-public-elb` in `vnet-demo-rg`, with fr
 
 #### Screenshot 8 — Load Balancer frontend configuration showing its public IP
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 9 — `web-http-rule` configuration showing the frontend, `web-backend-pool`, TCP ports 80 → 80, and `web-health-probe`
 
-Add your screenshot here.
+
 
 ---
 
@@ -118,7 +118,7 @@ Confirm that the NGINX default page is accessible through the Load Balancer’s 
 
 #### Screenshot 10 — Browser showing the NGINX welcome page through the Load Balancer Public IP, with the address bar visible
 
-Add your screenshot here.
+
 
 ---
 
@@ -132,7 +132,7 @@ Save Screenshots 1–10, then delete Resource Group `vnet-demo-rg` to avoid ongo
 
 #### Screenshot 11 — Evidence confirming deletion of `vnet-demo-rg`, such as an Azure success notification or the Resource Groups list showing no results when filtered by its name
 
-Add your screenshot here.
+
 
 ---
 
@@ -148,13 +148,13 @@ Publish a LinkedIn post sharing your Azure deployment, including a screenshot of
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 12 — Published LinkedIn post showing your caption and deployment screenshot
 
-Add your screenshot here.
+
 
 ---
 # Submission Instructions

@@ -84,7 +84,7 @@ Review your budget and notification settings, then create the budget.
 ![aws1](screenshots/aws1.png)
 ---
 =======
-Add your screenshot here.
+
 >>>>>>> upstream/main
 
 ### Notes
@@ -109,7 +109,7 @@ Go to the DMI Leaderboard, find your name, select **Share your progress**, and c
 
 #### Screenshot 2 — Published WhatsApp Status showing the automatically generated DMI Leaderboard rank and personal progress link
 
-Add your screenshot here.
+
 
 > **Privacy Note:** Make sure no private phone numbers, personal messages, or sensitive information are visible in the screenshot.
 

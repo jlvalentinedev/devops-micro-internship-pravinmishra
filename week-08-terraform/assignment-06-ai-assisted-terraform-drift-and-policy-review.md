@@ -7,7 +7,7 @@ Part of the DevOps Micro Internship (DMI) with Agentic AI
 ## Student Details
 
 **Full Name:** Jerrica Valentine Rammy
-**GitHub Repository/Folder URL:** Add your GitHub URL here
+**GitHub Repository/Folder URL:** 
 
 ---
 

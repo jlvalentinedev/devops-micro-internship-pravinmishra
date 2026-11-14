@@ -128,13 +128,13 @@ Include the required hashtags, the credit note for your track, and the tags spec
 
 Paste your LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 8 — Published LinkedIn post showing your caption, live S3 website link, and portfolio screenshot
 
-Add your screenshot here.
+
 
 > **Privacy Note:** Do not expose credentials, billing details, or sensitive AWS account information.
 

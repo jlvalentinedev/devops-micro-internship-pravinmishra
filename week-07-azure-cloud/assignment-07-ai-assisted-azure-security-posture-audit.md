@@ -28,7 +28,7 @@ Confirm Azure CLI authentication and the availability of a VM, an associated NSG
 
 #### Screenshot 2 — Workspace location and directory structure shown using `pwd` and `find . -maxdepth 4 -type d | sort`
 
-Add your screenshot here.
+
 
 ---
 
@@ -88,11 +88,11 @@ Ask Claude Code to read `CLAUDE.md` and propose exactly four read-only checks: u
 
 1. Which part of the Agentic Loop is being designed in this task?
 
-Write your answer here.
+
 
 2. Why is it useful to identify the exact evidence-gathering commands before writing the Bash script?
 
-Write your answer here.
+
 
 ---
 
@@ -106,31 +106,31 @@ Create `scripts/azure-audit.sh` using read-only Azure CLI commands. Generate a r
 
 #### Screenshot 5 — Top of `azure-audit.sh` showing the variables and checks array
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 6 — NSG and Storage Account check functions
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 7 — Managed disk encryption and MySQL check functions
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 8 — `print_summary` function and script exit behavior
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 9 — Successful `bash -n` validation and `ls -l` output showing executable permission
 
-Add your screenshot here.
+
 
 ---
 
@@ -138,23 +138,23 @@ Add your screenshot here.
 
 1. What is stored inside the `checks` array?
 
-Write your answer here.
+
 
 2. How does the `for` loop execute those checks?
 
-Write your answer here.
+
 
 3. Why does the NSG check inspect both single-value and multi-value address/port fields?
 
-Write your answer here.
+
 
 4. Why does the script use different exit codes for HEALTHY, WARN, and FAIL?
 
-Write your answer here.
+
 
 5. What does the disk encryption check verify?
 
-Write your answer here.
+
 
 ---
 
@@ -168,13 +168,13 @@ Run the script, capture its exit code immediately, review all four results, and 
 
 #### Screenshot 10 — Baseline audit output showing your Full Name and all four check results
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 11 — Captured exit code and final report summary
 
-Add your screenshot here.
+
 
 ---
 
@@ -182,19 +182,19 @@ Add your screenshot here.
 
 1. What is the Overall Status of your baseline audit?
 
-Write your answer here.
+
 
 2. Did any check return WARN or FAIL?
 
-Write your answer here.
+
 
 3. What evidence supports each finding?
 
-Write your answer here.
+
 
 4. Which finding represents the highest security risk in your environment? If none were found, state that.
 
-Write your answer here.
+
 
 ---
 
@@ -208,13 +208,13 @@ Create `.claude/skills/azure-audit/SKILL.md` with Bash, Read, and Grep permissio
 
 #### Screenshot 12 — `SKILL.md` showing frontmatter, tool restrictions, and safety rules
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 13 — `/azure-audit` output showing baseline findings, supporting evidence, risk explanations, recommended remediation, and verification commands
 
-Add your screenshot here.
+
 
 ---
 
@@ -222,19 +222,19 @@ Add your screenshot here.
 
 1. Why does the Skill include Bash, Read, and Grep, but not Write?
 
-Write your answer here.
+
 
 2. What part of the workflow is performed by Bash?
 
-Write your answer here.
+
 
 3. What part is performed by Claude?
 
-Write your answer here.
+
 
 4. What additional value does Claude add beyond the script’s PASS/WARN/FAIL result?
 
-Write your answer here.
+
 
 ---
 
@@ -250,19 +250,19 @@ If the baseline is clean, use only the controlled temporary SSH-rule exercise pe
 
 #### Screenshot 14 — `before-fix-report.txt` showing the original finding
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 15 — Terminal showing the remediation command executed manually by you
 
-Add your screenshot here.
+
 
 ---
 
 #### Screenshot 16 — `/azure-audit` output or `after-fix-report.txt` showing the finding resolved
 
-Add your screenshot here.
+
 
 ---
 
@@ -314,13 +314,13 @@ Suggested hashtags: **#DMIByPravinMishra #Azure #AgenticAI #ClaudeCode #DevOps**
 
 Paste your published LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
 #### Screenshot 17 — Published LinkedIn post showing your caption and before-and-after audit evidence
 
-Add your screenshot here.
+
 
 ---
 
@@ -339,7 +339,7 @@ Paste the link containing these files:
 - `reports/before-fix-report.txt`
 - `reports/after-fix-report.txt`
 
-`Add your repository or folder URL here`
+
 
 ---
 

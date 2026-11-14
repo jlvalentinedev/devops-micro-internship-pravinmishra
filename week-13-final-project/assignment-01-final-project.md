@@ -156,7 +156,7 @@ Below the screenshot, identify the folders containing:
 
 - Project documentation.
 
-Add your screenshot and brief explanation here.
+
 
 ---
 
@@ -180,7 +180,7 @@ Write your response here.
 
 Add a screenshot showing your request to Claude Code and its response or actions for the chosen task. Use additional screenshots if needed.
 
-Add your screenshot here.
+
 
 ---
 
@@ -188,7 +188,7 @@ Add your screenshot here.
 
 Add a screenshot showing how you verified the result—for example, successful Terraform validation, a successful pipeline run, or Kubernetes pods showing `Running` with all containers ready.
 
-Add your screenshot here.
+
 
 **What did you check before accepting Claude Code’s work? Mention any recommendation you corrected or rejected, if applicable.**
 
@@ -246,7 +246,7 @@ Add a screenshot showing successful infrastructure provisioning. For Terraform, 
 
 Include the reviewed plan summary if your workflow uses a plan and approval step.
 
-Add your screenshot here.
+
 
 ---
 
@@ -254,7 +254,7 @@ Add your screenshot here.
 
 Add screenshots showing the cloud resources created for your individual project, with the cloud region visible. Use additional screenshots where needed.
 
-Add your screenshots here.
+
 
 ### Step 3 — Deploy the Application
 
@@ -268,7 +268,7 @@ Write your response here.
 
 Add a screenshot of your successful image build-and-push workflow and a screenshot showing the application deployment succeeded. For the reference workflow, show GitHub Actions and ArgoCD applications marked `Synced` and `Healthy`. If you chose different tools, show equivalent results and explain the choice in your architecture decisions.
 
-Add your screenshot here.
+
 
 ---
 
@@ -284,7 +284,6 @@ Replace `<application-namespace>` with your application’s namespace.
 
 Add a screenshot showing the application pods in the `Running` state, with all containers ready in the `READY` column. Explain any pods that are not running or ready.
 
-Add your screenshot here.
 
 ### Startup Dependencies
 
@@ -319,7 +318,7 @@ Complete the following checks using this deployment.
 
 Open your application URL and add a screenshot showing the Spring Petclinic homepage, with the URL visible in the browser.
 
-Add your screenshot here.
+
 
 ---
 
@@ -327,7 +326,7 @@ Add your screenshot here.
 
 Navigate to **Find Owners** and search without entering a name. Add a screenshot showing the returned owners list.
 
-Add your screenshot here.
+
 
 ---
 
@@ -335,7 +334,7 @@ Add your screenshot here.
 
 Open an owner’s details. Add a screenshot showing their pets and visit history.
 
-Add your screenshot here.
+
 
 ---
 
@@ -343,7 +342,7 @@ Add your screenshot here.
 
 Add a visit for a pet using demonstration data. Submit it, then capture a screenshot showing the new visit in the pet’s visit history.
 
-Add your screenshot here.
+
 
 ---
 
@@ -351,7 +350,7 @@ Add your screenshot here.
 
 Open the **Veterinarians** page. Add a screenshot showing the veterinarians and their specialties.
 
-Add your screenshot here.
+
 
 ### Functional Test Summary
 
@@ -375,7 +374,7 @@ Use the tools listed below, or the equivalent tools selected for your architectu
 
 Open the Eureka dashboard. Take a screenshot showing the registered application services.
 
-Add your screenshot here.
+
 
 **List the registered services. If an expected service is missing, explain why.**
 
@@ -387,7 +386,7 @@ Write your answer here.
 
 Open Spring Boot Admin. Take a screenshot showing the application services and their health status.
 
-Add your screenshot here.
+
 
 **Are the services healthy? Explain any service reporting a problem.**
 
@@ -401,7 +400,7 @@ Generate application traffic by browsing owners, pet details, or veterinarians. 
 
 Take a screenshot showing the query and its result.
 
-Add your screenshot here.
+
 
 **What does this metric measure, and what does your result show?**
 
@@ -413,7 +412,7 @@ Write your answer here.
 
 Open a Grafana dashboard displaying metrics from your cloud deployment. Take a screenshot showing panels with data.
 
-Add your screenshot here.
+
 
 **Choose one panel and briefly explain what it shows about your application.**
 
@@ -427,7 +426,7 @@ Perform an action in Spring Petclinic, such as searching for owners. Open Zipkin
 
 Take a screenshot showing the trace and the services involved.
 
-Add your screenshot here.
+
 
 **Which services appear in the trace, and what does it show about the request’s flow?**
 
@@ -467,7 +466,7 @@ Briefly answer the following:
 
 Add a screenshot showing the error or the logs, events, or command output you used to investigate it.
 
-Add your screenshot here.
+
 
 ---
 
@@ -475,7 +474,7 @@ Add your screenshot here.
 
 Add a screenshot showing that the issue was resolved—for example, a successful pipeline run, application functionality restored, or Kubernetes pods running with all containers ready.
 
-Add your screenshot here.
+
 
 **Briefly explain how this result confirms the fix worked.**
 
@@ -507,7 +506,7 @@ Paste your cleanup commands or automation run link here.
 
 Add a screenshot showing successful cleanup—for example, completed `terraform destroy` output or a successful cleanup pipeline run.
 
-Add your screenshot here.
+
 
 ---
 
@@ -527,7 +526,7 @@ Check the AWS or Azure portal for any remaining project resources, including:
 
 Add screenshots showing the results of your checks.
 
-Add your screenshots here.
+
 
 **Did any project resources remain?** If yes, list them, explain why they remain, whether they could incur charges, and when you will remove them. Otherwise, state that no project resources remain.
 
@@ -612,7 +611,7 @@ Add the following at the end of your post. Replace `YOUR-GITHUB-USERNAME` with y
 
 Paste your published LinkedIn post URL here:
 
-`Add your URL here`
+
 
 ---
 
@@ -620,7 +619,7 @@ Paste your published LinkedIn post URL here:
 
 Add a screenshot showing your published caption, project image, and required credit note. Use additional screenshots if the full post does not fit in one image.
 
-Add your screenshot here.
+
 
 ---
 
@@ -664,7 +663,7 @@ Add the following at the end of your blog. Replace `YOUR-GITHUB-USERNAME` with y
 
 Paste your published blog URL here:
 
-`Add your URL here`
+
 
 Ensure that the published blog and its images can be viewed by the submission reviewer.
 
@@ -734,7 +733,7 @@ Ensure that the published blog and its images can be viewed by the submission re
 
 I confirm that this submission accurately represents my individual deployment. I have documented my use of Claude Code, reviewed its outputs, and can explain the platform configuration, technical decisions, and verification evidence submitted.
 
-**Full name:** Add your full name  
+**Full name:** gi
 
 **Date:** DD Month YYYY
 

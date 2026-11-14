@@ -63,7 +63,6 @@ Deploy a supported Ubuntu LTS VM in `public-subnet`, allowing Azure to create it
 
 #### Screenshot 5 — Terminal showing successful installation or version checks for Node.js, npm, Nginx, Git, and MySQL Client
 
-Add your screenshot here.
 
 ---
 
@@ -157,7 +156,7 @@ Run EpicBook in the background using PM2, configure startup after a VM reboot, s
 
 #### Screenshot 14 — Terminal showing the `epicbook` process with status `online` in `pm2 list`
 
-Add your screenshot here.
+
 
 ---
 
@@ -181,7 +180,7 @@ Paste your published LinkedIn post URL here:
 
 #### Screenshot 15 — Published LinkedIn post showing your caption, website URL, and EpicBook application screenshot
 
-Add your screenshot here.
+
 
 ---
 
