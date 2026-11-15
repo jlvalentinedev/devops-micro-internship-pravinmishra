@@ -67,7 +67,7 @@ Only the Application Gateway is exposed as the public entry point. The applicati
 =======
 Explain your selected region, VM sizes, database capacity, secret-management method, monitoring, backup, and recovery choices. State that one VM per compute tier allows downtime during a restart or failure.
 
-Write your answer here.
+
 >>>>>>> upstream/main
 
 ---
@@ -149,7 +149,7 @@ Create Azure Database for MySQL Flexible Server using private access in the dele
 
 Record the database service, selected capacity, backup-retention period, and recovery approach. Do not include passwords.
 
-Write your answer here.
+
 
 ---
 
@@ -285,7 +285,7 @@ Paste your Public Load Balancer website URL here:
 
 Record which VM was restarted, the observed interruption, recovery time, and whether services recovered without manual startup.
 
-Write your answer here.
+
 
 ---
 
@@ -293,7 +293,7 @@ Write your answer here.
 
 Summarize what worked, issues encountered, fixes applied, and sources used. Identify the backend route used for direct and Internal Load Balancer verification, including its expected response.
 
-Write your answer here.
+
 
 ---
 

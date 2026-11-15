@@ -36,11 +36,11 @@ Confirm Azure CLI authentication and the availability of a VM, an associated NSG
 
 1. Which Azure resources will be inspected by this audit, and why is each one required?
 
-Write your answer here.
+
 
 2. Why should you confirm that the resources exist before writing an audit script against them?
 
-Write your answer here.
+
 
 ---
 
@@ -62,11 +62,11 @@ Create `CLAUDE.md` defining the project overview, audit workflow, safety rules, 
 
 1. Why should Claude never be allowed to execute the remediation command itself?
 
-Write your answer here.
+
 
 2. Which rule prevents Claude from reporting a security problem without evidence?
 
-Write your answer here.
+
 
 ---
 
@@ -270,31 +270,30 @@ If the baseline is clean, use only the controlled temporary SSH-rule exercise pe
 
 1. Which exact finding did you fix?
 
-Write your answer here.
+
 
 2. What evidence proved that it existed?
 
-Write your answer here.
+
 
 3. What command did you run?
 
-Write your answer here.
+
 
 4. Why did you choose that remediation?
 
-Write your answer here.
+
 
 5. Did Claude execute the command, or did you?
 
-Write your answer here.
+
 
 6. Why does keeping remediation under human control matter?
 
-Write your answer here.
+
 
 7. Map your actions to **Gather → Analyze → Human Act → Verify**.
 
-Write your answer here.
 
 ---
 

@@ -153,6 +153,7 @@ This is not a course. It is an internship-style program — real deployments, re
 | 10 | Azure DevOps (CI/CD) | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub|
 | 11 | Docker | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub |
 | 12 | Kubernetes | ✅ Completed | ✅ Completed | — | https://medium.com/@jahreeka_25700/taking-devops-seriously-my-beginning-a2cac8a7820c?postPublishedType=repub|
+
 | 13 | Final Project | ⬜ Not Started | ⬜ Not Started | — | 
 
 **Status:** ⬜ Not Started &nbsp;|&nbsp; 🔄 In Progress &nbsp;|&nbsp; ✅ Completed<br>
