@@ -61,6 +61,7 @@ Document the workloads, networking, configuration, storage, and permitted commun
 
 #### Screenshot 3 — Completed Kubernetes architecture diagram
 
+<img width="487" height="472" alt="image" src="https://github.com/user-attachments/assets/719f9673-07ad-4319-ad4e-881de0c98ff3" />
 
 
 ---
